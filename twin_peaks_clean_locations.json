@@ -126,6 +126,7 @@
             "scene_number": "3", 
             "heading": {}, 
             "characters": [
+                "YOUNG WOMAN", 
                 "NORMA", 
                 "SHELLY", 
                 "ANNIE", 
@@ -243,7 +244,8 @@
             }, 
             "characters": [
                 "BRIGGS", 
-                "COOPER"
+                "COOPER", 
+                "LOG LADY"
             ]
         }, 
         "12": {
@@ -280,17 +282,17 @@
             "scene_number": "14", 
             "heading": {}, 
             "characters": [
-                "BLACKBOARD\n", 
-                "BRIGGS", 
-                "COOPER"
+                "LOG LADY", 
+                "COOPER", 
+                "BRIGGS"
             ]
         }, 
         "17": {
             "scene_number": "17", 
             "heading": {}, 
             "characters": [
-                "HAYWARD", 
                 "DONNA", 
+                "HAYWARD", 
                 "EILEEN"
             ]
         }, 
@@ -306,6 +308,7 @@
             "characters": [
                 "DONNA", 
                 "HAYWARD", 
+                "DOC HAYWARD", 
                 "EILEEN"
             ]
         }, 
@@ -482,6 +485,7 @@
                 "int_ext": "INT"
             }, 
             "characters": [
+                "FROM BEHIND THE DOOR", 
                 "WHEELER", 
                 "AUDREY"
             ]
@@ -499,6 +503,7 @@
                 "EARLE", 
                 "COOPER", 
                 "COLE", 
+                "DOCTORS DISCOVERED HE WAS ON", 
                 "DOC"
             ]
         }, 
@@ -552,6 +557,7 @@
                 "time": "DAY"
             }, 
             "characters": [
+                "DESK CLERK", 
                 "MIKE", 
                 "DONNA", 
                 "NADINE", 
@@ -632,9 +638,15 @@
             }, 
             "characters": [
                 "COLE", 
+                "HANGOVER WAS RAW MEAT AND PLENTY", 
                 "TRUMAN", 
+                "STEAK SO RARE YOU COULD SELL IT AT", 
                 "COOPER", 
-                "SHELLY"
+                "THAT MAKES YOU WISH YOU", 
+                "TROUBLE YOU FOR A CUP OF STRONG", 
+                "ENGAGE YOU WITH AN ANECDOTE OF NO", 
+                "SHELLY", 
+                "LOG LADY"
             ]
         }, 
         "17": {
@@ -655,8 +667,8 @@
             "scene_number": "16", 
             "heading": {}, 
             "characters": [
-                "COOPER", 
                 "ANNIE", 
+                "COOPER", 
                 "TRUMAN"
             ]
         }, 
@@ -1065,6 +1077,8 @@
                 "COLE", 
                 "SHELLY", 
                 "COOPER", 
+                "MAKES PEOPLE WHO NEED PEOPLE THE ", 
+                "ONE EVER MENTIONED A THING ABOUT A", 
                 "BOBBY"
             ]
         }
@@ -1233,6 +1247,7 @@
                 "BRIGGS", 
                 "CAPPY", 
                 "COOPER", 
+                "EARLE ON SCREEN", 
                 "TRUMAN"
             ]
         }, 
@@ -2092,6 +2107,7 @@
             }, 
             "characters": [
                 "NORMA", 
+                "BIG ED", 
                 "DOC"
             ]
         }, 
@@ -2955,22 +2971,7 @@
             }, 
             "characters": [
                 "TRUMAN", 
-                "INTERCUT\n", 
                 "COOPER"
-            ]
-        }, 
-        "1": {
-            "scene_number": "1", 
-            "heading": {
-                "standard_location_id": "9", 
-                "standard_location_name": "SHERIFF STATION", 
-                "int_ext": "INT", 
-                "location": "SHERIFF TRUMAN'S OFFICE", 
-                "time": "MORNING"
-            }, 
-            "characters": [
-                "COOPER", 
-                "TRUMAN"
             ]
         }, 
         "3": {
@@ -3081,7 +3082,10 @@
         "7700": {
             "scene_number": "7700", 
             "heading": {}, 
-            "characters": []
+            "characters": [
+                "COOPER", 
+                "TRUMAN"
+            ]
         }, 
         "1914": {
             "scene_number": "1914", 
@@ -3714,6 +3718,7 @@
             "characters": [
                 "ANDREW", 
                 "MIBBLER", 
+                "ANDREW PETE", 
                 "AUDREY"
             ]
         }, 
@@ -3733,7 +3738,9 @@
             }, 
             "characters": [
                 "CLERK", 
-                "COOPER"
+                "COOPER", 
+                "COOPER AS BOY", 
+                "OLD MAN"
             ]
         }, 
         "22": {
@@ -4104,14 +4111,16 @@
             }, 
             "characters": [
                 "COOPER", 
-                "EARLE"
+                "EARLE", 
+                "SHREDDING YOUR INTERNAL ORGANS OUT OF"
             ]
         }, 
         "33": {
             "scene_number": "33", 
             "heading": {}, 
             "characters": [
-                "COOPER"
+                "COOPER", 
+                "CUT TO BLACK"
             ]
         }, 
         "32": {
@@ -4150,6 +4159,11 @@
                 "NORMA", 
                 "NADINE"
             ]
+        }, 
+        "48": {
+            "scene_number": "48", 
+            "heading": {}, 
+            "characters": []
         }, 
         "29": {
             "scene_number": "29", 
@@ -4327,10 +4341,19 @@
             }, 
             "characters": []
         }, 
-        "48": {
-            "scene_number": "48", 
-            "heading": {}, 
-            "characters": []
+        "22": {
+            "scene_number": "22", 
+            "heading": {
+                "standard_location_id": "11", 
+                "standard_location_name": "HAYWARD HOUSE", 
+                "int_ext": "INT", 
+                "location": "HAYWARD LIVING ROOM", 
+                "time": "DAY"
+            }, 
+            "characters": [
+                "DONNA", 
+                "EILEEN"
+            ]
         }, 
         "49": {
             "scene_number": "49", 
@@ -4618,17 +4641,20 @@
                 "COOPER"
             ]
         }, 
-        "32": {
-            "scene_number": "32", 
-            "heading": {}, 
-            "characters": []
-        }, 
-        "58": {
-            "scene_number": "58", 
+        "14": {
+            "scene_number": "14", 
             "heading": {
-                "int_ext": "EXT"
+                "standard_location_id": "9", 
+                "standard_location_name": "SHERIFF STATION", 
+                "int_ext": "INT", 
+                "location": "SHERIFFS STATION RECEPTION AREA", 
+                "time": "MORNING"
             }, 
-            "characters": []
+            "characters": [
+                "COOPER", 
+                "ANDY", 
+                "LUCY"
+            ]
         }, 
         "11": {
             "scene_number": "11", 
@@ -4680,36 +4706,29 @@
             "characters": [
                 "COOPER", 
                 "NORMA", 
-                "TRUMAN"
+                "TRUMAN", 
+                "LOG LADY"
             ]
         }, 
-        "22": {
-            "scene_number": "22", 
+        "58": {
+            "scene_number": "58", 
             "heading": {
-                "standard_location_id": "11", 
-                "standard_location_name": "HAYWARD HOUSE", 
-                "int_ext": "INT", 
-                "location": "HAYWARD LIVING ROOM", 
+                "int_ext": "EXT"
+            }, 
+            "characters": []
+        }, 
+        "17": {
+            "scene_number": "17", 
+            "heading": {
+                "standard_location_id": "22", 
+                "standard_location_name": "WOODS", 
+                "int_ext": "EXT", 
+                "location": "PARK", 
                 "time": "DAY"
             }, 
             "characters": [
-                "DONNA", 
-                "EILEEN"
-            ]
-        }, 
-        "14": {
-            "scene_number": "14", 
-            "heading": {
-                "standard_location_id": "9", 
-                "standard_location_name": "SHERIFF STATION", 
-                "int_ext": "INT", 
-                "location": "SHERIFFS STATION RECEPTION AREA", 
-                "time": "MORNING"
-            }, 
-            "characters": [
-                "COOPER", 
-                "ANDY", 
-                "LUCY"
+                "LAURA", 
+                "JAMES"
             ]
         }, 
         "16": {
@@ -4861,20 +4880,6 @@
                 "DONNA"
             ]
         }, 
-        "17": {
-            "scene_number": "17", 
-            "heading": {
-                "standard_location_id": "22", 
-                "standard_location_name": "WOODS", 
-                "int_ext": "EXT", 
-                "location": "PARK", 
-                "time": "DAY"
-            }, 
-            "characters": [
-                "LAURA", 
-                "JAMES"
-            ]
-        }, 
         "57": {
             "scene_number": "57", 
             "heading": {
@@ -4885,7 +4890,8 @@
                 "time": "DAY"
             }, 
             "characters": [
-                "BETTY"
+                "BETTY", 
+                "MAJOR BRIGGS"
             ]
         }, 
         "50": {
@@ -5138,7 +5144,9 @@
             "scene_number": "0", 
             "heading": {}, 
             "characters": [
-                "JOHNNY"
+                "JOHNNY", 
+                "FATHER CLARENCE", 
+                "JOHNNYS VOICE"
             ]
         }, 
         "3": {
@@ -5281,6 +5289,7 @@
                 "time": "DAY"
             }, 
             "characters": [
+                "MAJOR BRIGGS", 
                 "BOBBY", 
                 "BETTY"
             ]
@@ -5969,6 +5978,7 @@
                 "time": "DAY"
             }, 
             "characters": [
+                "LITTLE MAN", 
                 "COOPER", 
                 "WOMAN"
             ]
@@ -5983,6 +5993,7 @@
                 "time": "NIGHT"
             }, 
             "characters": [
+                "KILLER BOB", 
                 "COOPER", 
                 "TRUMAN", 
                 "MIKE"
@@ -6396,7 +6407,8 @@
             "scene_number": "34", 
             "heading": {}, 
             "characters": [
-                "EINER"
+                "EINER", 
+                "MAJOR BRIGGS"
             ]
         }, 
         "24": {
@@ -6422,14 +6434,16 @@
             "scene_number": "26", 
             "heading": {}, 
             "characters": [
-                "TRUMAN"
+                "TRUMAN", 
+                "LOG LADY"
             ]
         }, 
         "27": {
             "scene_number": "27", 
             "heading": {}, 
             "characters": [
-                "COOPER"
+                "COOPER", 
+                "LOG LADY"
             ]
         }, 
         "20": {
@@ -6984,8 +6998,7 @@
             "heading": {}, 
             "characters": [
                 "NORMA", 
-                "SHELLY", 
-                "THREE\n\n\n\n\n"
+                "SHELLY"
             ]
         }, 
         "23": {
@@ -7225,6 +7238,7 @@
             "scene_number": "14", 
             "heading": {}, 
             "characters": [
+                "MALE BOARD MEMBER", 
                 "HANK"
             ]
         }, 
@@ -7509,7 +7523,10 @@
                 "location": "THE DOUBLE R DINER", 
                 "time": "DAY"
             }, 
-            "characters": []
+            "characters": [
+                "LOG LADY", 
+                "MAJOR BRIGGS"
+            ]
         }, 
         "22": {
             "scene_number": "22", 
@@ -7636,7 +7653,8 @@
             }, 
             "characters": [
                 "AUDREY", 
-                "NANCY"
+                "NANCY", 
+                "READING GIRL"
             ]
         }, 
         "6": {
@@ -7683,21 +7701,16 @@
             "heading": {}, 
             "characters": []
         }, 
-        "13": {
-            "scene_number": "13", 
+        "10": {
+            "scene_number": "10", 
             "heading": {
-                "standard_location_id": "1", 
-                "standard_location_name": "BLUE PINE LODGE", 
-                "int_ext": "INT", 
-                "location": "BLUE PINE LODGE", 
+                "standard_location_id": "43", 
+                "standard_location_name": "MISC INSIDE", 
+                "int_ext": "EXT", 
+                "location": "APARTMENT HOUSE", 
                 "time": "DAY"
             }, 
-            "characters": [
-                "PETE", 
-                "TRUMAN", 
-                "ALBERT", 
-                "COOPER"
-            ]
+            "characters": []
         }, 
         "12": {
             "scene_number": "12", 
@@ -7724,23 +7737,34 @@
                 "JERRY"
             ]
         }, 
-        "10": {
-            "scene_number": "10", 
+        "39B": {
+            "scene_number": "39B", 
             "heading": {
-                "standard_location_id": "43", 
-                "standard_location_name": "MISC INSIDE", 
-                "int_ext": "EXT", 
-                "location": "APARTMENT HOUSE", 
-                "time": "DAY"
+                "standard_location_id": "5", 
+                "standard_location_name": "GREAT NORTHERN", 
+                "int_ext": "INT", 
+                "location": "INT. COOPER'S HOTEL ROOM", 
+                "time": "NIGHT"
             }, 
-            "characters": []
-        }, 
-        "39A": {
-            "scene_number": "39A", 
-            "heading": {}, 
             "characters": [
                 "COOPER", 
                 "AUDREY"
+            ]
+        }, 
+        "13": {
+            "scene_number": "13", 
+            "heading": {
+                "standard_location_id": "1", 
+                "standard_location_name": "BLUE PINE LODGE", 
+                "int_ext": "INT", 
+                "location": "BLUE PINE LODGE", 
+                "time": "DAY"
+            }, 
+            "characters": [
+                "PETE", 
+                "TRUMAN", 
+                "ALBERT", 
+                "COOPER"
             ]
         }, 
         "38": {
@@ -7966,7 +7990,6 @@
             "scene_number": "29", 
             "heading": {}, 
             "characters": [
-                "DONNA\n", 
                 "MADDY"
             ]
         }, 
@@ -8075,6 +8098,7 @@
                 "time": "NIGHT"
             }, 
             "characters": [
+                "ASIAN MAN", 
                 "TRUMAN", 
                 "JERRY", 
                 "BEN"
@@ -8090,8 +8114,8 @@
                 "time": "NIGHT"
             }, 
             "characters": [
-                "BEN", 
                 "JERRY", 
+                "BEN", 
                 "HANK"
             ]
         }, 
@@ -8125,7 +8149,6 @@
             "scene_number": "25", 
             "heading": {}, 
             "characters": [
-                "TRUMAN\n", 
                 "TRUMAN"
             ]
         }, 
@@ -8192,6 +8215,7 @@
             }, 
             "characters": [
                 "BOBBY", 
+                "MAJOR BRIGGS", 
                 "HANK", 
                 "NORMA"
             ]
@@ -8303,6 +8327,8 @@
                 "time": "DAY"
             }, 
             "characters": [
+                "COOPER TRUMAN", 
+                "TRUMAN COOPER", 
                 "ALBERT", 
                 "COOPER", 
                 "HAYWARD", 
@@ -8820,7 +8846,6 @@
                 "time": "DAY"
             }, 
             "characters": [
-                "ALBERT\n", 
                 "COOPER", 
                 "LUCY"
             ]
@@ -9113,6 +9138,7 @@
             "characters": [
                 "CLERK", 
                 "BEN", 
+                "DESK CLERK", 
                 "HORNE"
             ]
         }, 
@@ -9282,7 +9308,8 @@
             "heading": {}, 
             "characters": [
                 "MADDY", 
-                "DONNA"
+                "DONNA", 
+                "DARYL LODWICK"
             ]
         }
     }, 
@@ -9636,7 +9663,8 @@
             "characters": [
                 "TRUMAN", 
                 "SHELLY", 
-                "COOPER"
+                "COOPER", 
+                "TRUMAN AND SHELLY"
             ]
         }, 
         "31": {
@@ -9794,6 +9822,7 @@
             "characters": [
                 "COOPER", 
                 "COLE", 
+                "OTHER THAN THAT THE CASE BEARS NO", 
                 "TRUMAN"
             ]
         }, 
@@ -9929,6 +9958,8 @@
             "characters": [
                 "TRUMAN", 
                 "COLE", 
+                "REPORT FROM ALBERT ON THE ONE", 
+                "DOWN THE TRAIN TRACKS FROM THE", 
                 "MIKE"
             ]
         }, 
@@ -10062,7 +10093,9 @@
         "28": {
             "scene_number": "28", 
             "heading": {}, 
-            "characters": []
+            "characters": [
+                "VOICE ON PHONE"
+            ]
         }, 
         "24": {
             "scene_number": "24", 
@@ -10405,7 +10438,11 @@
             "heading": {
                 "int_ext": "EXT"
             }, 
-            "characters": []
+            "characters": [
+                "JAMES", 
+                "NADINE", 
+                "ED"
+            ]
         }, 
         "11": {
             "scene_number": "11", 
@@ -10462,17 +10499,6 @@
                 "NANCY"
             ]
         }, 
-        "15": {
-            "scene_number": "15", 
-            "heading": {
-                "int_ext": "INT"
-            }, 
-            "characters": [
-                "JAMES", 
-                "NADINE", 
-                "ED"
-            ]
-        }, 
         "22": {
             "scene_number": "22", 
             "heading": {}, 
@@ -10492,6 +10518,7 @@
                 "time": "DAY"
             }, 
             "characters": [
+                "DESK INTERCOM", 
                 "BEN", 
                 "TOJAMURA"
             ]
@@ -11394,6 +11421,7 @@
             }, 
             "characters": [
                 "TRUMAN", 
+                "LOG LADY", 
                 "COOPER"
             ]
         }, 
@@ -11414,6 +11442,7 @@
                 "int_ext": "INT"
             }, 
             "characters": [
+                "MAJOR BRIGGS", 
                 "JACOBY", 
                 "BRIGGS", 
                 "COOPER", 
@@ -11517,6 +11546,7 @@
                 "time": "DAY"
             }, 
             "characters": [
+                "CHEERING GIRL", 
                 "NADINE", 
                 "GREEGE"
             ]
@@ -11607,7 +11637,11 @@
                 "TRUMAN", 
                 "COOPER", 
                 "PETE", 
-                "DOC"
+                "DOC", 
+                "VIVIAN", 
+                "NORMA", 
+                "HANK", 
+                "ERNIE"
             ]
         }, 
         "9": {
@@ -11620,22 +11654,6 @@
                 "time": "DAY"
             }, 
             "characters": []
-        }, 
-        "8": {
-            "scene_number": "8", 
-            "heading": {
-                "standard_location_id": "3", 
-                "standard_location_name": "DOUBLE R", 
-                "int_ext": "INT", 
-                "location": "DINER", 
-                "time": "MORNING"
-            }, 
-            "characters": [
-                "VIVIAN", 
-                "NORMA", 
-                "HANK", 
-                "ERNIE"
-            ]
         }, 
         "770": {
             "scene_number": "770", 
@@ -11682,7 +11700,8 @@
                 "time": "NIGHT"
             }, 
             "characters": [
-                "COOPER"
+                "COOPER", 
+                "MAJOR BRIGGS"
             ]
         }, 
         "12": {
@@ -11786,6 +11805,7 @@
             "scene_number": "30", 
             "heading": {}, 
             "characters": [
+                "MAJOR BRIGGS", 
                 "COOPER"
             ]
         }
@@ -12747,13 +12767,9 @@
                 "COOPER", 
                 "TRUMAN", 
                 "HAWK", 
+                "MAN IN DRESS", 
                 "DENISE"
             ]
-        }, 
-        "1": {
-            "scene_number": "1", 
-            "heading": {}, 
-            "characters": []
         }, 
         "3": {
             "scene_number": "3", 
@@ -12765,8 +12781,22 @@
                 "TRUMAN", 
                 "ANDY", 
                 "HAWK", 
-                "COLE"
+                "COLE", 
+                "HAVE MY FULL SUPPORT IN THIS", 
+                "TOP DOG TO INVESTIGATE THE DRUG", 
+                "GUYS MAKE A LIVING LOOKING THROUGH"
             ]
+        }, 
+        "2": {
+            "scene_number": "2", 
+            "heading": {
+                "standard_location_id": "9", 
+                "standard_location_name": "SHERIFF STATION", 
+                "int_ext": "EXT", 
+                "location": "SHERIFF'S STATION", 
+                "time": "DAY"
+            }, 
+            "characters": []
         }, 
         "5": {
             "scene_number": "5", 

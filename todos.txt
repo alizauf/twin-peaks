@@ -1,0 +1,13 @@
+1. Scrape the scripts(screenplays)
+	TO DO:
+		-Figure out how to determine a character is in a scene if they don't talk
+		-Add those missing scripts
+		-There is still a little messy data. At what point do I hand fix it?
+
+2. Standardize the location
+	TO DO:
+		-When I have the additional scripts, I may have additional locations
+		-Look up the miscellaneous locations / look at the scripts to figure out hallways, etc.
+
+3. Standardize the characters
+
