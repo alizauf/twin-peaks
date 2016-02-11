@@ -12,3 +12,11 @@
 3. Standardize the characters
 	TO DO:
 		-When I have additional scripts, I may need to add characters
+		
+
+4. Do Character Co-Occurence
+
+
+
+
+### Turn it all into one script that can run from the initial websites. 
