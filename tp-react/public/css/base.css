@@ -1,10 +1,10 @@
 body {
-  background: #fff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #EEE;
+  font-family: "Source Code Pro", Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 1.7;
   margin: 0;
-  padding: 30px;
+  padding: 40px;
 }
 
 a {
@@ -28,16 +28,20 @@ code {
 
 h1, h2, h3, h4 {
   font-weight: bold;
-  margin: 0 0 15px;
+  margin: 0 0 ;
   padding: 0;
 }
 
 h1 {
-  border-bottom: 1px solid #ddd;
   font-size: 2.5em;
   font-weight: bold;
-  margin: 0 0 15px;
-  padding: 0;
+  padding: 30px 30px 10px 30px;
+  color: #EEE;
+
+}
+
+.title {
+  text-shadow: -1px 0 #39FF14, 0 1px #39FF14, 1px 0 #39FF14, 0 -1px #39FF14;
 }
 
 h2 {
@@ -47,6 +51,7 @@ h2 {
 
 h3 {
   font-size: 1.5em;
+  line-height: 1.2em;
 }
 
 h4 {
@@ -93,48 +98,90 @@ li {
 
 }
 
-.currentCrayon {
-  width: 300px;
-  height: 40px;
-  margin: 10px;
-  color: black;
-  border-style: solid;
-  border-width: 2px;
-  border-color: black;
-}
 
 button {
+  margin: 5px;
   cursor: pointer;
   display: inline;
+  list-style-type: none;
+  display: inline;
+  width: 25px;
+  height: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 50px;
+  font-size: 10px;
+  background-color: rgba(164,0,0,.2);
+  text-align: center;
 }
 
 button:hover {
-  background-color: magenta;
+  background-color: #a40000;
+  color: white;
+
 }
 
-.button {
-  
-  list-style-type: none;
-  /*margin: 0px;
-  padding: 0px;*/
-  display: inline;
-}
+
 
 .location {
-  width: 200px;
-  height: 200px;
-  background-color: turquoise;
-  margin: 20px;
+  width: 115px;
+  height: 100px;
+  background-color: rgba(164,0,0,.7);
+  margin: 5px;
   float: left;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .map {
-  width: 750px;
-  height: 300px;
-  float: left;
+  width: 730px;
+  float: right;
+  background-color: #D3D3D3;
+  padding: 15px;
 }
 
-.pic {
-  width: 50px;
-  border-radius: 200px;
+.episodeSceneMetaData {
+  float: left;
+  width: 375px;
+}
+
+
+.picContainer {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.locationName {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.episodeDescription {
+  font-size: 12px;
+  
+}
+
+.backgroundTop {
+  background-image: url("http://img3.wikia.nocookie.net/__cb20141023181108/twinpeaks/images/5/50/Wiki-background");
+  height: 120px;
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-top: -40px;
+  color: #EEE;
+  /*background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.episodeNums {
+  font-size: 10px;
 }

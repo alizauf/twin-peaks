@@ -213,6 +213,7 @@ var Location = React.createClass({
     return (
     <p>
       I take place in
+      {' '}
       {this.props.locationName}
     </p>
     )
@@ -221,11 +222,10 @@ var Location = React.createClass({
 
 var Character = React.createClass({
   render: function () {
-    console.log(this.props.pic)
     return (
     <li className='characters'>
-      {this.props.name}
       <img className='pic' src={this.props.pic} />
+      {this.props.name}
     </li>
 
     )
@@ -251,7 +251,9 @@ var MapLocation = React.createClass({
     return (
 
     <div className='location'>
-      <strong>{this.props.name}</strong>
+      <div className='locationName'>
+        {this.props.name}
+      </div>
       {showCharacters}
     </div>
 
@@ -286,7 +288,7 @@ var EPISODES = [
             'standard_character_name': 'MIKE',
             'character_group': '2',
             'raw_character_name': 'MIKE',
-            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/X_d0d8225c.jpg/revision/latest?cb=20111126082546'
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/3/3e/Maddy_5_%286%29.jpg/revision/latest/scale-to-width-down/270?cb=20150226205004'
           },
           {
             'standard_character_id': '74',
@@ -319,7 +321,7 @@ var EPISODES = [
             'standard_character_name': 'JEAN',
             'character_group': '2',
             'raw_character_name': 'MIKE',
-            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/X_d0d8225c.jpg/revision/latest?cb=20111126082546'
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/3/3e/Maddy_5_%286%29.jpg/revision/latest/scale-to-width-down/270?cb=20150226205004'
           },
           {
             'standard_character_id': '74',
@@ -364,7 +366,7 @@ var EPISODES = [
             'standard_character_name': 'NELL',
             'character_group': '7',
             'raw_character_name': 'LAZARE',
-            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/X_d0d8225c.jpg/revision/latest?cb=20111126082546'
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/3/3e/Maddy_5_%286%29.jpg/revision/latest/scale-to-width-down/270?cb=20150226205004'
           }
         ]
       },
@@ -397,7 +399,7 @@ var EPISODES = [
             'standard_character_name': 'LAZARE',
             'character_group': '7',
             'raw_character_name': 'LAZARE',
-            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/X_d0d8225c.jpg/revision/latest?cb=20111126082546'
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/7/72/LelandDoppelganger.jpg/revision/latest/scale-to-width-down/275?cb=20100710231737'
           }
         ]
       }
@@ -435,7 +437,40 @@ var EPISODES = [
             'standard_character_name': 'LAZARE',
             'character_group': '7',
             'raw_character_name': 'LAZARE',
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/7/72/LelandDoppelganger.jpg/revision/latest/scale-to-width-down/275?cb=20100710231737'
+          }
+        ]
+      },
+      {
+        'scene_number': 2,
+        'heading': {
+          'standard_location_name': 'BOBHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 6,
+          'location': 'BOBHOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': '90',
+            'standard_character_name': 'MODEL',
+            'character_group': '7',
+            'raw_character_name': 'MODEL',
             'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/X_d0d8225c.jpg/revision/latest?cb=20111126082546'
+          },
+          {
+            'standard_character_id': '88',
+            'standard_character_name': 'MIKE',
+            'character_group': '2',
+            'raw_character_name': 'MIKE',
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/X_d0d8225c.jpg/revision/latest?cb=20111126082546'
+          },
+          {
+            'standard_character_id': '74',
+            'standard_character_name': 'LAZARE',
+            'character_group': '7',
+            'raw_character_name': 'LAZARE',
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/7/72/LelandDoppelganger.jpg/revision/latest/scale-to-width-down/275?cb=20100710231737'
           }
         ]
       },
