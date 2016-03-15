@@ -221,8 +221,6 @@ var Location = React.createClass({
   render: function () {
     return (
     <p>
-      I take place in
-      {' '}
       {this.props.locationName}
     </p>
     )
@@ -276,6 +274,3111 @@ var MapLocation = React.createClass({
 })
 
 var EPISODES = [
+  {
+    'episode_title': 'Pilot',
+    'episode_subtitle': 'Northwest Passage',
+    'episode_number': 0,
+    'scenes': [
+      {
+        'scene_number': 1,
+        'heading': {
+          'int_ext': 'INT'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 2,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 1,
+          'location': 'LAKESHORE BY THE BLUE PINE LODGE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 3,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 4,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
+        ]
+      },
+      {
+        'scene_number': 5,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 6,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
+        ]
+      },
+      {
+        'scene_number': 7,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 8,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'int_ext': 'INT',
+          'location': 'BLUE PINE LODGE',
+          'standard_location_id': 1
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
+        ]
+      },
+      {
+        'scene_number': 9,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 1,
+          'location': 'LAKESHORE BY THE BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
+        ]
+      },
+      {
+        'scene_number': 10,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          }
+        ]
+      },
+      {
+        'scene_number': 11,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 12,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 13,
+        'heading': {
+          'standard_location_name': 'BRIGGS HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 2,
+          'location': 'BRIGGS HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 11,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/Betty-Portal.jpg',
+            'standard_character_name': 'BETTY',
+            'character_group': 7,
+            'raw_character_name': 'BETTY'
+          }
+        ]
+      },
+      {
+        'scene_number': 14,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 15,
+        'heading': {
+          'standard_location_name': 'BRIGGS HOUSE',
+          'int_ext': 'INT',
+          'location': 'BRIGGS HOUSE',
+          'standard_location_id': 2
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 16,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 17,
+        'heading': {
+          'standard_location_name': 'BRIGGS HOUSE',
+          'int_ext': 'INT',
+          'location': 'BRIGGS HOUSE',
+          'standard_location_id': 2
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 18,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 19,
+        'heading': {
+          'standard_location_name': 'BRIGGS HOUSE',
+          'int_ext': 'INT',
+          'location': 'BRIGGS HOUSE',
+          'standard_location_id': 2
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 20,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 21,
+        'heading': {
+          'standard_location_name': 'BRIGGS HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 2,
+          'location': 'BRIGGS HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 22,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 129,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/98/Pierre_Portal.jpg',
+            'standard_character_name': 'MAX',
+            'character_group': 7,
+            'raw_character_name': 'MAX'
+          }
+        ]
+      },
+      {
+        'scene_number': 23,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 24,
+        'heading': {
+          'int_ext': 'EXT',
+          'time': 'DAY'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 25,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 26,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
+        ]
+      },
+      {
+        'scene_number': 27,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          },
+          {
+            'standard_character_id': 130,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JULIE',
+            'character_group': 7,
+            'raw_character_name': 'JULIE'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
+        ]
+      },
+      {
+        'scene_number': 28,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 130,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JULIE',
+            'character_group': 7,
+            'raw_character_name': 'JULIE'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          }
+        ]
+      },
+      {
+        'scene_number': 29,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 30,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'int_ext': 'INT',
+          'location': 'GREAT NORTHERN HOTEL',
+          'standard_location_id': 5
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 31,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 32,
+        'heading': {
+          'int_ext': 'INT'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 33,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 34,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'int_ext': 'INT',
+          'location': 'GREAT NORTHERN HOTEL',
+          'standard_location_id': 5
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 130,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JULIE',
+            'character_group': 7,
+            'raw_character_name': 'JULIE'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
+        ]
+      },
+      {
+        'scene_number': 35,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 36,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN'
+        },
+        'characters': [
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          }
+        ]
+      },
+      {
+        'scene_number': 37,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'int_ext': 'INT',
+          'location': 'PALMER HOUSE',
+          'standard_location_id': 8
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 38,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'int_ext': 'INT',
+          'location': 'GREAT NORTHERN HOTEL',
+          'standard_location_id': 5
+        },
+        'characters': [
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          }
+        ]
+      },
+      {
+        'scene_number': 39,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          }
+        ]
+      },
+      {
+        'scene_number': 40,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'int_ext': 'INT',
+          'location': 'GREAT NORTHERN HOTEL',
+          'standard_location_id': 5
+        },
+        'characters': [
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
+        ]
+      },
+      {
+        'scene_number': 41,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 42,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 43,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 44,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': [
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 131,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HEIDI',
+            'character_group': 7,
+            'raw_character_name': 'HEIDI'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
+        ]
+      },
+      {
+        'scene_number': 45,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': [
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
+        ]
+      },
+      {
+        'scene_number': 46,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 47,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 48,
+        'heading': {
+          'standard_location_name': 'WOODS',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 22,
+          'location': 'WOODS'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 49,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
+        ]
+      },
+      {
+        'scene_number': 50,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'HIGH SCHOOL GIRL'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 132,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MRS JACKSON',
+            'character_group': 7,
+            'raw_character_name': 'MRS. JACKSON'
+          }
+        ]
+      },
+      {
+        'scene_number': 51,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 133,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'ALICE',
+            'character_group': 7,
+            'raw_character_name': 'ALICE'
+          },
+          {
+            'standard_character_id': 128,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TERRY',
+            'character_group': 7,
+            'raw_character_name': 'TERRY'
+          },
+          {
+            'standard_character_id': 134,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MARTHA',
+            'character_group': 7,
+            'raw_character_name': 'MARTHA'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'POLICE OFFICER'
+          }
+        ]
+      },
+      {
+        'scene_number': 52,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 132,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MRS JACKSON',
+            'character_group': 7,
+            'raw_character_name': 'MRS. JACKSON'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 135,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MR WOLCHEZK',
+            'character_group': 7,
+            'raw_character_name': 'MR. WOLCHEZK'
+          }
+        ]
+      },
+      {
+        'scene_number': 53,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 135,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MR WOLCHEZK',
+            'character_group': 7,
+            'raw_character_name': 'MR. WOLCHEZK'
+          }
+        ]
+      },
+      {
+        'scene_number': 54,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 135,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MR WOLCHEZK',
+            'character_group': 7,
+            'raw_character_name': 'MR. WOLCHEZK'
+          }
+        ]
+      },
+      {
+        'scene_number': 55,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 135,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MR WOLCHEZK',
+            'character_group': 7,
+            'raw_character_name': 'MR. WOLCHEZK'
+          }
+        ]
+      },
+      {
+        'scene_number': 56,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 135,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MR WOLCHEZK',
+            'character_group': 7,
+            'raw_character_name': 'MR. WOLCHEZK'
+          }
+        ]
+      },
+      {
+        'scene_number': 57,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 58,
+        'heading': {
+          'standard_location_name': 'HIGH SCHOOL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 12,
+          'location': 'TWIN PEAKS HIGH SCHOOL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 59,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 60,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          }
+        ]
+      },
+      {
+        'scene_number': 61,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
+        ]
+      },
+      {
+        'scene_number': 62,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
+        ]
+      },
+      {
+        'scene_number': 63,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 64,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 65,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
+        ]
+      },
+      {
+        'scene_number': 66,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
+        ]
+      },
+      {
+        'scene_number': 67,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MILL WORKER'
+          }
+        ]
+      },
+      {
+        'scene_number': 68,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
+        ]
+      },
+      {
+        'scene_number': 69,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
+        ]
+      },
+      {
+        'scene_number': 70,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 71,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'TRAIN BRIDGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'ENGINEER'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 72,
+        'heading': {
+          'standard_location_name': 'CAR IN TRANSIT',
+          'int_ext': 'INT',
+          'location': 'CAR',
+          'standard_location_id': 27
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 73,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 44,
+          'location': 'ROAD INTO TWIN PEAKS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 74,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 75,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 136,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DR SHELVY',
+            'character_group': 7,
+            'raw_character_name': 'DR. SHELVY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 76,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 136,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DR SHELVY',
+            'character_group': 7,
+            'raw_character_name': 'DR. SHELVY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 137,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4c/Twin_peaks_17_large.jpg',
+            'standard_character_name': 'RONETTE',
+            'character_group': 2,
+            'raw_character_name': 'RONETTE'
+          }
+        ]
+      },
+      {
+        'scene_number': 77,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'DR. JACOBY'
+          }
+        ]
+      },
+      {
+        'scene_number': 78,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'DR. JACOBY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 79,
+        'heading': {
+          'int_ext': 'INT',
+          'time': 'DAY'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 80,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 81,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          }
+        ]
+      },
+      {
+        'scene_number': 82,
+        'heading': {
+          'standard_location_name': 'HURLEY HOUSE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 10,
+          'location': 'HURLEY HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          }
+        ]
+      },
+      {
+        'scene_number': 83,
+        'heading': {
+          'standard_location_name': 'HURLEY HOUSE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 10,
+          'location': 'HURLEY HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 84,
+        'heading': {
+          'standard_location_name': 'WOODS',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 22,
+          'location': 'WOODS'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 85,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'ABANDONED TRAIN CAR'
+        },
+        'characters': [
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
+        ]
+      },
+      {
+        'scene_number': 86,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'int_ext': 'EXT',
+          'location': 'ABANDONED TRAIN CAR',
+          'standard_location_id': 44
+        },
+        'characters': [
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
+        ]
+      },
+      {
+        'scene_number': 87,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'int_ext': 'EXT',
+          'location': 'ABANDONED TRAIN CAR',
+          'standard_location_id': 44
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 138,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'GILMAN',
+            'character_group': 7,
+            'raw_character_name': 'GILMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 88,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN'
+        },
+        'characters': [
+          {
+            'standard_character_id': 71,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3d/Bob-Portal.jpg',
+            'standard_character_name': 'KILLER BOB',
+            'character_group': 4,
+            'raw_character_name': 'BOB'
+          },
+          {
+            'standard_character_id': 130,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JULIE',
+            'character_group': 7,
+            'raw_character_name': 'JULIE'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
+        ]
+      },
+      {
+        'scene_number': 89,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 139,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SVEN',
+            'character_group': 7,
+            'raw_character_name': 'SVEN'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'MAJOR BRIGGS'
+          },
+          {
+            'standard_character_id': 11,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/Betty-Portal.jpg',
+            'standard_character_name': 'BETTY',
+            'character_group': 7,
+            'raw_character_name': 'BETTY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 90,
+        'heading': {
+          'int_ext': 'EXT',
+          'time': 'DAY'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 91,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 140,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CONCIERGE',
+            'character_group': 7,
+            'raw_character_name': 'CONCIERGE'
+          }
+        ]
+      },
+      {
+        'scene_number': 92,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 139,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SVEN',
+            'character_group': 7,
+            'raw_character_name': 'SVEN'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          }
+        ]
+      },
+      {
+        'scene_number': 93,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 94,
+        'heading': {
+          'standard_location_name': 'WOODS',
+          'int_ext': 'EXT',
+          'location': 'WOODS',
+          'standard_location_id': 22
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 95,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 44,
+          'location': 'ABANDONED TRAIN CAR'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'TUNE ENDS'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 96,
+        'heading': {
+          'int_ext': 'EXT',
+          'time': 'DAY'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 97,
+        'heading': {
+          'int_ext': 'EXT',
+          'time': 'DAY'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 98,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 98,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'NURSE',
+            'character_group': 7,
+            'raw_character_name': 'NURSE'
+          },
+          {
+            'standard_character_id': 141,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SYLVIA',
+            'character_group': 7,
+            'raw_character_name': 'SYLVIA'
+          }
+        ]
+      },
+      {
+        'scene_number': 99,
+        'heading': {
+          'standard_location_name': 'BANK',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 24,
+          'location': 'TWIN PEAKS BANK'
+        },
+        'characters': [
+          {
+            'standard_character_id': 80,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/d/d7/Log-Portal.jpg',
+            'standard_character_name': 'LOG LADY',
+            'character_group': 4,
+            'raw_character_name': 'MARGARET'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 100,
+        'heading': {
+          'standard_location_name': 'JOHNSON HOUSE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 16,
+          'location': 'JOHNSON HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 101,
+        'heading': {
+          'standard_location_name': 'JOHNSON HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 16,
+          'location': 'JOHNSON HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          }
+        ]
+      },
+      {
+        'scene_number': 102,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': [
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          }
+        ]
+      },
+      {
+        'scene_number': 103,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'int_ext': 'INT',
+          'location': 'DOUBLE R DINER',
+          'standard_location_id': 3
+        },
+        'characters': [
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          }
+        ]
+      },
+      {
+        'scene_number': 104,
+        'heading': {
+          'standard_location_name': 'MISC INSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 43,
+          'location': 'TWIN PEAKS TOWN HALL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MAYOR'
+          }
+        ]
+      },
+      {
+        'scene_number': 105,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'STREET LIGHT'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 106,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          }
+        ]
+      },
+      {
+        'scene_number': 107,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 142,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HARRIET',
+            'character_group': 7,
+            'raw_character_name': 'HARRIET'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
+        ]
+      },
+      {
+        'scene_number': 108,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          }
+        ]
+      },
+      {
+        'scene_number': 109,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 110,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          }
+        ]
+      },
+      {
+        'scene_number': 111,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 142,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HARRIET',
+            'character_group': 7,
+            'raw_character_name': 'HARRIET'
+          }
+        ]
+      },
+      {
+        'scene_number': 112,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
+        ]
+      },
+      {
+        'scene_number': 113,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 142,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HARRIET',
+            'character_group': 7,
+            'raw_character_name': 'HARRIET'
+          }
+        ]
+      },
+      {
+        'scene_number': 114,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 115,
+        'heading': {
+          'standard_location_name': 'BOOKHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 20,
+          'location': 'BOOKHOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 116,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'int_ext': 'INT',
+          'location': 'ROADHOUSE',
+          'standard_location_id': 19
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 117,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 19,
+          'location': 'ROADHOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
+        ]
+      },
+      {
+        'scene_number': 118,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 19,
+          'location': 'ROADHOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'FEMALE SINGER'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 119,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 19,
+          'location': 'ROADHOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 120,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'int_ext': 'INT',
+          'location': 'ROADHOUSE',
+          'standard_location_id': 19
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 121,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 19,
+          'location': 'ROADHOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 143,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JOEY',
+            'character_group': 7,
+            'raw_character_name': 'JOEY'
+          },
+          {
+            'standard_character_id': 144,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SCOTTY',
+            'character_group': 7,
+            'raw_character_name': 'SCOTTY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
+        ]
+      },
+      {
+        'scene_number': 122,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 19,
+          'location': 'ROADHOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE.'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 143,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JOEY',
+            'character_group': 7,
+            'raw_character_name': 'JOEY'
+          }
+        ]
+      },
+      {
+        'scene_number': 123,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 19,
+          'location': 'ROADHOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 124,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 19,
+          'location': 'ROADHOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 125,
+        'heading': {
+          'standard_location_name': 'ROADHOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 19,
+          'location': 'ROADHOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 126,
+        'heading': {
+          'standard_location_name': 'STREET',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 41,
+          'location': 'ROAD'
+        },
+        'characters': [
+          {
+            'standard_character_id': 143,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JOEY',
+            'character_group': 7,
+            'raw_character_name': 'JOEY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 127,
+        'heading': {
+          'standard_location_name': 'STREET',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 41,
+          'location': 'ROAD'
+        },
+        'characters': [
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA.'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 128,
+        'heading': {
+          'standard_location_name': 'WOODS',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 22,
+          'location': 'WOODS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 143,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JOEY',
+            'character_group': 7,
+            'raw_character_name': 'JOEY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
+        ]
+      },
+      {
+        'scene_number': 129,
+        'heading': {
+          'standard_location_name': 'STREET',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 41,
+          'location': 'ROAD'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
+        ]
+      },
+      {
+        'scene_number': 130,
+        'heading': {
+          'standard_location_name': 'BLACK LAKE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 29,
+          'location': 'BLACK LAKE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 131,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          }
+        ]
+      },
+      {
+        'scene_number': 132,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          }
+        ]
+      },
+      {
+        'scene_number': 133,
+        'heading': {
+          'int_ext': 'INT',
+          'time': 'NIGHT'
+        },
+        'characters': [
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          }
+        ]
+      },
+      {
+        'scene_number': 134,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
+        ]
+      },
+      {
+        'scene_number': 135,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'STREET LIGHT'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 136,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 137,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 138,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 139,
+        'heading': {
+          'standard_location_name': 'WOODS',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 22,
+          'location': 'WOODS'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 140,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 141,
+        'heading': {
+          'standard_location_name': 'WOODS',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 22,
+          'location': 'WOODS'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 142,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 143,
+        'heading': {
+          'standard_location_name': 'WOODS',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 22,
+          'location': 'WOODS'
+        },
+        'characters': []
+      }
+    ],
+    'episode_description': "In the feature-length pilot episode, the small town of Twin Peaks, Washington, is shaken up when the body of high school student Laura Palmer is discovered near a riverbank, wrapped in plastic. FBI Agent Dale Cooper is called by local sheriff Harry Truman when Ronette Pulaski, a schoolmate of Laura, is found wandering on a bridge and then slips into a coma. Cooper sees a connection between Laura's death and the murder of another girl one year earlier. After finding a piece of paper under Laura's fingernail, similar to one he found in the fingernail of the girl who died earlier, Cooper suspects that same killer might have struck again. Meanwhile, Sheriff Truman arrests Laura's boyfriend, Bobby Briggs, who is secretly having an affair with a married woman named Shelly Johnson. Afterwards, Laura's mother has a terrifying nightmare."
+  },
   {
     'episode_title': 'Episode 1',
     'episode_subtitle': 'Traces to Nowhere',
@@ -3675,7 +6778,7 @@ var EPISODES = [
           },
           {
             'standard_character_id': 9,
-            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
             'standard_character_name': 'BENJAMIN',
             'character_group': 3,
             'raw_character_name': 'HORNE'
@@ -8628,6 +11731,2138 @@ var EPISODES = [
     'episode_description': "Cooper, Truman, Deputy Hawk, and Doc Hayward venture into the woods for a revelatory encounter with the Log Lady and find the location of Jacques Renault's cabin. In the meantime, Audrey continues her efforts to assist Cooper by taking a job at her father's department store, while Donna and James Hurley pursue their own line of inquiry into Laura's death by taking Maddy into their confidence. Elsewhere, Leo's battered wife Shelly decides to get revenge."
   },
   {
+    'episode_title': 'Episode 6',
+    'episode_subtitle': 'Realization Time',
+    'episode_number': 6,
+    'scenes': [
+      {
+        'scene_number': 1,
+        'heading': {
+          'int_ext': 'INT'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 2,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'int_ext': 'EXT',
+          'location': 'GREAT NORTHERN HOTEL',
+          'standard_location_id': 5
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
+        ]
+      },
+      {
+        'scene_number': 3,
+        'heading': {
+          'standard_location_name': 'JOHNSON HOUSE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 16,
+          'location': 'JOHNSON HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'DISTANT POV'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
+        ]
+      },
+      {
+        'scene_number': 4,
+        'heading': {
+          'standard_location_name': 'JOHNSON HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 16,
+          'location': 'JOHNSON HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
+        ]
+      },
+      {
+        'scene_number': 5,
+        'heading': {
+          'standard_location_name': 'JOHNSON HOUSE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 16,
+          'location': 'JOHNSON HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 6,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADELEINE'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 73,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/8/86/Laura-Portal.jpg',
+            'standard_character_name': 'LAURA',
+            'character_group': 2,
+            'raw_character_name': 'LAURA'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'CUSTOMER'
+          },
+          {
+            'standard_character_id': 8,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BATTIS',
+            'character_group': 3,
+            'raw_character_name': 'EMORY'
+          },
+          {
+            'standard_character_id': 145,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JENNY',
+            'character_group': 7,
+            'raw_character_name': 'JENNY'
+          }
+        ]
+      },
+      {
+        'scene_number': 7,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 8,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': [
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 145,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JENNY',
+            'character_group': 7,
+            'raw_character_name': 'JENNY'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'AUDREY LAUGHS.'
+          }
+        ]
+      },
+      {
+        'scene_number': 9,
+        'heading': {
+          'standard_location_name': 'HURLEY HOUSE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 10,
+          'location': 'HURLEY HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 24,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CHET',
+            'character_group': 7,
+            'raw_character_name': 'CHET'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          }
+        ]
+      },
+      {
+        'scene_number': 10,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'EXT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 11,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN.'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC'
+          }
+        ]
+      },
+      {
+        'scene_number': 12,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'TIMBER ROOM'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC ENDS'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
+        ]
+      },
+      {
+        'scene_number': 13,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 146,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MR NEV',
+            'character_group': 7,
+            'raw_character_name': 'MR. NEV'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 14,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'int_ext': 'INT',
+          'location': 'BLUE PINE LODGE',
+          'standard_location_id': 1
+        },
+        'characters': [
+          {
+            'standard_character_id': 146,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MR NEV',
+            'character_group': 7,
+            'raw_character_name': 'MR. NEV'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 15,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 16,
+        'heading': {
+          'standard_location_name': 'GREAT NORTHERN',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 5,
+          'location': 'GREAT NORTHERN HOTEL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 147,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'WALDO',
+            'character_group': 7,
+            'raw_character_name': 'WALDO'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
+        ]
+      },
+      {
+        'scene_number': 17,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYED JACKS'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 18,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYED JACKS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          }
+        ]
+      },
+      {
+        'scene_number': 19,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYES JACKS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 20,
+        'heading': {
+          'standard_location_name': 'CAR IN TRANSIT',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 27,
+          'location': 'POLICE VAN'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 21,
+        'heading': {
+          'standard_location_name': 'CAR IN TRANSIT',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 27,
+          'location': 'POLICE VAN'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
+        ]
+      },
+      {
+        'scene_number': 22,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'int_ext': 'INT',
+          'location': 'ONE-EYED JACKS',
+          'standard_location_id': 7
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 23,
+        'heading': {
+          'standard_location_name': 'PALMER HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 8,
+          'location': 'PALMER HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 24,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'EASTER PARK'
+        },
+        'characters': [
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'GROUP'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
+        ]
+      },
+      {
+        'scene_number': 25,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          }
+        ]
+      },
+      {
+        'scene_number': 26,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          },
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
+        ]
+      },
+      {
+        'scene_number': 27,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYED JACKS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER.'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 60,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/49/Jacques-Portal.jpg',
+            'standard_character_name': 'JACQUES',
+            'character_group': 3,
+            'raw_character_name': 'JACQUES'
+          },
+          {
+            'standard_character_id': 127,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MONTANA',
+            'character_group': 7,
+            'raw_character_name': 'MONTANA'
+          }
+        ]
+      },
+      {
+        'scene_number': 28,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'EASTER PARK'
+        },
+        'characters': [
+          {
+            'standard_character_id': 127,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MONTANA',
+            'character_group': 7,
+            'raw_character_name': 'MONTANA'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'DR. JACOBY'
+          }
+        ]
+      },
+      {
+        'scene_number': 29,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'EASTER PARK'
+        },
+        'characters': [
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADELEINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 30,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'int_ext': 'EXT',
+          'location': 'EASTER PARK',
+          'standard_location_id': 44
+        },
+        'characters': [
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'DR. JACOBY'
+          }
+        ]
+      },
+      {
+        'scene_number': 31,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'int_ext': 'EXT',
+          'location': 'EASTER PARK',
+          'standard_location_id': 44
+        },
+        'characters': [
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'DR. JACOBY'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADELEINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 32,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'int_ext': 'EXT',
+          'location': 'EASTER PARK',
+          'standard_location_id': 44
+        },
+        'characters': [
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADELEINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 33,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'int_ext': 'EXT',
+          'location': 'EASTER PARK',
+          'standard_location_id': 44
+        },
+        'characters': [
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'DR. JACOBY'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADELEINE'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
+        ]
+      },
+      {
+        'scene_number': 34,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'EASTER PARK'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 35,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'EASTER PARK'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'DR. JACOBY'
+          }
+        ]
+      },
+      {
+        'scene_number': 36,
+        'heading': {
+          'standard_location_name': 'MISC INSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 43,
+          'location': 'OFFICE BUILDING'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC ENDS'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
+        ]
+      },
+      {
+        'scene_number': 37,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'EASTER PARK'
+        },
+        'characters': []
+      }
+    ],
+    'episode_description': "Agent Cooper goes undercover at One Eyed Jacks along with 'Big' Ed Hurley to try to find his chief murder suspect, Jacques Renault. Unbeknownst to Cooper however, Audrey Horne too is undercover as a hostess. Meanwhile, Maddy, Donna and James engage in a scheme to fool Dr. Jacoby and steal a tape recorded by Laura prior to her death; and Bobby, still jealous about Laura having an affair, sets out to ruin James."
+  },
+  {
+    'episode_title': 'Episode 7',
+    'episode_subtitle': 'The Last Evening',
+    'episode_number': 7,
+    'scenes': [
+      {
+        'scene_number': 1,
+        'heading': {
+          'int_ext': 'INT'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC ENDS'
+          }
+        ]
+      },
+      {
+        'scene_number': 2,
+        'heading': {
+          'standard_location_name': 'MISC INSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 43,
+          'location': 'OFFICE BUILDING'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC ENDS'
+          }
+        ]
+      },
+      {
+        'scene_number': 3,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'int_ext': 'EXT',
+          'location': 'EASTER PARK',
+          'standard_location_id': 44
+        },
+        'characters': [
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'DR. JACOBY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'CLOSE ON'
+          }
+        ]
+      },
+      {
+        'scene_number': 4,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYED JACKS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 60,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/49/Jacques-Portal.jpg',
+            'standard_character_name': 'JACQUES',
+            'character_group': 3,
+            'raw_character_name': 'JACQUES'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'INSERT'
+          },
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC'
+          }
+        ]
+      },
+      {
+        'scene_number': 5,
+        'heading': {
+          'standard_location_name': 'CAR IN TRANSIT',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 27,
+          'location': 'POLICE VAN'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 6,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYED JACKS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 60,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/49/Jacques-Portal.jpg',
+            'standard_character_name': 'JACQUES',
+            'character_group': 3,
+            'raw_character_name': 'JACQUES'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'JACQUES LAUGHS.'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'CLOSE ON'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC ENDS'
+          }
+        ]
+      },
+      {
+        'scene_number': 7,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYED JACKS'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 8,
+        'heading': {
+          'standard_location_name': 'JOHNSON HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 16,
+          'location': 'JOHNSON HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'CLOSE ON'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
+        ]
+      },
+      {
+        'scene_number': 9,
+        'heading': {
+          'standard_location_name': 'MISC INSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 43,
+          'location': 'BLACK LAKE WATER PROCESSING PLANT'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'INSERT'
+          }
+        ]
+      },
+      {
+        'scene_number': 10,
+        'heading': {
+          'int_ext': 'INT'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 148,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'FRED',
+            'character_group': 7,
+            'raw_character_name': 'FRED'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
+        ]
+      },
+      {
+        'scene_number': 11,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 12,
+        'heading': {
+          'standard_location_name': 'HAYWARD HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 11,
+          'location': 'HAYWARD HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADELEINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 13,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 14,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 15,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 16,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
+        ]
+      },
+      {
+        'scene_number': 17,
+        'heading': {
+          'standard_location_name': 'HURLEY HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 10,
+          'location': 'HURLEY HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 18,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 19,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
+        ]
+      },
+      {
+        'scene_number': 20,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 21,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'PHONE'
+          }
+        ]
+      },
+      {
+        'scene_number': 22,
+        'heading': {
+          'standard_location_name': 'MISC OUTSIDE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 44,
+          'location': 'EASTER PARK'
+        },
+        'characters': [
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
+        ]
+      },
+      {
+        'scene_number': 23,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 24,
+        'heading': {
+          'int_ext': 'INT'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 25,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 60,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/49/Jacques-Portal.jpg',
+            'standard_character_name': 'JACQUES',
+            'character_group': 3,
+            'raw_character_name': 'JACQUES'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'JACQUES LAUGHS.'
+          }
+        ]
+      },
+      {
+        'scene_number': 26,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 149,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DR JOHNSON',
+            'character_group': 7,
+            'raw_character_name': 'DR. JOHNSON'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          }
+        ]
+      },
+      {
+        'scene_number': 27,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          }
+        ]
+      },
+      {
+        'scene_number': 28,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'PETE CHUCKLES.'
+          }
+        ]
+      },
+      {
+        'scene_number': 29,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': [
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MUSIC'
+          }
+        ]
+      },
+      {
+        'scene_number': 30,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'int_ext': 'INT',
+          'location': 'BLUE PINE LODGE',
+          'standard_location_id': 1
+        },
+        'characters': [
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 31,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'int_ext': 'INT',
+          'location': 'DOUBLE R DINER',
+          'standard_location_id': 3
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 32,
+        'heading': {
+          'standard_location_name': 'BLUE PINE LODGE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 1,
+          'location': 'BLUE PINE LODGE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 33,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 34,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': [
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
+        ]
+      },
+      {
+        'scene_number': 35,
+        'heading': {
+          'standard_location_name': 'HURLEY HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 10,
+          'location': 'HURLEY HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'SHERIFF TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DR. HAYWARD'
+          }
+        ]
+      },
+      {
+        'scene_number': 36,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYED JACKS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 150,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'THORSON',
+            'character_group': 7,
+            'raw_character_name': 'MR. THORSON'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MR. THORSON LAUGHS.'
+          }
+        ]
+      },
+      {
+        'scene_number': 37,
+        'heading': {
+          'standard_location_name': 'DOUBLE R',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 3,
+          'location': 'DOUBLE R DINER'
+        },
+        'characters': [
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          }
+        ]
+      },
+      {
+        'scene_number': 38,
+        'heading': {
+          'standard_location_name': "ONE-EYED JACK'S",
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 7,
+          'location': 'ONE-EYED JACKS'
+        },
+        'characters': [
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BENJAMIN'
+          }
+        ]
+      },
+      {
+        'scene_number': 39,
+        'heading': {
+          'standard_location_name': 'JOHNSON HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 16,
+          'location': 'JOHNSON HOUSE'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 40,
+        'heading': {
+          'standard_location_name': 'JOHNSON HOUSE',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 16,
+          'location': 'JOHNSON HOUSE'
+        },
+        'characters': [
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
+        ]
+      },
+      {
+        'scene_number': 41,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'DAY',
+          'int_ext': 'INT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'INSERT'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'DISTANT VIEW'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
+        ]
+      },
+      {
+        'scene_number': 42,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 43,
+        'heading': {
+          'standard_location_name': 'HOSPITAL',
+          'time': 'NIGHT',
+          'int_ext': 'INT',
+          'standard_location_id': 15,
+          'location': 'CALHOUN MEMORIAL HOSPITAL'
+        },
+        'characters': []
+      },
+      {
+        'scene_number': 44,
+        'heading': {
+          'standard_location_name': 'MILL',
+          'time': 'NIGHT',
+          'int_ext': 'EXT',
+          'standard_location_id': 34,
+          'location': 'PACKARD SAW MILL'
+        },
+        'characters': [
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'COWORKER'
+          }
+        ]
+      }
+    ],
+    'episode_description': "Under the orders of Ben Horne, Leo embarks on a plan not only to burn the Packard Saw Mill but to eliminate Shelly, Catherine Martell and Bobby Briggs in one fell swoop. Things take a rather violent turn when Agent Cooper successfully lures Jacques Renault across the Canadian border and his involvement in the death of Laura is revealed. Nadine decides to end her life; and Laura's father Leland takes the law into his own hands. Later Cooper gets a nasty surprise on his return to his hotel room at the Great Northern Hotel."
+  },
+  {
     'episode_title': 'Episode 8',
     'episode_subtitle': 'May the Giant Be with You',
     'episode_number': 8,
@@ -9109,6 +14344,13 @@ var EPISODES = [
             'standard_character_name': 'TRUMAN',
             'character_group': 1,
             'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER '
           }
         ]
       },
@@ -9133,15 +14375,33 @@ var EPISODES = [
           'location': "LEO JOHNSON'S PORCH"
         },
         'characters': [
-          'ANDY',
-          'ALBERT'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
         'scene_number': 27,
         'heading': {},
         'characters': [
-          'TRUMAN'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -9165,8 +14425,20 @@ var EPISODES = [
           'location': 'DINER KITCHEN'
         },
         'characters': [
-          'NORMA',
-          'HANK'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          }
         ]
       },
       {
@@ -9179,16 +14451,40 @@ var EPISODES = [
           'location': 'DINER'
         },
         'characters': [
-          'MADDY',
-          'DONNA',
-          'NORMA'
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
         'scene_number': 31,
         'heading': {},
         'characters': [
-          'MADDY'
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          }
         ]
       },
       {
@@ -9206,7 +14502,13 @@ var EPISODES = [
           'location': "ONE-EYED JACK'S BEDROOM"
         },
         'characters': [
-          'AUDREY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -9219,8 +14521,20 @@ var EPISODES = [
           'location': "BLACKIE'S OFFICE,"
         },
         'characters': [
-          'AUDREY',
-          'BLACKIE'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          }
         ]
       },
       {
@@ -9244,9 +14558,27 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'ALBERT',
-          'COOPER',
-          'ANDY'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -9259,11 +14591,41 @@ var EPISODES = [
           'location': "SHERIFF'S STATION RECEPTION"
         },
         'characters': [
-          'LUCY',
-          'ALBERT',
-          'GIRARD',
-          'TOM',
-          'LUCE'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 48,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6f/Gerard-Portal.jpg',
+            'standard_character_name': 'GERARD',
+            'character_group': 3,
+            'raw_character_name': 'GIRARD'
+          },
+          {
+            'standard_character_id': 116,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOM',
+            'character_group': 7,
+            'raw_character_name': 'TOM'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCE'
+          }
         ]
       },
       {
@@ -9276,9 +14638,27 @@ var EPISODES = [
           'location': 'INTERROGATION ROOM'
         },
         'characters': [
-          'TRUMAN',
-          'JAMES',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -9291,9 +14671,27 @@ var EPISODES = [
           'location': "SHERIFF'S STATION RECEPTION/CONFERENCE ROOM"
         },
         'characters': [
-          'COOPER',
-          'LUCY',
-          'ANDY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -9306,8 +14704,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION HOLDING CELL AREA"
         },
         'characters': [
-          'DONNA',
-          'JAMES'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -9331,8 +14741,20 @@ var EPISODES = [
           'location': 'HOSPITAL ROOM'
         },
         'characters': [
-          'BOBBY',
-          'SHELLY'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -9345,12 +14767,48 @@ var EPISODES = [
           'location': 'HOSPITAL CORRIDOR'
         },
         'characters': [
-          'COOPER TRUMAN',
-          'TRUMAN COOPER',
-          'ALBERT',
-          'COOPER',
-          'HAYWARD',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER TRUMAN'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN COOPER'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -9363,9 +14821,27 @@ var EPISODES = [
           'location': 'INTENSIVE HOSPITAL ROOM'
         },
         'characters': [
-          'ED',
-          'COOPER',
-          'ALBERT'
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
@@ -9378,8 +14854,20 @@ var EPISODES = [
           'location': 'HOSPITAL CORRIDOR'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -9392,10 +14880,34 @@ var EPISODES = [
           'location': 'HOSPITAL ROOM'
         },
         'characters': [
-          'JACOBY',
-          'HAYWARD',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -9412,9 +14924,27 @@ var EPISODES = [
         'scene_number': 48,
         'heading': {},
         'characters': [
-          'JACOBY',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -9427,10 +14957,34 @@ var EPISODES = [
           'location': 'HOSPITAL CORRIDOR'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'NORMA',
-          'SHELLY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -9443,10 +14997,34 @@ var EPISODES = [
           'location': 'DINER'
         },
         'characters': [
-          'BOBBY',
-          'MAJOR BRIGGS',
-          'HANK',
-          'NORMA'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'MAJOR BRIGGS'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
@@ -9480,8 +15058,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION CONFERENCE ROOM"
         },
         'characters': [
-          'COOPER',
-          'LUCY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
@@ -9505,9 +15095,27 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'ALBERT',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -9542,7 +15150,13 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -9566,7 +15180,13 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'ALBERT'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
@@ -9590,9 +15210,27 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'ALBERT',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -9612,9 +15250,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'ALBERT',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -9633,10 +15289,34 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'ANDY',
-          'ALBERT',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -9660,8 +15340,20 @@ var EPISODES = [
           'location': 'BLUE. LODGE'
         },
         'characters': [
-          'PETE',
-          'TRUMAN'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -9674,10 +15366,34 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HOTEL LOBBY'
         },
         'characters': [
-          'ASIAN MAN',
-          'TRUMAN',
-          'JERRY',
-          'BEN'
+          {
+            'standard_character_id': 5,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'ASIAN MAN',
+            'character_group': 7,
+            'raw_character_name': 'ASIAN MAN'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -9690,9 +15406,27 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'JERRY',
-          'BEN',
-          'HANK'
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          }
         ]
       },
       {
@@ -9716,10 +15450,34 @@ var EPISODES = [
           'location': 'PALMER HOUSE'
         },
         'characters': [
-          'LELAND',
-          'SARAH',
-          'MADDY',
-          'DONNA'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -9743,10 +15501,34 @@ var EPISODES = [
           'location': "HAYWARD'S HOUSE"
         },
         'characters': [
-          'EILEEN',
-          'SARAH',
-          'LELAND',
-          'DOC'
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          },
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          }
         ]
       },
       {
@@ -9766,7 +15548,13 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'AUDREY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -9779,8 +15567,20 @@ var EPISODES = [
           'location': "COOPER'S ROOM"
         },
         'characters': [
-          'COOPER',
-          'GIANT'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 49,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/d/d4/Giant-Portal.jpg',
+            'standard_character_name': 'GIANT',
+            'character_group': 4,
+            'raw_character_name': 'GIANT'
+          }
         ]
       },
       {
@@ -9856,8 +15656,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN CORRIDOR'
         },
         'characters': [
-          'COOPER',
-          'ALBERT'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
@@ -9892,8 +15704,20 @@ var EPISODES = [
           'location': "RONETTE PULASKI'S HOSPITAL ROOM"
         },
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -9917,9 +15741,27 @@ var EPISODES = [
           'location': "ONE-EYED JACK'S"
         },
         'characters': [
-          'AUDREY',
-          'NANCY',
-          'READING GIRL'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 94,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/c5/Nancy-Portal.jpg',
+            'standard_character_name': 'NANCY',
+            'character_group': 7,
+            'raw_character_name': 'NANCY'
+          },
+          {
+            'standard_character_id': 102,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'READING GIRL',
+            'character_group': 7,
+            'raw_character_name': 'READING GIRL'
+          }
         ]
       },
       {
@@ -9932,8 +15774,20 @@ var EPISODES = [
           'location': 'APARTMENT HOUSE'
         },
         'characters': [
-          'DONNA',
-          'VOICE'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'VOICE'
+          }
         ]
       },
       {
@@ -9946,8 +15800,20 @@ var EPISODES = [
           'location': 'TREMOND APARTMENT'
         },
         'characters': [
-          'TREMOND',
-          'DONNA'
+          {
+            'standard_character_id': 151,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/98/Pierre_Portal.jpg',
+            'standard_character_name': 'TREMOND',
+            'character_group': 7,
+            'raw_character_name': 'TREMOND'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -9971,8 +15837,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'JERRY'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          }
         ]
       },
       {
@@ -9996,10 +15874,34 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'PETE',
-          'TRUMAN',
-          'ALBERT',
-          'COOPER'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -10012,7 +15914,13 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE KITCHEN'
         },
         'characters': [
-          'PETE'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -10025,9 +15933,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'ALBERT',
-          'COOPER',
-          'PETE'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -10040,9 +15966,27 @@ var EPISODES = [
           'location': 'THE DOUBLE R DINER'
         },
         'characters': [
-          'LELAND',
-          'MADDY',
-          'NORMA'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
@@ -10055,8 +15999,20 @@ var EPISODES = [
           'location': 'DINER'
         },
         'characters': [
-          'NORMA',
-          'HANK'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          }
         ]
       },
       {
@@ -10069,8 +16025,20 @@ var EPISODES = [
           'location': 'THE DOUBLE R DINER'
         },
         'characters': [
-          'LELAND',
-          'MADDY'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          }
         ]
       },
       {
@@ -10083,8 +16051,20 @@ var EPISODES = [
           'location': 'THE DOUBLE R DINER'
         },
         'characters': [
-          'LOG LADY',
-          'MAJOR BRIGGS'
+          {
+            'standard_character_id': 80,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/d/d7/Log-Portal.jpg',
+            'standard_character_name': 'LOG LADY',
+            'character_group': 4,
+            'raw_character_name': 'LOG LADY'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'MAJOR BRIGGS'
+          }
         ]
       },
       {
@@ -10108,8 +16088,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'LUCY',
-          'ANDY'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -10122,9 +16114,27 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'HANK',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -10137,8 +16147,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'BEN',
-          'TRUMAN'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -10151,8 +16173,20 @@ var EPISODES = [
           'location': 'HOSPITAL ROOM'
         },
         'characters': [
-          'HAYWARD',
-          'SHELLY'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -10176,9 +16210,27 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'JERRY',
-          'BEN',
-          'LELAND'
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
         ]
       },
       {
@@ -10202,7 +16254,13 @@ var EPISODES = [
           'location': "ONE-EYED JACK'S CORRIDOR"
         },
         'characters': [
-          'AUDREY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -10215,9 +16273,27 @@ var EPISODES = [
           'location': 'ONE-EYED JACKS ROOM'
         },
         'characters': [
-          'BATTIS',
-          'AUDREY',
-          'BATTIS '
+          {
+            'standard_character_id': 8,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BATTIS',
+            'character_group': 3,
+            'raw_character_name': 'BATTIS'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 8,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BATTIS',
+            'character_group': 3,
+            'raw_character_name': 'BATTIS '
+          }
         ]
       },
       {
@@ -10230,7 +16306,13 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE'
         },
         'characters': [
-          'DONNA'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10243,8 +16325,20 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE CORRIDOR'
         },
         'characters': [
-          'JAMES',
-          'DONNA'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10257,7 +16351,13 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE'
         },
         'characters': [
-          'DONNA'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10270,8 +16370,20 @@ var EPISODES = [
           'location': 'HAYWARD LIVING ROOM'
         },
         'characters': [
-          'JAMES',
-          'DONNA'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10295,16 +16407,40 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'SHELLY',
-          'BOBBY'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
         'scene_number': 37,
         'heading': {},
         'characters': [
-          'COOPER',
-          'BRIGGS'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          }
         ]
       },
       {
@@ -10317,8 +16453,20 @@ var EPISODES = [
           'location': "INT. COOPER'S HOTEL ROOM"
         },
         'characters': [
-          'COOPER',
-          'AUDREY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -10331,7 +16479,13 @@ var EPISODES = [
           'location': 'ONE-EYED JACKS'
         },
         'characters': [
-          'BLACKIE'
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          }
         ]
       }
     ],
@@ -10363,18 +16517,54 @@ var EPISODES = [
           'location': "RONETTE PULASKI'S HOSPITAL ROOM"
         },
         'characters': [
-          'TRUMAN',
-          'ALBERT',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
         'scene_number': 3,
         'heading': {},
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'ALBERT'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
@@ -10386,8 +16576,20 @@ var EPISODES = [
           'standard_location_id': 6
         },
         'characters': [
-          'SMITH',
-          'DONNA'
+          {
+            'standard_character_id': 108,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SMITH',
+            'character_group': 7,
+            'raw_character_name': 'SMITH'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10400,8 +16602,20 @@ var EPISODES = [
           'location': "SMITH'S APARTMENT"
         },
         'characters': [
-          'SMITH',
-          'DONNA'
+          {
+            'standard_character_id': 108,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SMITH',
+            'character_group': 7,
+            'raw_character_name': 'SMITH'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10421,21 +16635,75 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'ALBERT'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
         'scene_number': 8,
         'heading': {},
         'characters': [
-          'COOPER',
-          'JAMES',
-          'LUCY',
-          'HAWK',
-          'TREMAYNE',
-          'PALMER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'PALMER'
+          }
         ]
       },
       {
@@ -10448,10 +16716,34 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'HAWK',
-          'LELAND'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
         ]
       },
       {
@@ -10464,8 +16756,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'BEN',
-          'COOPER'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -10478,8 +16782,20 @@ var EPISODES = [
           'location': 'ROOM AT ONE-EYED JACKS'
         },
         'characters': [
-          'BLACKIE',
-          'BATTIS'
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          },
+          {
+            'standard_character_id': 8,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BATTIS',
+            'character_group': 3,
+            'raw_character_name': 'BATTIS'
+          }
         ]
       },
       {
@@ -10503,9 +16819,27 @@ var EPISODES = [
           'location': 'DOUBLE R DINER'
         },
         'characters': [
-          'TREMAYNE',
-          'LUCY',
-          '20% employee discount and I am going right back after'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': '20% employee discount and I am going right back after'
+          }
         ]
       },
       {
@@ -10518,9 +16852,27 @@ var EPISODES = [
           'location': 'DINER BOOTH'
         },
         'characters': [
-          'JAMES',
-          'MADDY',
-          'DONNA'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10533,8 +16885,20 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'GERARD',
-          'TRUMAN'
+          {
+            'standard_character_id': 48,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6f/Gerard-Portal.jpg',
+            'standard_character_name': 'GERARD',
+            'character_group': 3,
+            'raw_character_name': 'GERARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -10547,9 +16911,27 @@ var EPISODES = [
           'location': 'RECEPTION AREA'
         },
         'characters': [
-          'TRUMAN',
-          'GERARD',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 48,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6f/Gerard-Portal.jpg',
+            'standard_character_name': 'GERARD',
+            'character_group': 3,
+            'raw_character_name': 'GERARD'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -10562,10 +16944,34 @@ var EPISODES = [
           'location': "SHERIFF'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'SHELLY',
-          'COOPER',
-          'TRUMAN AND SHELLY'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN AND SHELLY'
+          }
         ]
       },
       {
@@ -10578,7 +16984,13 @@ var EPISODES = [
           'location': "SHERIFF'S STATION BATHROOM"
         },
         'characters': [
-          'GERARD'
+          {
+            'standard_character_id': 48,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6f/Gerard-Portal.jpg',
+            'standard_character_name': 'GERARD',
+            'character_group': 3,
+            'raw_character_name': 'GERARD'
+          }
         ]
       },
       {
@@ -10591,8 +17003,20 @@ var EPISODES = [
           'location': 'ONE-EYED JACKS BEDROOM'
         },
         'characters': [
-          'JEAN',
-          'AUDREY'
+          {
+            'standard_character_id': 64,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/4f/Jean-Portal.jpg',
+            'standard_character_name': 'JEAN',
+            'character_group': 3,
+            'raw_character_name': 'JEAN'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -10605,19 +17029,61 @@ var EPISODES = [
           'location': "BLACKIE'S OFFICE"
         },
         'characters': [
-          'BLACKIE',
-          'BATTIS',
-          'JEAN',
-          'NANCY'
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          },
+          {
+            'standard_character_id': 8,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BATTIS',
+            'character_group': 3,
+            'raw_character_name': 'BATTIS'
+          },
+          {
+            'standard_character_id': 64,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/4f/Jean-Portal.jpg',
+            'standard_character_name': 'JEAN',
+            'character_group': 3,
+            'raw_character_name': 'JEAN'
+          },
+          {
+            'standard_character_id': 94,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/c5/Nancy-Portal.jpg',
+            'standard_character_name': 'NANCY',
+            'character_group': 7,
+            'raw_character_name': 'NANCY'
+          }
         ]
       },
       {
         'scene_number': 21,
         'heading': {},
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'HAWK'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -10630,8 +17096,20 @@ var EPISODES = [
           'location': 'BATHROOM'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -10644,8 +17122,20 @@ var EPISODES = [
           'location': "JAMES HURLEY'S HOME"
         },
         'characters': [
-          'JAMES',
-          'COLLEEN'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 28,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'COLLEEN',
+            'character_group': 7,
+            'raw_character_name': 'COLLEEN'
+          }
         ]
       },
       {
@@ -10658,10 +17148,34 @@ var EPISODES = [
           'location': 'HOSPITAL'
         },
         'characters': [
-          'ED',
-          'HAYWARD',
-          'DOC',
-          'NADINE'
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          }
         ]
       },
       {
@@ -10670,16 +17184,40 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'TRUMAN',
-          'JACOBY',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
         'scene_number': 26,
         'heading': {},
         'characters': [
-          'JACOBY'
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          }
         ]
       },
       {
@@ -10692,7 +17230,13 @@ var EPISODES = [
           'location': 'THE CEMETERY'
         },
         'characters': [
-          'DONNA'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10705,9 +17249,27 @@ var EPISODES = [
           'location': "PALMER'S HOUSE"
         },
         'characters': [
-          'MADDY',
-          'JAMES',
-          'DONNA'
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10720,7 +17282,13 @@ var EPISODES = [
           'location': 'STREET'
         },
         'characters': [
-          'JAMES'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -10733,9 +17301,27 @@ var EPISODES = [
           'location': 'PALMER HOUSE'
         },
         'characters': [
-          'MADDY',
-          'LELAND',
-          'TRUMAN'
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -10748,9 +17334,27 @@ var EPISODES = [
           'location': "HAROLD SMITH'S APARTMENT"
         },
         'characters': [
-          'DONNA',
-          'SMITH',
-          'HAROLD'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 108,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SMITH',
+            'character_group': 7,
+            'raw_character_name': 'SMITH'
+          },
+          {
+            'standard_character_id': 54,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/3/39/Harold-Portal.jpg',
+            'standard_character_name': 'HAROLD',
+            'character_group': 7,
+            'raw_character_name': 'HAROLD'
+          }
         ]
       },
       {
@@ -10781,10 +17385,34 @@ var EPISODES = [
           'location': "SHERIFF'S INTERROGATION ROOM"
         },
         'characters': [
-          'LELAND',
-          'VOICE',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'VOICE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -10797,8 +17425,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION HALLWAY"
         },
         'characters': [
-          'COOPER',
-          'HAYWARD'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          }
         ]
       },
       {
@@ -10811,10 +17451,34 @@ var EPISODES = [
           'location': "SHERIFF'S RECEPTION AREA"
         },
         'characters': [
-          'BRENNAN',
-          'HAYWARD',
-          'ANDY',
-          'ANDY '
+          {
+            'standard_character_id': 16,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BRENNAN',
+            'character_group': 7,
+            'raw_character_name': 'BRENNAN'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY '
+          }
         ]
       },
       {
@@ -10838,8 +17502,20 @@ var EPISODES = [
           'location': 'RECEPTION'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -10852,9 +17528,27 @@ var EPISODES = [
           'location': 'INT. HALLWAY'
         },
         'characters': [
-          'COOPER',
-          'ANDY',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -10878,10 +17572,34 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HOTEL LOBBY'
         },
         'characters': [
-          'CLERK',
-          'BEN',
-          'DESK CLERK',
-          'HORNE'
+          {
+            'standard_character_id': 25,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CLERK',
+            'character_group': 7,
+            'raw_character_name': 'CLERK'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 34,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/5d/Randy-Portal.jpg',
+            'standard_character_name': 'DESK CLERK',
+            'character_group': 7,
+            'raw_character_name': 'DESK CLERK'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'HORNE'
+          }
         ]
       },
       {
@@ -10894,8 +17612,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'RENAULT',
-          'BEN'
+          {
+            'standard_character_id': 104,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RENAULT',
+            'character_group': 3,
+            'raw_character_name': 'RENAULT'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -10908,10 +17638,34 @@ var EPISODES = [
           'location': 'THE DOUBLE R DINER'
         },
         'characters': [
-          'HANK',
-          'DONNA',
-          'NORMA',
-          'NORM'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORM'
+          }
         ]
       },
       {
@@ -10920,8 +17674,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'SMITH',
-          'DONNA'
+          {
+            'standard_character_id': 108,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SMITH',
+            'character_group': 7,
+            'raw_character_name': 'SMITH'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -10934,9 +17700,27 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'COOPER',
-          'HORNE'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'HORNE'
+          }
         ]
       },
       {
@@ -10956,16 +17740,40 @@ var EPISODES = [
           'time': 'DAY'
         },
         'characters': [
-          'PETE',
-          'JOSIE',
-          'PETE '
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE '
+          }
         ]
       },
       {
         'scene_number': 16,
         'heading': {},
         'characters': [
-          'JOSIE'
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -10978,9 +17786,27 @@ var EPISODES = [
           'location': "ONE-EYED JACK'S OFFICE"
         },
         'characters': [
-          'BATTIS',
-          'AUDREY',
-          'RENAULT'
+          {
+            'standard_character_id': 8,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BATTIS',
+            'character_group': 3,
+            'raw_character_name': 'BATTIS'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 104,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RENAULT',
+            'character_group': 3,
+            'raw_character_name': 'RENAULT'
+          }
         ]
       },
       {
@@ -10993,8 +17819,20 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE'
         },
         'characters': [
-          'HAYWARD',
-          'DONNA'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -11007,10 +17845,34 @@ var EPISODES = [
           'location': 'RECEPTION AREA'
         },
         'characters': [
-          'ANDY',
-          'LUCY',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -11023,26 +17885,74 @@ var EPISODES = [
           'location': 'DOUBLE R DINER'
         },
         'characters': [
-          'NORMA',
-          'HANK',
-          'MAN'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MAN'
+          }
         ]
       },
       {
         'scene_number': 21,
         'heading': {},
         'characters': [
-          'MADDY',
-          'DONNA',
-          'DARYL LODWICK'
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 32,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DARYL LODWICK',
+            'character_group': 7,
+            'raw_character_name': 'DARYL LODWICK'
+          }
         ]
       },
       {
         'scene_number': 22,
         'heading': {},
         'characters': [
-          'JOSIE',
-          'TRUMAN'
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -11066,11 +17976,41 @@ var EPISODES = [
           'location': "SHERIFF'S RECEPTION AREA"
         },
         'characters': [
-          'STERNWOOD',
-          'LUCY',
-          'TRUMAN',
-          'COOPER',
-          'TREYMAYNE'
+          {
+            'standard_character_id': 110,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'STERNWOOD',
+            'character_group': 7,
+            'raw_character_name': 'STERNWOOD'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREYMAYNE'
+          }
         ]
       },
       {
@@ -11083,18 +18023,54 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'LELAND',
-          'STERNWOOD',
-          'STERNWOOD '
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 110,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'STERNWOOD',
+            'character_group': 7,
+            'raw_character_name': 'STERNWOOD'
+          },
+          {
+            'standard_character_id': 110,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'STERNWOOD',
+            'character_group': 7,
+            'raw_character_name': 'STERNWOOD '
+          }
         ]
       },
       {
         'scene_number': 26,
         'heading': {},
         'characters': [
-          'PETE',
-          'JONATHAN',
-          'JOSIE'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 69,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/Jonathan-Portal.jpg',
+            'standard_character_name': 'JONATHAN',
+            'character_group': 7,
+            'raw_character_name': 'JONATHAN'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -11118,8 +18094,20 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -11132,8 +18120,20 @@ var EPISODES = [
           'location': 'DOUBLE R DINER'
         },
         'characters': [
-          'HANK',
-          'JONATHAN'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 69,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/Jonathan-Portal.jpg',
+            'standard_character_name': 'JONATHAN',
+            'character_group': 7,
+            'raw_character_name': 'JONATHAN'
+          }
         ]
       }
     ],
@@ -11170,7 +18170,13 @@ var EPISODES = [
           'location': "COOPER'S HOTEL ROOM"
         },
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -11188,10 +18194,34 @@ var EPISODES = [
         'scene_number': 5,
         'heading': {},
         'characters': [
-          'TRUMAN',
-          'HAWK',
-          'LUCY',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -11215,9 +18245,27 @@ var EPISODES = [
           'location': "LEO JOHNSON'S LIVING ROOM"
         },
         'characters': [
-          'PINKLE',
-          'BOBBY',
-          'SHELLY'
+          {
+            'standard_character_id': 100,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/24/Pinkle-Portal.jpg',
+            'standard_character_name': 'PINKLE',
+            'character_group': 7,
+            'raw_character_name': 'PINKLE'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -11241,11 +18289,41 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'STERNWOOD',
-          'TRUMAN',
-          'HORNE',
-          'COOPER',
-          'LODWICK'
+          {
+            'standard_character_id': 110,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'STERNWOOD',
+            'character_group': 7,
+            'raw_character_name': 'STERNWOOD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'HORNE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 79,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'LODWICK',
+            'character_group': 7,
+            'raw_character_name': 'LODWICK'
+          }
         ]
       },
       {
@@ -11258,10 +18336,34 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'STERNWOOD',
-          'LODWICK',
-          'TRUMAN',
-          'ANDY'
+          {
+            'standard_character_id': 110,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'STERNWOOD',
+            'character_group': 7,
+            'raw_character_name': 'STERNWOOD'
+          },
+          {
+            'standard_character_id': 79,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'LODWICK',
+            'character_group': 7,
+            'raw_character_name': 'LODWICK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -11285,8 +18387,20 @@ var EPISODES = [
           'location': "HAROLD SMITH'S APARTMENT"
         },
         'characters': [
-          'HAROLD',
-          'DONNA'
+          {
+            'standard_character_id': 54,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/3/39/Harold-Portal.jpg',
+            'standard_character_name': 'HAROLD',
+            'character_group': 7,
+            'raw_character_name': 'HAROLD'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -11299,11 +18413,41 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'RACINE',
-          'STERNWOOD',
-          'LODWICK',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 101,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RACINE',
+            'character_group': 7,
+            'raw_character_name': 'RACINE'
+          },
+          {
+            'standard_character_id': 110,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'STERNWOOD',
+            'character_group': 7,
+            'raw_character_name': 'STERNWOOD'
+          },
+          {
+            'standard_character_id': 79,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'LODWICK',
+            'character_group': 7,
+            'raw_character_name': 'LODWICK'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -11312,9 +18456,27 @@ var EPISODES = [
           'int_ext': 'EXT'
         },
         'characters': [
-          'JAMES',
-          'NADINE',
-          'ED'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
@@ -11338,9 +18500,27 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'DESK INTERCOM',
-          'BEN',
-          'TOJAMURA'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'DESK INTERCOM'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 115,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOJAMURA',
+            'character_group': 5,
+            'raw_character_name': 'TOJAMURA'
+          }
         ]
       },
       {
@@ -11364,10 +18544,34 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'TOJAMURA',
-          'HANK',
-          'COOPER'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 115,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOJAMURA',
+            'character_group': 5,
+            'raw_character_name': 'TOJAMURA'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -11380,8 +18584,20 @@ var EPISODES = [
           'location': 'DOUBLE R'
         },
         'characters': [
-          'DONNA',
-          'MADDY'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          }
         ]
       },
       {
@@ -11399,9 +18615,27 @@ var EPISODES = [
         'scene_number': 21,
         'heading': {},
         'characters': [
-          'RENAULT',
-          'BLACKIE',
-          'NANCY'
+          {
+            'standard_character_id': 104,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RENAULT',
+            'character_group': 3,
+            'raw_character_name': 'RENAULT'
+          },
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          },
+          {
+            'standard_character_id': 94,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/c5/Nancy-Portal.jpg',
+            'standard_character_name': 'NANCY',
+            'character_group': 7,
+            'raw_character_name': 'NANCY'
+          }
         ]
       },
       {
@@ -11425,10 +18659,34 @@ var EPISODES = [
           'location': 'DINER'
         },
         'characters': [
-          'NORMA',
-          'JAMES',
-          'MADDY',
-          'HANK'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          }
         ]
       },
       {
@@ -11441,7 +18699,13 @@ var EPISODES = [
           'location': "SHERIFF'S STATION RECEPTION AREA"
         },
         'characters': [
-          'ANDY'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -11450,16 +18714,40 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'HAWK',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
         'scene_number': 26,
         'heading': {},
         'characters': [
-          'VOICE ON PHONE'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'VOICE ON PHONE'
+          }
         ]
       },
       {
@@ -11483,8 +18771,20 @@ var EPISODES = [
           'location': "HAROLD SMITH'S LIVING ROOM"
         },
         'characters': [
-          'HAROLD',
-          'DONNA'
+          {
+            'standard_character_id': 54,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/3/39/Harold-Portal.jpg',
+            'standard_character_name': 'HAROLD',
+            'character_group': 7,
+            'raw_character_name': 'HAROLD'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -11497,8 +18797,20 @@ var EPISODES = [
           'location': "HAROLD SMITH'S GREENHOUSE"
         },
         'characters': [
-          'DONNA',
-          'HAROLD'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 54,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/3/39/Harold-Portal.jpg',
+            'standard_character_name': 'HAROLD',
+            'character_group': 7,
+            'raw_character_name': 'HAROLD'
+          }
         ]
       },
       {
@@ -11522,7 +18834,13 @@ var EPISODES = [
           'location': "ONE-EYED JACK'S"
         },
         'characters': [
-          'HANK'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          }
         ]
       },
       {
@@ -11568,8 +18886,20 @@ var EPISODES = [
           'location': "ONE-EYED JACK'S HALLWAY"
         },
         'characters': [
-          'COOPER',
-          'NANCY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 94,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/c5/Nancy-Portal.jpg',
+            'standard_character_name': 'NANCY',
+            'character_group': 7,
+            'raw_character_name': 'NANCY'
+          }
         ]
       },
       {
@@ -11582,8 +18912,20 @@ var EPISODES = [
           'location': "BLACKIE'S OFFICE"
         },
         'characters': [
-          'BLACKIE',
-          'RENAULT'
+          {
+            'standard_character_id': 13,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/ad/Blackie-Portal.jpg',
+            'standard_character_name': 'BLACKIE',
+            'character_group': 3,
+            'raw_character_name': 'BLACKIE'
+          },
+          {
+            'standard_character_id': 104,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RENAULT',
+            'character_group': 3,
+            'raw_character_name': 'RENAULT'
+          }
         ]
       },
       {
@@ -11607,9 +18949,27 @@ var EPISODES = [
           'location': "ONE-EYED JACK'S BEDROOM"
         },
         'characters': [
-          'NANCY',
-          'COOPER',
-          'AUDREY'
+          {
+            'standard_character_id': 94,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/c5/Nancy-Portal.jpg',
+            'standard_character_name': 'NANCY',
+            'character_group': 7,
+            'raw_character_name': 'NANCY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -11632,8 +18992,20 @@ var EPISODES = [
           'standard_location_id': 7
         },
         'characters': [
-          'BODYGUARD',
-          'HAWK'
+          {
+            'standard_character_id': 15,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BODYGUARD',
+            'character_group': 7,
+            'raw_character_name': 'BODYGUARD'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -11646,7 +19018,13 @@ var EPISODES = [
           'location': 'THE HIGH RIDGE'
         },
         'characters': [
-          'HANK'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          }
         ]
       },
       {
@@ -11670,8 +19048,20 @@ var EPISODES = [
           'location': 'GREENHOUSE'
         },
         'characters': [
-          'DONNA',
-          'HAROLD'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 54,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/3/39/Harold-Portal.jpg',
+            'standard_character_name': 'HAROLD',
+            'character_group': 7,
+            'raw_character_name': 'HAROLD'
+          }
         ]
       },
       {
@@ -11695,7 +19085,13 @@ var EPISODES = [
           'location': 'GREENHOUSE'
         },
         'characters': [
-          'DONNA'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -11708,7 +19104,13 @@ var EPISODES = [
           'location': "HAROLD SMITH'S LIVING ROOM"
         },
         'characters': [
-          'HAROLD'
+          {
+            'standard_character_id': 54,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/3/39/Harold-Portal.jpg',
+            'standard_character_name': 'HAROLD',
+            'character_group': 7,
+            'raw_character_name': 'HAROLD'
+          }
         ]
       }
     ],
@@ -11734,10 +19136,34 @@ var EPISODES = [
           'location': "HAROLD SMITH'S HOUSE"
         },
         'characters': [
-          'SMITH',
-          'DONNA',
-          'MADDY',
-          'JAMES'
+          {
+            'standard_character_id': 108,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SMITH',
+            'character_group': 7,
+            'raw_character_name': 'SMITH'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -11750,8 +19176,20 @@ var EPISODES = [
           'location': "HAROLD SMITH'S HOUSE"
         },
         'characters': [
-          'JAMES',
-          'DONNA'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -11775,10 +19213,34 @@ var EPISODES = [
           'location': 'THE BOOKHOUSE'
         },
         'characters': [
-          'CAPPY',
-          'COOPER',
-          'HAWK',
-          'AUDREY'
+          {
+            'standard_character_id': 20,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CAPPY',
+            'character_group': 7,
+            'raw_character_name': 'CAPPY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -11791,16 +19253,40 @@ var EPISODES = [
           'location': 'CITY STREET'
         },
         'characters': [
-          'DONNA',
-          'JAMES'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
         'scene_number': 7,
         'heading': {},
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -11824,8 +19310,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN DINING ROOM'
         },
         'characters': [
-          'BEN',
-          'COOPER'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -11834,9 +19332,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'BROCKMAN',
-          'BOBBY',
-          'SHELLY'
+          {
+            'standard_character_id': 19,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BROCKMAN',
+            'character_group': 7,
+            'raw_character_name': 'BROCKMAN'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -11849,9 +19365,27 @@ var EPISODES = [
           'location': 'INTERROGATION ROOM'
         },
         'characters': [
-          'TRUMAN',
-          'DONNA',
-          'COLE'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          }
         ]
       },
       {
@@ -11860,11 +19394,41 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'TRUMAN',
-          'COLE',
-          'REPORT FROM ALBERT ON THE ONE',
-          'DOWN THE TRAIN TRACKS FROM THE',
-          'MIKE'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'REPORT FROM ALBERT ON THE ONE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'DOWN THE TRAIN TRACKS FROM THE'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          }
         ]
       },
       {
@@ -11877,10 +19441,34 @@ var EPISODES = [
           'location': 'BOOKHOUSE'
         },
         'characters': [
-          'COOPER',
-          'BEN',
-          'AUDREY',
-          'AUDREY '
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY '
+          }
         ]
       },
       {
@@ -11893,8 +19481,20 @@ var EPISODES = [
           'location': "ED HURLEY'S LIVING ROOM"
         },
         'characters': [
-          'NADINE',
-          'ED'
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
@@ -11907,8 +19507,20 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE LIBRARY'
         },
         'characters': [
-          'JONATHAN',
-          'JOSIE'
+          {
+            'standard_character_id': 69,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/Jonathan-Portal.jpg',
+            'standard_character_name': 'JONATHAN',
+            'character_group': 7,
+            'raw_character_name': 'JONATHAN'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -11921,8 +19533,20 @@ var EPISODES = [
           'location': 'LAKE'
         },
         'characters': [
-          'JAMES',
-          'MADDY'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          }
         ]
       },
       {
@@ -11934,8 +19558,20 @@ var EPISODES = [
           'standard_location_id': 5
         },
         'characters': [
-          'BEN',
-          'JOSIE'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -11959,11 +19595,41 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'BOBBY',
-          'SHELLY',
-          'COLE',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -11976,7 +19642,13 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'COLE'
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          }
         ]
       },
       {
@@ -12000,10 +19672,34 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'COOPER',
-          'COLE',
-          'OTHER THAN THAT THE CASE BEARS NO',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'OTHER THAN THAT THE CASE BEARS NO'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -12016,9 +19712,27 @@ var EPISODES = [
           'location': "BEN HORN'S OFFICE - GREAT NORTHERN'"
         },
         'characters': [
-          'BEN',
-          'LELAND',
-          'LELAND '
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND '
+          }
         ]
       },
       {
@@ -12031,9 +19745,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'TRUMAN',
-          'JOSIE',
-          'JONATHAN'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 69,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/9b/Jonathan-Portal.jpg',
+            'standard_character_name': 'JONATHAN',
+            'character_group': 7,
+            'raw_character_name': 'JONATHAN'
+          }
         ]
       },
       {
@@ -12053,11 +19785,41 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'BEN',
-          'TOJAMURA',
-          'TOJOMURA',
-          'LELAND',
-          'PETE'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 115,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOJAMURA',
+            'character_group': 5,
+            'raw_character_name': 'TOJAMURA'
+          },
+          {
+            'standard_character_id': 115,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOJAMURA',
+            'character_group': 5,
+            'raw_character_name': 'TOJOMURA'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -12070,9 +19832,27 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'MIKE',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       }
     ],
@@ -12087,10 +19867,34 @@ var EPISODES = [
         'scene_number': 1,
         'heading': {},
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'HAWK',
-          'COLE'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          }
         ]
       },
       {
@@ -12114,7 +19918,13 @@ var EPISODES = [
           'location': "HAROLD SMITH'S APARTMENT"
         },
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -12127,10 +19937,34 @@ var EPISODES = [
           'location': "SMITH'S APARTMENT"
         },
         'characters': [
-          'COOPER',
-          'GERARD',
-          'TRUMAN',
-          'HAWK'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 48,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6f/Gerard-Portal.jpg',
+            'standard_character_name': 'GERARD',
+            'character_group': 3,
+            'raw_character_name': 'GERARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -12154,9 +19988,27 @@ var EPISODES = [
           'location': 'PALMER HOUSE'
         },
         'characters': [
-          'SARAH',
-          'LELAND',
-          'MADDY'
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADDY'
+          }
         ]
       },
       {
@@ -12180,9 +20032,27 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'SHELLY',
-          'BOBBY',
-          'LEO'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
         ]
       },
       {
@@ -12206,11 +20076,41 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'HAWK',
-          'HAYWARD',
-          'COOPER '
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER '
+          }
         ]
       },
       {
@@ -12256,11 +20156,41 @@ var EPISODES = [
           'location': 'HOTEL LOBBY'
         },
         'characters': [
-          'COOPER',
-          'HAYWARD',
-          'GERARD',
-          'TRUMAN',
-          'HORNE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 48,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6f/Gerard-Portal.jpg',
+            'standard_character_name': 'GERARD',
+            'character_group': 3,
+            'raw_character_name': 'GERARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'HORNE'
+          }
         ]
       },
       {
@@ -12273,8 +20203,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'AUDREY'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -12292,10 +20234,34 @@ var EPISODES = [
           'location': 'DINER'
         },
         'characters': [
-          'NORMA',
-          'SHELLY',
-          'NADINE',
-          'ED'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
@@ -12319,9 +20285,27 @@ var EPISODES = [
           'location': "LEO JOHNSON'S"
         },
         'characters': [
-          'BOBBY',
-          'MIKE',
-          'LEO'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
         ]
       },
       {
@@ -12345,9 +20329,27 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'HAWK',
-          'TRUMAN',
-          'PETE'
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -12360,8 +20362,20 @@ var EPISODES = [
           'location': "TRUMAN'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'PETE'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -12374,9 +20388,27 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'COOPER',
-          'AUDREY',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -12389,7 +20421,13 @@ var EPISODES = [
           'location': 'PALMER HOUSE'
         },
         'characters': [
-          '25- INT. PALMER HOUSE - NIGHT'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': '25- INT. PALMER HOUSE - NIGHT'
+          }
         ]
       },
       {
@@ -12402,7 +20440,13 @@ var EPISODES = [
           'location': 'PALMER HOUSE'
         },
         'characters': [
-          'MADELEINE'
+          {
+            'standard_character_id': 83,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/2/26/Maddy-Portal2.jpg',
+            'standard_character_name': 'MADELEINE',
+            'character_group': 2,
+            'raw_character_name': 'MADELEINE'
+          }
         ]
       },
       {
@@ -12415,10 +20459,34 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'HORNE',
-          'TOJAMURA',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'HORNE'
+          },
+          {
+            'standard_character_id': 115,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOJAMURA',
+            'character_group': 5,
+            'raw_character_name': 'TOJAMURA'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -12442,8 +20510,20 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'PETE',
-          'TOJAMURA'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 115,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOJAMURA',
+            'character_group': 5,
+            'raw_character_name': 'TOJAMURA'
+          }
         ]
       },
       {
@@ -12456,9 +20536,27 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'TRUMAN',
-          'LOG LADY',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 80,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/d/d7/Log-Portal.jpg',
+            'standard_character_name': 'LOG LADY',
+            'character_group': 4,
+            'raw_character_name': 'LOG LADY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -12471,19 +20569,61 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'DONNA',
-          'JAMES',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
         'scene_number': 31,
         'heading': {},
         'characters': [
-          'GIANT',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 49,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/d/d4/Giant-Portal.jpg',
+            'standard_character_name': 'GIANT',
+            'character_group': 4,
+            'raw_character_name': 'GIANT'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       }
     ],
@@ -12520,9 +20660,27 @@ var EPISODES = [
           'location': 'PALMER HOUSE LIVING ROOM'
         },
         'characters': [
-          'DONNA',
-          'LELAND',
-          'JAMES'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -12535,16 +20693,40 @@ var EPISODES = [
           'location': "LELAND'S CAR"
         },
         'characters': [
-          'LELAND'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
         ]
       },
       {
         'scene_number': 5,
         'heading': {},
         'characters': [
-          'NORMA',
-          'VIVIAN',
-          'ERNIE'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 120,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b3/Vivian-Portal.jpg',
+            'standard_character_name': 'VIVIAN',
+            'character_group': 7,
+            'raw_character_name': 'VIVIAN'
+          },
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          }
         ]
       },
       {
@@ -12557,9 +20739,27 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'LELAND'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
         ]
       },
       {
@@ -12572,8 +20772,20 @@ var EPISODES = [
           'location': 'JAIL'
         },
         'characters': [
-          'BEN',
-          'JERRY'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          }
         ]
       },
       {
@@ -12586,9 +20798,27 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'GWEN',
-          'LUCY',
-          'HAWK'
+          {
+            'standard_character_id': 51,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'GWEN',
+            'character_group': 7,
+            'raw_character_name': 'GWEN'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -12601,11 +20831,41 @@ var EPISODES = [
           'location': 'INTERROGATION ROOM'
         },
         'characters': [
-          'HAYWARD',
-          'JERRY',
-          'BEN',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -12618,8 +20878,20 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'BOBBY',
-          'SHELLY'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -12632,7 +20904,13 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HOTEL ROOM'
         },
         'characters': [
-          'MIKE'
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          }
         ]
       },
       {
@@ -12656,9 +20934,27 @@ var EPISODES = [
           'location': 'DOUBLE R DINER'
         },
         'characters': [
-          'HANK',
-          'NORMA',
-          'VIVIAN'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 120,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b3/Vivian-Portal.jpg',
+            'standard_character_name': 'VIVIAN',
+            'character_group': 7,
+            'raw_character_name': 'VIVIAN'
+          }
         ]
       },
       {
@@ -12682,9 +20978,27 @@ var EPISODES = [
           'location': "TRUMAN'S OFFICE"
         },
         'characters': [
-          'PETE',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -12697,8 +21011,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'ANDY',
-          'LUCY'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
@@ -12711,8 +21037,20 @@ var EPISODES = [
           'location': 'JAIL'
         },
         'characters': [
-          'BEN',
-          'PETE'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -12732,8 +21070,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -12753,9 +21103,27 @@ var EPISODES = [
           'time': 'DAY'
         },
         'characters': [
-          'ED',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -12767,9 +21135,27 @@ var EPISODES = [
           'standard_location_id': 9
         },
         'characters': [
-          'GWEN',
-          'ANDY',
-          'LUCY'
+          {
+            'standard_character_id': 51,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'GWEN',
+            'character_group': 7,
+            'raw_character_name': 'GWEN'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
@@ -12782,11 +21168,41 @@ var EPISODES = [
           'location': 'INTERROGATION ROOM'
         },
         'characters': [
-          'GERARD',
-          'JERRY',
-          'TRUMAN',
-          'BEN',
-          'COOPER'
+          {
+            'standard_character_id': 48,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6f/Gerard-Portal.jpg',
+            'standard_character_name': 'GERARD',
+            'character_group': 3,
+            'raw_character_name': 'GERARD'
+          },
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -12799,8 +21215,20 @@ var EPISODES = [
           'location': 'DOWNSTAIRS CORRIDOR'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -12824,10 +21252,34 @@ var EPISODES = [
           'location': 'GREAT NORTHERN DINING ROOM'
         },
         'characters': [
-          'VIVIAN',
-          'ERNIE',
-          'HANK',
-          'NORMA'
+          {
+            'standard_character_id': 120,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b3/Vivian-Portal.jpg',
+            'standard_character_name': 'VIVIAN',
+            'character_group': 7,
+            'raw_character_name': 'VIVIAN'
+          },
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
@@ -12851,8 +21303,20 @@ var EPISODES = [
           'location': "COOPER'S ROOM"
         },
         'characters': [
-          'COOPER',
-          'AUDREY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -12861,7 +21325,13 @@ var EPISODES = [
           'int_ext': 'EXT'
         },
         'characters': [
-          'TRUMAN'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       }
     ],
@@ -12887,10 +21357,34 @@ var EPISODES = [
           'location': 'PARKING LOT'
         },
         'characters': [
-          'ALBERT',
-          'COOPER',
-          'TRUMAN',
-          'HAWK'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -12903,44 +21397,128 @@ var EPISODES = [
           'location': 'DOUBLER DINER'
         },
         'characters': [
-          'DONNA',
-          'JAMES'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
         'scene_number': 4,
         'heading': {},
         'characters': [
-          'HANK',
-          'ERNIE'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          }
         ]
       },
       {
         'scene_number': 5,
         'heading': {},
         'characters': [
-          'NORMA',
-          'VIVIAN'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 120,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b3/Vivian-Portal.jpg',
+            'standard_character_name': 'VIVIAN',
+            'character_group': 7,
+            'raw_character_name': 'VIVIAN'
+          }
         ]
       },
       {
         'scene_number': 6,
         'heading': {},
         'characters': [
-          'ANDY',
-          'DONNA',
-          'JAMES'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
         'scene_number': 7,
         'heading': {},
         'characters': [
-          'DONNA',
-          'COOPER',
-          'ANDY',
-          'WOMAN',
-          'TREMOND'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'WOMAN'
+          },
+          {
+            'standard_character_id': 151,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/9/98/Pierre_Portal.jpg',
+            'standard_character_name': 'TREMOND',
+            'character_group': 7,
+            'raw_character_name': 'TREMOND'
+          }
         ]
       },
       {
@@ -12953,9 +21531,27 @@ var EPISODES = [
           'location': 'INT. GREAT NORTHERN HOTEL ROOM'
         },
         'characters': [
-          'DOC',
-          'COOPER',
-          'GERARD'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 48,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6f/Gerard-Portal.jpg',
+            'standard_character_name': 'GERARD',
+            'character_group': 3,
+            'raw_character_name': 'GERARD'
+          }
         ]
       },
       {
@@ -12968,8 +21564,20 @@ var EPISODES = [
           'location': 'INT. GREAT NORTHERN HALLWAY'
         },
         'characters': [
-          'WAITER',
-          'COOPER'
+          {
+            'standard_character_id': 121,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6c/Waiter-Portal.jpg',
+            'standard_character_name': 'WAITER',
+            'character_group': 7,
+            'raw_character_name': 'WAITER'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -12982,9 +21590,27 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'ALBERT'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
@@ -13002,9 +21628,27 @@ var EPISODES = [
           'location': "SHERIFF'S OFFICE, RECEPTION AREA"
         },
         'characters': [
-          'ZIPPER',
-          'ANDY',
-          'LUCY'
+          {
+            'standard_character_id': 125,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'ZIPPER',
+            'character_group': 7,
+            'raw_character_name': 'ZIPPER'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
@@ -13017,9 +21661,27 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'BEN',
-          'TOJOMURA',
-          'CATHERINE'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 115,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOJAMURA',
+            'character_group': 5,
+            'raw_character_name': 'TOJOMURA'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
         ]
       },
       {
@@ -13043,8 +21705,20 @@ var EPISODES = [
           'location': 'PALMER HOUSE'
         },
         'characters': [
-          'LELAND',
-          'DONNA'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -13057,8 +21731,20 @@ var EPISODES = [
           'location': 'PALMER HOUSE'
         },
         'characters': [
-          'LELAND',
-          'TRUMAN'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -13071,8 +21757,20 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE'
         },
         'characters': [
-          'DONNA',
-          'HAYWARD'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          }
         ]
       },
       {
@@ -13095,24 +21793,96 @@ var EPISODES = [
           'standard_location_id': 19
         },
         'characters': [
-          'LELAND',
-          'COOPER',
-          'ED',
-          'ALBERT',
-          'BOBBY',
-          'BEN',
-          'TRUMAN',
-          'BRIGGS',
-          'WAITER'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 121,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/6/6c/Waiter-Portal.jpg',
+            'standard_character_name': 'WAITER',
+            'character_group': 7,
+            'raw_character_name': 'WAITER'
+          }
         ]
       },
       {
         'scene_number': 20,
         'heading': {},
         'characters': [
-          'LAURA',
-          'COOPER',
-          'HAWK'
+          {
+            'standard_character_id': 73,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/8/86/Laura-Portal.jpg',
+            'standard_character_name': 'LAURA',
+            'character_group': 2,
+            'raw_character_name': 'LAURA'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -13125,8 +21895,20 @@ var EPISODES = [
           'location': 'GAZEBO'
         },
         'characters': [
-          'JAMES',
-          'DONNA'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -13177,8 +21959,20 @@ var EPISODES = [
           'location': "INT. SHERIFF'S STATION"
         },
         'characters': [
-          'COOPER',
-          'LELAND'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          }
         ]
       },
       {
@@ -13191,10 +21985,34 @@ var EPISODES = [
           'location': 'DOWNSTAIRS CORRIDOR'
         },
         'characters': [
-          'LELAND',
-          'HAWK',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 75,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/23/Leland-Portal.jpg',
+            'standard_character_name': 'LELAND',
+            'character_group': 6,
+            'raw_character_name': 'LELAND'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -13207,9 +22025,27 @@ var EPISODES = [
           'location': 'INT. INTERROGATION'
         },
         'characters': [
-          'TRUMAN',
-          'BEN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -13222,9 +22058,27 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'LUCY',
-          'TREMAYNE',
-          'ANDY'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -13237,9 +22091,27 @@ var EPISODES = [
           'location': 'INT. CORRIDOR'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'ALBERT'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
@@ -13256,7 +22128,13 @@ var EPISODES = [
         'scene_number': 33,
         'heading': {},
         'characters': [
-          'BEN'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -13276,10 +22154,34 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'ALBERT',
-          'TRUMAN',
-          'BEN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -13292,10 +22194,34 @@ var EPISODES = [
           'location': 'WOODS'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'ALBERT',
-          'BRIGGS'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          }
         ]
       },
       {
@@ -13348,9 +22274,27 @@ var EPISODES = [
           'location': 'PALMER HOUSE'
         },
         'characters': [
-          'HAYWARD',
-          'SARAH',
-          'COOPER'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -13367,10 +22311,34 @@ var EPISODES = [
         'scene_number': 5,
         'heading': {},
         'characters': [
-          'HANK',
-          'SARAH',
-          'AUDREY',
-          'EILEEN'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 106,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c1/Sarah-Portal.jpg',
+            'standard_character_name': 'SARAH',
+            'character_group': 6,
+            'raw_character_name': 'SARAH'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          }
         ]
       },
       {
@@ -13384,9 +22352,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'DONNA',
-          'ED',
-          'NADINE'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          }
         ]
       },
       {
@@ -13395,28 +22381,124 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'MAJOR BRIGGS',
-          'JACOBY',
-          'BRIGGS',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'MAJOR BRIGGS'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
         'scene_number': 9,
         'heading': {},
         'characters': [
-          'DWAYNE',
-          'DOUGIE',
-          'ED',
-          'TRUMAN',
-          'COOPER',
-          'PETE',
-          'DOC',
-          'VIVIAN',
-          'NORMA',
-          'HANK',
-          'ERNIE'
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          },
+          {
+            'standard_character_id': 37,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DOUGIE',
+            'character_group': 6,
+            'raw_character_name': 'DOUGIE'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 120,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b3/Vivian-Portal.jpg',
+            'standard_character_name': 'VIVIAN',
+            'character_group': 7,
+            'raw_character_name': 'VIVIAN'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          }
         ]
       },
       {
@@ -13440,10 +22522,34 @@ var EPISODES = [
           'location': 'HIGH SCHOOL'
         },
         'characters': [
-          'GREEGE',
-          'JACOBY',
-          'ED',
-          'NADINE'
+          {
+            'standard_character_id': 50,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'GREEGE',
+            'character_group': 7,
+            'raw_character_name': 'GREEGE'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          }
         ]
       },
       {
@@ -13456,8 +22562,20 @@ var EPISODES = [
           'location': "GREAT NORTHERN COOPER'S ROOM"
         },
         'characters': [
-          'COOPER',
-          'AUDREY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -13470,8 +22588,20 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'BOBBY',
-          'SHELLY'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -13484,8 +22614,20 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'CATHERINE',
-          'TRUMAN'
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -13498,10 +22640,34 @@ var EPISODES = [
           'location': "SHERIFF'S RECEPTION AREA"
         },
         'characters': [
-          'TREMAYNE',
-          'LUCY',
-          'ANDY',
-          'HAWK'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -13510,8 +22676,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -13520,11 +22698,41 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'HAWK',
-          'MOUNTIE',
-          'TRUMAN',
-          'HARDY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 92,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MOUNTIE',
+            'character_group': 7,
+            'raw_character_name': 'MOUNTIE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 53,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HARDY',
+            'character_group': 7,
+            'raw_character_name': 'HARDY'
+          }
         ]
       },
       {
@@ -13537,10 +22745,34 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'HARDY',
-          'COOPER',
-          'TRUMAN',
-          'MOUNTIE'
+          {
+            'standard_character_id': 53,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HARDY',
+            'character_group': 7,
+            'raw_character_name': 'HARDY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 92,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MOUNTIE',
+            'character_group': 7,
+            'raw_character_name': 'MOUNTIE'
+          }
         ]
       },
       {
@@ -13553,8 +22785,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HOTEL'
         },
         'characters': [
-          'BOBBY',
-          'AUDREY'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -13567,8 +22811,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BOBBY',
-          'BEN'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -13581,8 +22837,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HALL/LOBBY'
         },
         'characters': [
-          'AUDREY',
-          'BOBBY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -13595,10 +22863,34 @@ var EPISODES = [
           'location': "SHERIFF'S STATION CONFERENCE ROOM"
         },
         'characters': [
-          'HARDY',
-          'COOPER',
-          'MOUNTIE',
-          'TRUMAN'
+          {
+            'standard_character_id': 53,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HARDY',
+            'character_group': 7,
+            'raw_character_name': 'HARDY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 92,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MOUNTIE',
+            'character_group': 7,
+            'raw_character_name': 'MOUNTIE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -13611,9 +22903,27 @@ var EPISODES = [
           'location': 'HIGH SCHOOL GYM'
         },
         'characters': [
-          'CHEERING GIRL',
-          'NADINE',
-          'GREEGE'
+          {
+            'standard_character_id': 23,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CHEERING GIRL',
+            'character_group': 7,
+            'raw_character_name': 'CHEERING GIRL'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 50,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'GREEGE',
+            'character_group': 7,
+            'raw_character_name': 'GREEGE'
+          }
         ]
       },
       {
@@ -13626,7 +22936,13 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'SHELLY'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -13639,10 +22955,34 @@ var EPISODES = [
           'location': 'DINER'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'NORMA',
-          'VIVIAN'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 120,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b3/Vivian-Portal.jpg',
+            'standard_character_name': 'VIVIAN',
+            'character_group': 7,
+            'raw_character_name': 'VIVIAN'
+          }
         ]
       },
       {
@@ -13655,10 +22995,34 @@ var EPISODES = [
           'location': "ONE-EYED JACK'S - BLACKIE'S OFFICE"
         },
         'characters': [
-          'HANK',
-          'ERNIE',
-          'JEAN',
-          'MOUNTIE'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          },
+          {
+            'standard_character_id': 64,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/4f/Jean-Portal.jpg',
+            'standard_character_name': 'JEAN',
+            'character_group': 3,
+            'raw_character_name': 'JEAN'
+          },
+          {
+            'standard_character_id': 92,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MOUNTIE',
+            'character_group': 7,
+            'raw_character_name': 'MOUNTIE'
+          }
         ]
       },
       {
@@ -13682,8 +23046,20 @@ var EPISODES = [
           'location': "HARRY TRUMAN'S"
         },
         'characters': [
-          'TRUMAN',
-          'JOSIE'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -13696,8 +23072,20 @@ var EPISODES = [
           'location': 'CAMPSITE'
         },
         'characters': [
-          'COOPER',
-          'MAJOR BRIGGS'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'MAJOR BRIGGS'
+          }
         ]
       },
       {
@@ -13715,8 +23103,20 @@ var EPISODES = [
         'scene_number': 31,
         'heading': {},
         'characters': [
-          'MAJOR BRIGGS',
-          'COOPER'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'MAJOR BRIGGS'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       }
     ],
@@ -13749,14 +23149,62 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'ANDY',
-          'HAWK',
-          'COLE',
-          'HAVE MY FULL SUPPORT IN THIS',
-          'TOP DOG TO INVESTIGATE THE DRUG',
-          'GUYS MAKE A LIVING LOOKING THROUGH'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'HAVE MY FULL SUPPORT IN THIS'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'TOP DOG TO INVESTIGATE THE DRUG'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'GUYS MAKE A LIVING LOOKING THROUGH'
+          }
         ]
       },
       {
@@ -13765,8 +23213,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'HARDY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 53,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HARDY',
+            'character_group': 7,
+            'raw_character_name': 'HARDY'
+          }
         ]
       },
       {
@@ -13784,9 +23244,27 @@ var EPISODES = [
         'scene_number': 6,
         'heading': {},
         'characters': [
-          'NADINE',
-          'MIKE',
-          'COACH'
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 26,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'COACH',
+            'character_group': 8,
+            'raw_character_name': 'COACH'
+          }
         ]
       },
       {
@@ -13806,9 +23284,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'WOMAN',
-          'JAMES',
-          'EVELYN'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'WOMAN'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          }
         ]
       },
       {
@@ -13821,10 +23317,34 @@ var EPISODES = [
           'location': "SHERIFF'S STATION RECEPTION"
         },
         'characters': [
-          'ANDY',
-          'TREMAYNE',
-          'NICKY',
-          'TREYMAYNE'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 95,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'NICKY',
+            'character_group': 6,
+            'raw_character_name': 'NICKY'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREYMAYNE'
+          }
         ]
       },
       {
@@ -13837,11 +23357,41 @@ var EPISODES = [
           'location': "INT. TRUMAN'S OFFICE"
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'HAWK',
-          'MAN IN DRESS',
-          'DENISE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 86,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MAN IN DRESS',
+            'character_group': 7,
+            'raw_character_name': 'MAN IN DRESS'
+          },
+          {
+            'standard_character_id': 33,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/a3/Denise-Portal.jpg',
+            'standard_character_name': 'DENISE',
+            'character_group': 1,
+            'raw_character_name': 'DENISE'
+          }
         ]
       },
       {
@@ -13854,8 +23404,20 @@ var EPISODES = [
           'location': 'HIGH SCHOOL CORRIDOR'
         },
         'characters': [
-          'NADINE',
-          'DONNA'
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -13868,8 +23430,20 @@ var EPISODES = [
           'location': "TRUMAN'S CABIN"
         },
         'characters': [
-          'TRUMAN',
-          'JOSIE'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -13882,13 +23456,55 @@ var EPISODES = [
           'location': 'DOUBLE R DINER'
         },
         'characters': [
-          'NORMA',
-          'HARDY',
-          'HANK',
-          'ERNIE',
-          'NICKY',
-          'TREMAYNE',
-          'ANDY'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 53,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HARDY',
+            'character_group': 7,
+            'raw_character_name': 'HARDY'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          },
+          {
+            'standard_character_id': 95,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'NICKY',
+            'character_group': 6,
+            'raw_character_name': 'NICKY'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -13908,8 +23524,20 @@ var EPISODES = [
           'location': 'OPEN GARAGE'
         },
         'characters': [
-          'EVELYN',
-          'JAMES'
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -13922,8 +23550,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'HANK'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          }
         ]
       },
       {
@@ -13947,7 +23587,13 @@ var EPISODES = [
           'location': "INT. COOPER'S HOTEL ROOM"
         },
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -13959,11 +23605,41 @@ var EPISODES = [
           'standard_location_id': 5
         },
         'characters': [
-          'REVEREND',
-          'DOUGIE',
-          'LANA',
-          'DWAYNE',
-          'TRUMAN'
+          {
+            'standard_character_id': 105,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'REVEREND',
+            'character_group': 7,
+            'raw_character_name': 'REVEREND'
+          },
+          {
+            'standard_character_id': 37,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DOUGIE',
+            'character_group': 6,
+            'raw_character_name': 'DOUGIE'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          },
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -13975,7 +23651,13 @@ var EPISODES = [
           'standard_location_id': 5
         },
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -13988,23 +23670,89 @@ var EPISODES = [
           'location': 'GREAT NORTHERN BAR WEDDING RECEPTION'
         },
         'characters': [
-          'DENISE',
-          'COOPER'
+          {
+            'standard_character_id': 33,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/a3/Denise-Portal.jpg',
+            'standard_character_name': 'DENISE',
+            'character_group': 1,
+            'raw_character_name': 'DENISE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
         'scene_number': 22,
         'heading': {},
         'characters': [
-          'DWAYNE',
-          'PETE',
-          'DENISE',
-          'TRUMAN',
-          'DOUGIE',
-          'LANA',
-          'COOPER',
-          'AUDREY',
-          'ANDY'
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 33,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/a3/Denise-Portal.jpg',
+            'standard_character_name': 'DENISE',
+            'character_group': 1,
+            'raw_character_name': 'DENISE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 37,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DOUGIE',
+            'character_group': 6,
+            'raw_character_name': 'DOUGIE'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -14017,9 +23765,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'JOSIE',
-          'CATHERINE',
-          'ANDREW'
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          }
         ]
       }
     ],
@@ -14045,8 +23811,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE, GREAT NORTHERN"
         },
         'characters': [
-          'BOBBY',
-          'BEN'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -14070,8 +23848,20 @@ var EPISODES = [
           'location': "SHERIFF'S OFFICE, CONFERENCE ROOM"
         },
         'characters': [
-          'LITTLEHORSE',
-          'COOPER'
+          {
+            'standard_character_id': 78,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'LITTLEHORSE',
+            'character_group': 7,
+            'raw_character_name': 'LITTLEHORSE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -14084,9 +23874,27 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'REILLY',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 103,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'REILLY',
+            'character_group': 7,
+            'raw_character_name': 'REILLY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -14099,13 +23907,55 @@ var EPISODES = [
           'location': 'RECEPTION AREA'
         },
         'characters': [
-          'TREMAYNE',
-          'ANDY',
-          'SWAIN',
-          'TREYMAYNE',
-          'LUCY',
-          'TREMYANE',
-          'TRUMAN'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 113,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'SWAIN',
+            'character_group': 7,
+            'raw_character_name': 'SWAIN'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREYMAYNE'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMYANE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -14118,8 +23968,20 @@ var EPISODES = [
           'location': "MARSH HOUSE, JAMES' ROOM"
         },
         'characters': [
-          'JAMES',
-          'MALCOLM'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 84,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2c/Malcolm-Portal.jpg',
+            'standard_character_name': 'MALCOLM',
+            'character_group': 7,
+            'raw_character_name': 'MALCOLM'
+          }
         ]
       },
       {
@@ -14132,10 +23994,34 @@ var EPISODES = [
           'location': 'HOTEL ROOM, GREAT NORTHERN'
         },
         'characters': [
-          'DOC',
-          'ANDY',
-          'TRUMAN',
-          'DWAYNE'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          }
         ]
       },
       {
@@ -14148,10 +24034,34 @@ var EPISODES = [
           'location': 'HALLWAY OUTSIDE THE ROOM'
         },
         'characters': [
-          'DWAYNE',
-          'HAWK',
-          'LANA',
-          'BRIDE'
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          },
+          {
+            'standard_character_id': 17,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BRIDE',
+            'character_group': 7,
+            'raw_character_name': 'BRIDE'
+          }
         ]
       },
       {
@@ -14164,9 +24074,27 @@ var EPISODES = [
           'location': 'HIGH SCHOOL GYM'
         },
         'characters': [
-          'WINGATE',
-          'NADINE',
-          'MIKE'
+          {
+            'standard_character_id': 124,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'WINGATE',
+            'character_group': 7,
+            'raw_character_name': 'WINGATE'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          }
         ]
       },
       {
@@ -14175,8 +24103,20 @@ var EPISODES = [
           'int_ext': 'EXT'
         },
         'characters': [
-          'LITTLEHORSE',
-          'COOPER'
+          {
+            'standard_character_id': 78,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'LITTLEHORSE',
+            'character_group': 7,
+            'raw_character_name': 'LITTLEHORSE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -14189,8 +24129,20 @@ var EPISODES = [
           'location': 'KITCHEN, DEAD DOG FARM HOUSE'
         },
         'characters': [
-          'LITTLEHORSE',
-          'COOPER'
+          {
+            'standard_character_id': 78,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'LITTLEHORSE',
+            'character_group': 7,
+            'raw_character_name': 'LITTLEHORSE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -14203,8 +24155,20 @@ var EPISODES = [
           'location': 'ROAD IN THE WOODS'
         },
         'characters': [
-          'TREMAYNE',
-          'NICKY'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 95,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'NICKY',
+            'character_group': 6,
+            'raw_character_name': 'NICKY'
+          }
         ]
       },
       {
@@ -14217,16 +24181,40 @@ var EPISODES = [
           'location': "EVELYN'S GARAGE"
         },
         'characters': [
-          'EVELYN',
-          'JAMES'
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
         'scene_number': 15,
         'heading': {},
         'characters': [
-          'EVELYN',
-          'JEFFREY'
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 65,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JEFFREY',
+            'character_group': 7,
+            'raw_character_name': 'JEFFREY'
+          }
         ]
       },
       {
@@ -14239,8 +24227,20 @@ var EPISODES = [
           'location': 'HIGH SCHOOL'
         },
         'characters': [
-          'DONNA',
-          'MIKE'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          }
         ]
       },
       {
@@ -14264,8 +24264,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN CORRIDOR'
         },
         'characters': [
-          'AUDREY',
-          'BOBBY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -14289,8 +24301,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BOBBY',
-          'BEN'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -14324,9 +24348,27 @@ var EPISODES = [
           'standard_location_id': 1
         },
         'characters': [
-          'PETE',
-          'CATHERINE',
-          'JOSIE'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -14338,9 +24380,27 @@ var EPISODES = [
           'standard_location_id': 5
         },
         'characters': [
-          'COOPER',
-          'AUDREY',
-          'DENISE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 33,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/a3/Denise-Portal.jpg',
+            'standard_character_name': 'DENISE',
+            'character_group': 1,
+            'raw_character_name': 'DENISE'
+          }
         ]
       },
       {
@@ -14358,8 +24418,20 @@ var EPISODES = [
         'scene_number': 26,
         'heading': {},
         'characters': [
-          'TREMAYNE',
-          'ANDY'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -14372,11 +24444,41 @@ var EPISODES = [
           'location': "SHERIFF'S OFFICE"
         },
         'characters': [
-          'HAYWARD',
-          'DWAYNE',
-          'TRUMAN',
-          'HAWK',
-          'TREMAYNE'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          }
         ]
       },
       {
@@ -14389,7 +24491,13 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'LUCY'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
@@ -14402,11 +24510,41 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'LUCY',
-          'LANA',
-          'TREMAYNE',
-          'HAYWARD',
-          'TRUMAN'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -14419,16 +24557,40 @@ var EPISODES = [
           'location': 'DOUBLE R DINER'
         },
         'characters': [
-          'ED',
-          'NORMA'
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
         'scene_number': 31,
         'heading': {},
         'characters': [
-          'ERNIE',
-          'DENISE'
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          },
+          {
+            'standard_character_id': 33,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/a3/Denise-Portal.jpg',
+            'standard_character_name': 'DENISE',
+            'character_group': 1,
+            'raw_character_name': 'DENISE'
+          }
         ]
       },
       {
@@ -14437,9 +24599,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'ERNIE',
-          'DENISE',
-          'COOPER'
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          },
+          {
+            'standard_character_id': 33,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/a3/Denise-Portal.jpg',
+            'standard_character_name': 'DENISE',
+            'character_group': 1,
+            'raw_character_name': 'DENISE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -14452,8 +24632,20 @@ var EPISODES = [
           'location': 'GARAGE APARTMENT'
         },
         'characters': [
-          'JAMES',
-          'MALCOM'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 84,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2c/Malcolm-Portal.jpg',
+            'standard_character_name': 'MALCOLM',
+            'character_group': 7,
+            'raw_character_name': 'MALCOM'
+          }
         ]
       },
       {
@@ -14466,9 +24658,27 @@ var EPISODES = [
           'location': 'BRIGGS HOUSE'
         },
         'characters': [
-          'BOBBY',
-          'BETTY',
-          'BRIGGS'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 11,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/Betty-Portal.jpg',
+            'standard_character_name': 'BETTY',
+            'character_group': 7,
+            'raw_character_name': 'BETTY'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          }
         ]
       }
     ],
@@ -14494,7 +24704,13 @@ var EPISODES = [
           'location': 'EXT. WOODS'
         },
         'characters': [
-          'BRIGGS'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          }
         ]
       },
       {
@@ -14507,10 +24723,34 @@ var EPISODES = [
           'location': "SHERIFF'S CONFERENCE ROOM"
         },
         'characters': [
-          'BRIGGS',
-          'HAYWARD',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -14519,10 +24759,34 @@ var EPISODES = [
           'time': 'DAY'
         },
         'characters': [
-          'DENISE',
-          'ERNIE',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 33,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/a3/Denise-Portal.jpg',
+            'standard_character_name': 'DENISE',
+            'character_group': 1,
+            'raw_character_name': 'DENISE'
+          },
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -14531,10 +24795,34 @@ var EPISODES = [
           'time': 'DAY'
         },
         'characters': [
-          'TREMAYNE',
-          'ANDY',
-          'COOPER',
-          'LUCY'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
@@ -14552,24 +24840,60 @@ var EPISODES = [
         'scene_number': 7,
         'heading': {},
         'characters': [
-          'NORMA',
-          'ED'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
         'scene_number': 8,
         'heading': {},
         'characters': [
-          'NADINE',
-          'MIKE'
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          }
         ]
       },
       {
         'scene_number': 9,
         'heading': {},
         'characters': [
-          'HANK',
-          'NORMA'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
@@ -14593,8 +24917,20 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'SHELLY',
-          'BOBBY'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -14607,8 +24943,20 @@ var EPISODES = [
           'location': 'MARSH GARAGE'
         },
         'characters': [
-          'JAMES',
-          'EVELYN'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          }
         ]
       },
       {
@@ -14621,8 +24969,20 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'JOSIE',
-          'TRUMAN'
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -14646,8 +25006,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HOTEL'
         },
         'characters': [
-          'BEN',
-          'AUDREY'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -14660,8 +25032,20 @@ var EPISODES = [
           'location': 'HURLEY HOUSE'
         },
         'characters': [
-          'ED',
-          'NORMA'
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
@@ -14690,11 +25074,41 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'HAWK',
-          'NILES',
-          'COOPER',
-          'ERNIE',
-          'TRUMAN'
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 96,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'NILES',
+            'character_group': 7,
+            'raw_character_name': 'NILES'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 45,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2d/Ernie-Portal.jpg',
+            'standard_character_name': 'ERNIE',
+            'character_group': 7,
+            'raw_character_name': 'ERNIE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -14717,17 +25131,47 @@ var EPISODES = [
           'standard_location_id': 18
         },
         'characters': [
-          'TREMAYNE',
-          'ANDY',
-          'HUSBAND'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 58,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HUSBAND',
+            'character_group': 7,
+            'raw_character_name': 'HUSBAND'
+          }
         ]
       },
       {
         'scene_number': 22,
         'heading': {},
         'characters': [
-          'NORMA',
-          'ED'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
@@ -14740,11 +25184,41 @@ var EPISODES = [
           'location': 'HURLEY HOUSE'
         },
         'characters': [
-          'DONNA',
-          'ED',
-          'NORMA',
-          'HANK',
-          'NADINE'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          }
         ]
       },
       {
@@ -14773,8 +25247,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'BOBBY'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -14787,8 +25273,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN CORRIDOR'
         },
         'characters': [
-          'BOBBY',
-          'AUDREY'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -14801,8 +25299,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'CATHERINE'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
         ]
       },
       {
@@ -14815,8 +25325,20 @@ var EPISODES = [
           'location': 'MARSH GARAGE'
         },
         'characters': [
-          'EVELYN',
-          'JAMES'
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -14840,9 +25362,27 @@ var EPISODES = [
           'location': 'DEAD DOG FARM BLUFF'
         },
         'characters': [
-          'COOPER',
-          'HAWK',
-          'RENAULT'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 104,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RENAULT',
+            'character_group': 3,
+            'raw_character_name': 'RENAULT'
+          }
         ]
       },
       {
@@ -14855,10 +25395,34 @@ var EPISODES = [
           'location': 'DEAD DOG FARM'
         },
         'characters': [
-          'RENAULT',
-          'TRUMAN',
-          'COOPER',
-          'HAWK'
+          {
+            'standard_character_id': 104,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RENAULT',
+            'character_group': 3,
+            'raw_character_name': 'RENAULT'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -14871,8 +25435,20 @@ var EPISODES = [
           'location': 'MARSH GARAGE APARTMENT'
         },
         'characters': [
-          'MALCOM',
-          'EVELYN'
+          {
+            'standard_character_id': 84,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2c/Malcolm-Portal.jpg',
+            'standard_character_name': 'MALCOLM',
+            'character_group': 7,
+            'raw_character_name': 'MALCOM'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          }
         ]
       },
       {
@@ -14896,9 +25472,27 @@ var EPISODES = [
           'location': 'DEAD DOG FARM'
         },
         'characters': [
-          'KING',
-          'RENAULT',
-          'COOPER'
+          {
+            'standard_character_id': 126,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'KING',
+            'character_group': 7,
+            'raw_character_name': 'KING'
+          },
+          {
+            'standard_character_id': 104,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RENAULT',
+            'character_group': 3,
+            'raw_character_name': 'RENAULT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -14910,10 +25504,34 @@ var EPISODES = [
         'scene_number': 37,
         'heading': {},
         'characters': [
-          'RENAULT',
-          'DENISE',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 104,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'RENAULT',
+            'character_group': 3,
+            'raw_character_name': 'RENAULT'
+          },
+          {
+            'standard_character_id': 33,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/a3/Denise-Portal.jpg',
+            'standard_character_name': 'DENISE',
+            'character_group': 1,
+            'raw_character_name': 'DENISE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -14926,7 +25544,13 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'SHELLY'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -14939,9 +25563,27 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'LUCY',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       }
     ],
@@ -14967,10 +25609,34 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'HAYWARD',
-          'TRUMAN',
-          'COOPER',
-          'HAWK'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -14994,8 +25660,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'AUDREY',
-          'BOBBY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -15019,8 +25697,20 @@ var EPISODES = [
           'location': "LEO JOHNSON'S HOUSE"
         },
         'characters': [
-          'SHELLY',
-          'LEO'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
         ]
       },
       {
@@ -15051,7 +25741,13 @@ var EPISODES = [
           'location': "LEO'S"
         },
         'characters': [
-          'BOBBY'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -15064,9 +25760,27 @@ var EPISODES = [
           'location': "LEO'S"
         },
         'characters': [
-          'LEO',
-          'BOBBY',
-          'SHELLY'
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -15079,9 +25793,27 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'HAWK'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -15094,8 +25826,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION, RECEPTION AREA"
         },
         'characters': [
-          'ANDY',
-          'LUCY'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
@@ -15113,9 +25857,27 @@ var EPISODES = [
           'location': 'MARSH ESTATE'
         },
         'characters': [
-          'JEFFREY',
-          'JAMES',
-          'EVELYN'
+          {
+            'standard_character_id': 65,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JEFFREY',
+            'character_group': 7,
+            'raw_character_name': 'JEFFREY'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          }
         ]
       },
       {
@@ -15128,10 +25890,34 @@ var EPISODES = [
           'location': "BEN'S OFFICE GREAT NORTHERN"
         },
         'characters': [
-          'JERRY',
-          'JACOBY',
-          'AUDREY',
-          'BEN'
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -15144,8 +25930,20 @@ var EPISODES = [
           'location': "TRUMAN'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -15169,9 +25967,27 @@ var EPISODES = [
           'location': 'JAMES ROOM, MARSH ESTATE'
         },
         'characters': [
-          'JAMES',
-          'EVELYN',
-          'EVELVN'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELVN'
+          }
         ]
       },
       {
@@ -15216,8 +26032,20 @@ var EPISODES = [
           'location': "WALLY'S"
         },
         'characters': [
-          'DONNA',
-          'EVELYN'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          }
         ]
       },
       {
@@ -15241,9 +26069,27 @@ var EPISODES = [
           'location': 'DOUBLE R'
         },
         'characters': [
-          'NORMA',
-          'BIG ED',
-          'DOC'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'BIG ED'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          }
         ]
       },
       {
@@ -15256,8 +26102,20 @@ var EPISODES = [
           'location': 'SHERIFF STATION'
         },
         'characters': [
-          'LUCY',
-          'BRIGGS'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          }
         ]
       },
       {
@@ -15270,11 +26128,41 @@ var EPISODES = [
           'location': "TRUMAN'S OFFICE"
         },
         'characters': [
-          'LUCY',
-          'COOPER',
-          'TRUMAN',
-          'BRIGGS',
-          'ANDY'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -15287,11 +26175,41 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'JACOBY',
-          'TRUMAN',
-          'EVERYONE',
-          'COOPER',
-          'LANA'
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'EVERYONE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          }
         ]
       },
       {
@@ -15304,8 +26222,20 @@ var EPISODES = [
           'location': 'HALLWAY'
         },
         'characters': [
-          'DWAYNE',
-          'TRUMAN'
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -15318,12 +26248,48 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'DWAYNE',
-          'TRUMAN',
-          'JACOBY',
-          'COOPER',
-          'EVERYONE',
-          'ANDY'
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'EVERYONE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -15336,10 +26302,34 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'DWAYNE',
-          'LANA',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 38,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'DWAYNE',
+            'character_group': 7,
+            'raw_character_name': 'DWAYNE'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -15357,9 +26347,27 @@ var EPISODES = [
           'location': 'INT. BLUE PINE KITCHEN'
         },
         'characters': [
-          'PETE',
-          'CATHERINE',
-          'ANDREW'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          }
         ]
       },
       {
@@ -15372,9 +26380,27 @@ var EPISODES = [
           'location': "INT. SHERIFF STATION, LUCY'S AREA"
         },
         'characters': [
-          'HAYWARD',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -15387,10 +26413,34 @@ var EPISODES = [
           'location': "TRUMAN'S OFFICE"
         },
         'characters': [
-          'HAYWARD',
-          'TREMAYNE',
-          'ANDY',
-          'LUCY'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
@@ -15414,8 +26464,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'CLERK',
-          'JONES'
+          {
+            'standard_character_id': 25,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CLERK',
+            'character_group': 7,
+            'raw_character_name': 'CLERK'
+          },
+          {
+            'standard_character_id': 70,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JONES',
+            'character_group': 7,
+            'raw_character_name': 'JONES'
+          }
         ]
       },
       {
@@ -15428,8 +26490,20 @@ var EPISODES = [
           'location': 'JAMES ROOM - MARSH ESTATE'
         },
         'characters': [
-          'EVELYN',
-          'JAMES'
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -15438,8 +26512,20 @@ var EPISODES = [
           'int_ext': 'EXT'
         },
         'characters': [
-          'DONNA',
-          'JAMES'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -15463,9 +26549,27 @@ var EPISODES = [
           'location': 'CABIN'
         },
         'characters': [
-          'LEO',
-          'VOICE',
-          'MAN'
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'VOICE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MAN'
+          }
         ]
       }
     ],
@@ -15502,9 +26606,27 @@ var EPISODES = [
           'location': 'MARSH HOUSE, VESTIBULE IN FRONT OF THE STAIRS'
         },
         'characters': [
-          'COP',
-          'MALCOLM',
-          'EVELYN'
+          {
+            'standard_character_id': 30,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'COP',
+            'character_group': 1,
+            'raw_character_name': 'COP'
+          },
+          {
+            'standard_character_id': 84,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2c/Malcolm-Portal.jpg',
+            'standard_character_name': 'MALCOLM',
+            'character_group': 7,
+            'raw_character_name': 'MALCOLM'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          }
         ]
       },
       {
@@ -15517,20 +26639,68 @@ var EPISODES = [
           'location': "WALLY'S BAR"
         },
         'characters': [
-          'DONNA',
-          'JAMES',
-          'DONNA '
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA '
+          }
         ]
       },
       {
         'scene_number': 5,
         'heading': {},
         'characters': [
-          'TRUMAN',
-          'BOBBY',
-          'COOPER',
-          'SHELLY',
-          'ALBERT'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          }
         ]
       },
       {
@@ -15543,7 +26713,13 @@ var EPISODES = [
           'location': "WINDOM EARLE'S CABIN"
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -15556,9 +26732,27 @@ var EPISODES = [
           'location': 'HURLEY HOUSE'
         },
         'characters': [
-          'ED',
-          'NORMA',
-          'NADINE'
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          }
         ]
       },
       {
@@ -15571,9 +26765,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE OFFICE'
         },
         'characters': [
-          'TRUMAN',
-          'JOSIE',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -15586,9 +26798,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE, KITCHEN AREA'
         },
         'characters': [
-          'PETE',
-          'COOPER',
-          'JOSIE'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -15601,7 +26831,13 @@ var EPISODES = [
           'location': "GREAT NORTHERN HOTEL, THOMAS ECKHARDT'S ROOM"
         },
         'characters': [
-          'ECKHARDT'
+          {
+            'standard_character_id': 40,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c6/Thomas-Portal.jpg',
+            'standard_character_name': 'ECKHARDT',
+            'character_group': 5,
+            'raw_character_name': 'ECKHARDT'
+          }
         ]
       },
       {
@@ -15613,7 +26849,13 @@ var EPISODES = [
           'standard_location_id': 1
         },
         'characters': [
-          'CATHERINE'
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
         ]
       },
       {
@@ -15622,8 +26864,20 @@ var EPISODES = [
           'time': 'DAY'
         },
         'characters': [
-          'ECKHARDT',
-          'JONES'
+          {
+            'standard_character_id': 40,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c6/Thomas-Portal.jpg',
+            'standard_character_name': 'ECKHARDT',
+            'character_group': 5,
+            'raw_character_name': 'ECKHARDT'
+          },
+          {
+            'standard_character_id': 70,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JONES',
+            'character_group': 7,
+            'raw_character_name': 'JONES'
+          }
         ]
       },
       {
@@ -15636,11 +26890,41 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'BEN',
-          'AUDREY',
-          'JACOBY',
-          'JERRY',
-          'BOBBY'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -15653,9 +26937,27 @@ var EPISODES = [
           'location': "WALLY'S BAR"
         },
         'characters': [
-          'DONNA',
-          'EVELYN',
-          'MALCOLM'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 84,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2c/Malcolm-Portal.jpg',
+            'standard_character_name': 'MALCOLM',
+            'character_group': 7,
+            'raw_character_name': 'MALCOLM'
+          }
         ]
       },
       {
@@ -15679,8 +26981,20 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'ALBERT',
-          'COOPER'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -15693,8 +27007,20 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -15707,19 +27033,61 @@ var EPISODES = [
           'location': 'THE DOUBLE R DINER'
         },
         'characters': [
-          'PETE',
-          'COOPER',
-          'TRUMAN',
-          'HAYWARD'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          }
         ]
       },
       {
         'scene_number': 19,
         'heading': {},
         'characters': [
-          'SHELLY',
-          'NORMA',
-          'TRUMAN'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -15743,9 +27111,27 @@ var EPISODES = [
           'location': 'THE BLUE PINE LODGE'
         },
         'characters': [
-          'CATHERINE',
-          'JOSIE',
-          'ECKHARDT'
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 40,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c6/Thomas-Portal.jpg',
+            'standard_character_name': 'ECKHARDT',
+            'character_group': 5,
+            'raw_character_name': 'ECKHARDT'
+          }
         ]
       },
       {
@@ -15758,9 +27144,27 @@ var EPISODES = [
           'location': 'BLUE PINE LIVING ROOM'
         },
         'characters': [
-          'ECKHARDT',
-          'CATHERINE',
-          'JOSIE'
+          {
+            'standard_character_id': 40,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c6/Thomas-Portal.jpg',
+            'standard_character_name': 'ECKHARDT',
+            'character_group': 5,
+            'raw_character_name': 'ECKHARDT'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -15784,9 +27188,27 @@ var EPISODES = [
           'location': 'MARSH HOUSE'
         },
         'characters': [
-          'JAMES',
-          'EVELYN',
-          'MALCOLM'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 84,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2c/Malcolm-Portal.jpg',
+            'standard_character_name': 'MALCOLM',
+            'character_group': 7,
+            'raw_character_name': 'MALCOLM'
+          }
         ]
       },
       {
@@ -15810,8 +27232,20 @@ var EPISODES = [
           'location': "WINDOM EARLE'S CABIN"
         },
         'characters': [
-          'EARLE',
-          'LEO'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
         ]
       },
       {
@@ -15824,11 +27258,41 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'AUDREY',
-          'BEN',
-          'JERRY',
-          'JACOBY',
-          'BOBBY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -15852,10 +27316,34 @@ var EPISODES = [
           'location': 'MARSH HOUSE'
         },
         'characters': [
-          'MALCOM',
-          'EVELYN',
-          'DONNA',
-          'JAMES'
+          {
+            'standard_character_id': 84,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2c/Malcolm-Portal.jpg',
+            'standard_character_name': 'MALCOLM',
+            'character_group': 7,
+            'raw_character_name': 'MALCOM'
+          },
+          {
+            'standard_character_id': 46,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/a/a1/Evelyn-Portal.jpg',
+            'standard_character_name': 'EVELYN',
+            'character_group': 7,
+            'raw_character_name': 'EVELYN'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          }
         ]
       },
       {
@@ -15879,7 +27367,13 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -15905,8 +27399,20 @@ var EPISODES = [
         'scene_number': 1,
         'heading': {},
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -15919,9 +27425,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'PETE',
-          'CATHERINE',
-          'ANDREW'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          }
         ]
       },
       {
@@ -15934,9 +27458,27 @@ var EPISODES = [
           'location': "SHERIFF'S TRUMAN'S OFFICE"
         },
         'characters': [
-          'HANK',
-          'TRUMAN',
-          'HAWK'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -15949,8 +27491,20 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'ALBERT',
-          'COOPER'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -15963,9 +27517,27 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HOTEL'
         },
         'characters': [
-          'AUDREY',
-          'EMILE',
-          'WHEELER'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 44,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'EMILE',
+            'character_group': 7,
+            'raw_character_name': 'EMILE'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          }
         ]
       },
       {
@@ -15978,8 +27550,20 @@ var EPISODES = [
           'location': 'HURLEY HOUSE'
         },
         'characters': [
-          'ED',
-          'NADINE'
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          }
         ]
       },
       {
@@ -15992,8 +27576,20 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'COOPER',
-          'JOSIE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          }
         ]
       },
       {
@@ -16009,9 +27605,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'JOSIE',
-          'COOPER',
-          'CATHERINE'
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
         ]
       },
       {
@@ -16024,8 +27638,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HOTEL'
         },
         'characters': [
-          'ECKHARDT',
-          'JONES'
+          {
+            'standard_character_id': 40,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c6/Thomas-Portal.jpg',
+            'standard_character_name': 'ECKHARDT',
+            'character_group': 5,
+            'raw_character_name': 'ECKHARDT'
+          },
+          {
+            'standard_character_id': 70,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JONES',
+            'character_group': 7,
+            'raw_character_name': 'JONES'
+          }
         ]
       },
       {
@@ -16038,11 +27664,41 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BOBBY',
-          'BEN',
-          'WHEELER',
-          'AUDREY',
-          'JERRY'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 66,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/e/e2/Jerry-Portal.jpg',
+            'standard_character_name': 'JERRY',
+            'character_group': 3,
+            'raw_character_name': 'JERRY'
+          }
         ]
       },
       {
@@ -16055,9 +27711,27 @@ var EPISODES = [
           'location': 'DOUBLE R DINER'
         },
         'characters': [
-          'NORMA',
-          'SHELLY',
-          'ED'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
@@ -16070,7 +27744,13 @@ var EPISODES = [
           'location': 'WOODS'
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -16083,8 +27763,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'HANK',
-          'NORMA'
+          {
+            'standard_character_id': 52,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/5/59/Hank-Portal.jpg',
+            'standard_character_name': 'HANK',
+            'character_group': 8,
+            'raw_character_name': 'HANK'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
@@ -16093,16 +27785,40 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'PETE'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
         'scene_number': 16,
         'heading': {},
         'characters': [
-          'PETE',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -16115,8 +27831,20 @@ var EPISODES = [
           'location': "INT. SHERIFF'S STATION HALLWAY"
         },
         'characters': [
-          'ALBERT',
-          'COOPER'
+          {
+            'standard_character_id': 0,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/07/Albert-Portal.jpg',
+            'standard_character_name': 'ALBERT',
+            'character_group': 1,
+            'raw_character_name': 'ALBERT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -16128,8 +27856,20 @@ var EPISODES = [
           'standard_location_id': 1
         },
         'characters': [
-          'JOSIE',
-          'ANDREW'
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          }
         ]
       },
       {
@@ -16141,8 +27881,20 @@ var EPISODES = [
           'standard_location_id': 44
         },
         'characters': [
-          'JAMES',
-          'DONNA'
+          {
+            'standard_character_id': 62,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/3/3c/James-Portal.jpg',
+            'standard_character_name': 'JAMES',
+            'character_group': 2,
+            'raw_character_name': 'JAMES'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -16155,9 +27907,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'PETE',
-          'TRUMAN',
-          'CATHERINE'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
         ]
       },
       {
@@ -16170,8 +27940,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN ELEVATOR'
         },
         'characters': [
-          'ANDREW',
-          'ECKHARDT'
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          },
+          {
+            'standard_character_id': 40,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/c6/Thomas-Portal.jpg',
+            'standard_character_name': 'ECKHARDT',
+            'character_group': 5,
+            'raw_character_name': 'ECKHARDT'
+          }
         ]
       },
       {
@@ -16184,9 +27966,27 @@ var EPISODES = [
           'location': 'GREAT NORTHERN DINING ROOM'
         },
         'characters': [
-          'BEN',
-          'WHEELER',
-          'AUDREY'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -16199,9 +27999,27 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'DONNA',
-          'SHELLY',
-          'AUDREY'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -16214,8 +28032,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -16231,10 +28061,34 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'JOSIE',
-          'COOPER',
-          'JOISE',
-          'TRUMAN'
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOSIE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 68,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/0/0a/Josie-Portal2.jpg',
+            'standard_character_name': 'JOSIE',
+            'character_group': 5,
+            'raw_character_name': 'JOISE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -16277,19 +28131,61 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'HAWK',
-          'TRUMAN'
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
         'scene_number': 4,
         'heading': {},
         'characters': [
-          'YOUNG WOMAN',
-          'NORMA',
-          'SHELLY',
-          'ANNIE',
-          'BRIGGS'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'YOUNG WOMAN'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          }
         ]
       },
       {
@@ -16309,8 +28205,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION - TRUMAN'S OFFICE"
         },
         'characters': [
-          'HAWK',
-          'COOPER'
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -16323,12 +28231,48 @@ var EPISODES = [
           'location': 'GREAT NORTHERN DINING ROOM'
         },
         'characters': [
-          'TREMAYNE',
-          'MODEL',
-          'AUDREY',
-          'WHEELER',
-          'PINKLE',
-          'TRUMAN'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 90,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MODEL',
+            'character_group': 7,
+            'raw_character_name': 'MODEL'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          },
+          {
+            'standard_character_id': 100,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/24/Pinkle-Portal.jpg',
+            'standard_character_name': 'PINKLE',
+            'character_group': 7,
+            'raw_character_name': 'PINKLE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -16341,9 +28285,27 @@ var EPISODES = [
           'location': "WINDOM EARLE'S CABIN"
         },
         'characters': [
-          'LEO',
-          'WINDOM',
-          'EARLE'
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'WINDOM'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -16356,8 +28318,20 @@ var EPISODES = [
           'location': 'BOOKHOUSE'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -16366,8 +28340,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'JONES',
-          'CATHERINE'
+          {
+            'standard_character_id': 70,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JONES',
+            'character_group': 7,
+            'raw_character_name': 'JONES'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
         ]
       },
       {
@@ -16376,9 +28362,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'MAN',
-          'DONNA',
-          'CRAIG'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MAN'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 31,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CRAIG',
+            'character_group': 7,
+            'raw_character_name': 'CRAIG'
+          }
         ]
       },
       {
@@ -16391,10 +28395,34 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'COOPER',
-          'PETE',
-          'LUCY',
-          'ANDY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -16403,18 +28431,54 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'BRIGGS',
-          'COOPER',
-          'LOG LADY'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 80,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/d/d7/Log-Portal.jpg',
+            'standard_character_name': 'LOG LADY',
+            'character_group': 4,
+            'raw_character_name': 'LOG LADY'
+          }
         ]
       },
       {
         'scene_number': 14,
         'heading': {},
         'characters': [
-          'LOG LADY',
-          'COOPER',
-          'BRIGGS'
+          {
+            'standard_character_id': 80,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/d/d7/Log-Portal.jpg',
+            'standard_character_name': 'LOG LADY',
+            'character_group': 4,
+            'raw_character_name': 'LOG LADY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          }
         ]
       },
       {
@@ -16427,8 +28491,20 @@ var EPISODES = [
           'location': 'WOODS'
         },
         'characters': [
-          'AUDREY',
-          'WHEELER'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          }
         ]
       },
       {
@@ -16441,19 +28517,61 @@ var EPISODES = [
           'location': "HAYWARD'S LIVING ROOM."
         },
         'characters': [
-          'DONNA',
-          'HAYWARD',
-          'DOC HAYWARD',
-          'EILEEN'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC HAYWARD'
+          },
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          }
         ]
       },
       {
         'scene_number': 17,
         'heading': {},
         'characters': [
-          'DONNA',
-          'HAYWARD',
-          'EILEEN'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          }
         ]
       },
       {
@@ -16467,9 +28585,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'ED',
-          'NADINE',
-          'JACOBY'
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          }
         ]
       },
       {
@@ -16478,20 +28614,68 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'NORMA',
-          'SHELLY',
-          'MAN',
-          'COOPER',
-          'ANNIE'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
         'scene_number': 21,
         'heading': {},
         'characters': [
-          'ANNIE',
-          'COOPER',
-          'HAWK'
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -16504,10 +28688,34 @@ var EPISODES = [
           'location': 'BOOKHOUSE ENTRANCE'
         },
         'characters': [
-          'ANDY',
-          'HAWK',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -16519,9 +28727,27 @@ var EPISODES = [
           'standard_location_id': 20
         },
         'characters': [
-          'COOPER',
-          'HAWK',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -16534,10 +28760,34 @@ var EPISODES = [
           'location': 'GREAT NORTHERN HOTEL'
         },
         'characters': [
-          'LAZARE',
-          'MIKE',
-          'NADINE',
-          'MODEL'
+          {
+            'standard_character_id': 74,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'LAZARE',
+            'character_group': 7,
+            'raw_character_name': 'LAZARE'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 90,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MODEL',
+            'character_group': 7,
+            'raw_character_name': 'MODEL'
+          }
         ]
       },
       {
@@ -16546,36 +28796,108 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'BEN',
-          'TREMAYNE'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          }
         ]
       },
       {
         'scene_number': 26,
         'heading': {},
         'characters': [
-          'AUDREY',
-          'ANDY',
-          'LUCY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          }
         ]
       },
       {
         'scene_number': 27,
         'heading': {},
         'characters': [
-          'CATHERINE',
-          'BEN'
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
         'scene_number': 28,
         'heading': {},
         'characters': [
-          'TREMAYNE',
-          'PINKLE',
-          'ANDY',
-          'AUDREY',
-          'WHEELER'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 100,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/24/Pinkle-Portal.jpg',
+            'standard_character_name': 'PINKLE',
+            'character_group': 7,
+            'raw_character_name': 'PINKLE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          }
         ]
       },
       {
@@ -16618,8 +28940,20 @@ var EPISODES = [
           'location': 'BOOKHOUSE'
         },
         'characters': [
-          'TRUMAN',
-          'JONES'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 70,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'JONES',
+            'character_group': 7,
+            'raw_character_name': 'JONES'
+          }
         ]
       },
       {
@@ -16628,9 +28962,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'FROM BEHIND THE DOOR',
-          'WHEELER',
-          'AUDREY'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'FROM BEHIND THE DOOR'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -16639,8 +28991,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -16653,10 +29017,34 @@ var EPISODES = [
           'location': "TRUMAN'S OFFICE"
         },
         'characters': [
-          'DOC',
-          'COOPER',
-          'TRUMAN',
-          'COLE'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          }
         ]
       },
       {
@@ -16669,11 +29057,41 @@ var EPISODES = [
           'location': "EARLE'S CABIN"
         },
         'characters': [
-          'EARLE',
-          'COOPER',
-          'COLE',
-          'DOCTORS DISCOVERED HE WAS ON',
-          'DOC'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'DOCTORS DISCOVERED HE WAS ON'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          }
         ]
       },
       {
@@ -16686,7 +29104,13 @@ var EPISODES = [
           'location': "EARLE'S CABIN"
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -16721,19 +29145,61 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'DESK CLERK',
-          'MIKE',
-          'DONNA',
-          'NADINE',
-          'AUDREY'
+          {
+            'standard_character_id': 34,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/5d/Randy-Portal.jpg',
+            'standard_character_name': 'DESK CLERK',
+            'character_group': 7,
+            'raw_character_name': 'DESK CLERK'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
         'scene_number': 11,
         'heading': {},
         'characters': [
-          'BEN',
-          'EILEEN'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          }
         ]
       },
       {
@@ -16742,8 +29208,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'AUDREY',
-          'DONNA'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -16767,34 +29245,130 @@ var EPISODES = [
           'location': 'DOUBLER DINER'
         },
         'characters': [
-          'COLE',
-          'HANGOVER WAS RAW MEAT AND PLENTY',
-          'TRUMAN',
-          'STEAK SO RARE YOU COULD SELL IT AT',
-          'COOPER',
-          'THAT MAKES YOU WISH YOU',
-          'TROUBLE YOU FOR A CUP OF STRONG',
-          'ENGAGE YOU WITH AN ANECDOTE OF NO',
-          'SHELLY',
-          'LOG LADY'
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'HANGOVER WAS RAW MEAT AND PLENTY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'STEAK SO RARE YOU COULD SELL IT AT'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'THAT MAKES YOU WISH YOU'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'TROUBLE YOU FOR A CUP OF STRONG'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'ENGAGE YOU WITH AN ANECDOTE OF NO'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 80,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/d/d7/Log-Portal.jpg',
+            'standard_character_name': 'LOG LADY',
+            'character_group': 4,
+            'raw_character_name': 'LOG LADY'
+          }
         ]
       },
       {
         'scene_number': 15,
         'heading': {},
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'ANNIE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
         'scene_number': 16,
         'heading': {},
         'characters': [
-          'ANNIE',
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -16807,8 +29381,20 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE'
         },
         'characters': [
-          'HAYWARD',
-          'DONNA'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -16821,9 +29407,27 @@ var EPISODES = [
           'location': 'TWIN PEAKS CITY LIBRARY'
         },
         'characters': [
-          'STRANGER',
-          'AUDREY',
-          'EARLE'
+          {
+            'standard_character_id': 111,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'STRANGER',
+            'character_group': 7,
+            'raw_character_name': 'STRANGER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -16836,8 +29440,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'LUCY',
-          'ANDY'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -16850,8 +29466,20 @@ var EPISODES = [
           'location': "SHERIFF TRUMAN'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -16875,9 +29503,27 @@ var EPISODES = [
           'location': 'DOUBLER DINER'
         },
         'characters': [
-          'SHELLY',
-          'ANNIE',
-          'NORMA'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
@@ -16901,9 +29547,27 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'AUDREY',
-          'WHEELER'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          }
         ]
       },
       {
@@ -16927,10 +29591,34 @@ var EPISODES = [
           'location': 'OWL CAVE'
         },
         'characters': [
-          'COOPER',
-          'ANDY',
-          'HAWK',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -16944,7 +29632,13 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -16957,9 +29651,27 @@ var EPISODES = [
           'location': 'GREAT NORTHERN BAR'
         },
         'characters': [
-          'ANNIE',
-          'BARTENDER',
-          'COOPER'
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 7,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'BARTENDER',
+            'character_group': 7,
+            'raw_character_name': 'BARTENDER'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -16972,7 +29684,13 @@ var EPISODES = [
           'location': 'OWL CAVE'
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       }
     ],
@@ -16998,9 +29716,27 @@ var EPISODES = [
           'location': 'OWL CAVE'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'HAWK'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -17013,8 +29749,20 @@ var EPISODES = [
           'location': "WINDOM EARLE'S CABIN"
         },
         'characters': [
-          'EARLE',
-          'YOUTH'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'YOUTH'
+          }
         ]
       },
       {
@@ -17027,9 +29775,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          '4, INT. BLUE PINE LODGE - DAY',
-          'PETE',
-          'CATHERINE'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': '4, INT. BLUE PINE LODGE - DAY'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
         ]
       },
       {
@@ -17053,26 +29819,74 @@ var EPISODES = [
           'location': 'DOUBLE R DINER'
         },
         'characters': [
-          'BOBBY',
-          'SHELLY'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
         'scene_number': 7,
         'heading': {},
         'characters': [
-          'LANA',
-          'MILFORD'
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          },
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MILFORD'
+          }
         ]
       },
       {
         'scene_number': 8,
         'heading': {},
         'characters': [
-          'ANNIE',
-          'COOPER',
-          'BOBBY',
-          'SHELLY'
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -17090,21 +29904,75 @@ var EPISODES = [
         'scene_number': 10,
         'heading': {},
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'HAWK'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
         'scene_number': 11,
         'heading': {},
         'characters': [
-          'BRIGGS',
-          'ANDY',
-          'COOPER',
-          'BRIGGS ',
-          'HAWK',
-          'TRUMAN'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS '
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -17117,8 +29985,20 @@ var EPISODES = [
           'location': 'THE GREAT NORTHERN HOTEL'
         },
         'characters': [
-          'TREMAYNE',
-          'BEN'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -17136,9 +30016,27 @@ var EPISODES = [
           'location': "WINDOM EARLE'S CABIN"
         },
         'characters': [
-          'EARLE',
-          'YOUTH',
-          'LEO'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'YOUTH'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
         ]
       },
       {
@@ -17151,10 +30049,34 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'DOC',
-          'MILFORD',
-          'PETE',
-          'BEN'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MILFORD'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -17167,14 +30089,62 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'BOBBY',
-          'BEN',
-          'PETE',
-          'MILFORD',
-          'SHELLY',
-          'DONNA',
-          'NADINE',
-          'MIKE'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MILFORD'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          }
         ]
       },
       {
@@ -17198,10 +30168,34 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE STUDY'
         },
         'characters': [
-          'TRUMAN',
-          'CATHERINE',
-          'PETE',
-          'CATHERINE '
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE '
+          }
         ]
       },
       {
@@ -17225,8 +30219,20 @@ var EPISODES = [
           'location': 'LAKE'
         },
         'characters': [
-          'ANNIE',
-          'COOPER'
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -17260,12 +30266,48 @@ var EPISODES = [
           'location': 'INT. DOUBLE R DINER'
         },
         'characters': [
-          'COLE',
-          'SHELLY',
-          'COOPER',
-          'MAKES PEOPLE WHO NEED PEOPLE THE ',
-          'ONE EVER MENTIONED A THING ABOUT A',
-          'BOBBY'
+          {
+            'standard_character_id': 27,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/ec/Gordon-Portal.jpg',
+            'standard_character_name': 'COLE',
+            'character_group': 1,
+            'raw_character_name': 'COLE'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'MAKES PEOPLE WHO NEED PEOPLE THE '
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'ONE EVER MENTIONED A THING ABOUT A'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -17289,9 +30331,27 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE'
         },
         'characters': [
-          'EILEEN',
-          'DONNA',
-          'HAYWARD'
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          }
         ]
       },
       {
@@ -17304,10 +30364,34 @@ var EPISODES = [
           'location': 'GREAT NORTHERN BAR AREA'
         },
         'characters': [
-          'TREMAYNE',
-          'ANDY',
-          'LUCY',
-          'LANA'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          }
         ]
       },
       {
@@ -17320,9 +30404,27 @@ var EPISODES = [
           'location': 'BAR AREA'
         },
         'characters': [
-          'WHEELER',
-          'COOPER',
-          'VOICE'
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'VOICE'
+          }
         ]
       },
       {
@@ -17335,18 +30437,54 @@ var EPISODES = [
           'location': 'BAR'
         },
         'characters': [
-          'TREMAYNE',
-          'LUCY',
-          'LANA',
-          'ANDY'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
         'scene_number': 30,
         'heading': {},
         'characters': [
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       }
     ],
@@ -17372,11 +30510,41 @@ var EPISODES = [
           'location': 'DINER'
         },
         'characters': [
-          'SHELLY',
-          'BOBBY',
-          'VOICE',
-          'LUCY',
-          'ANDY'
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'VOICE'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -17389,11 +30557,41 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'BRIGGS',
-          'CAPPY',
-          'COOPER',
-          'EARLE ON SCREEN',
-          'TRUMAN'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 20,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CAPPY',
+            'character_group': 7,
+            'raw_character_name': 'CAPPY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE ON SCREEN'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -17402,7 +30600,13 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -17415,7 +30619,13 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE, ATTIC'
         },
         'characters': [
-          'DONNA'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -17428,8 +30638,20 @@ var EPISODES = [
           'location': 'INT. GREAT NORTHERN HOTEL LOBBY'
         },
         'characters': [
-          'WHEELER',
-          'CLERK'
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          },
+          {
+            'standard_character_id': 25,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CLERK',
+            'character_group': 7,
+            'raw_character_name': 'CLERK'
+          }
         ]
       },
       {
@@ -17442,8 +30664,20 @@ var EPISODES = [
           'location': "EARLE'S CABIN"
         },
         'characters': [
-          'EARLE',
-          'LEO'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
         ]
       },
       {
@@ -17456,8 +30690,20 @@ var EPISODES = [
           'location': 'DOUBLER DINER'
         },
         'characters': [
-          'COOPER',
-          'ANNIE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
@@ -17470,10 +30716,34 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'BOBBY',
-          'SHELLY',
-          'MILFORD',
-          'LANA'
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MILFORD'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          }
         ]
       },
       {
@@ -17486,9 +30756,27 @@ var EPISODES = [
           'location': 'GREAT NORTHERN'
         },
         'characters': [
-          'BEN',
-          'DOC',
-          'WHEELER'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          }
         ]
       },
       {
@@ -17501,9 +30789,27 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'CLERK',
-          'HAWK',
-          'AUDREY'
+          {
+            'standard_character_id': 25,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CLERK',
+            'character_group': 7,
+            'raw_character_name': 'CLERK'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -17516,8 +30822,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'WHEELER',
-          'BEN'
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -17530,9 +30848,27 @@ var EPISODES = [
           'location': 'WOODS'
         },
         'characters': [
-          'HORSE',
-          'BRIGGS',
-          'EARLE'
+          {
+            'standard_character_id': 57,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'HORSE',
+            'character_group': 4,
+            'raw_character_name': 'HORSE'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -17545,10 +30881,34 @@ var EPISODES = [
           'location': "SHERIFF'S STATION, INTERROGATION ROOM"
         },
         'characters': [
-          'COOPER',
-          'AUDREY',
-          'DONNA',
-          'SHELLY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          }
         ]
       },
       {
@@ -17572,8 +30932,20 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'ANDREW',
-          'CATHERINE'
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          }
         ]
       },
       {
@@ -17586,8 +30958,20 @@ var EPISODES = [
           'location': "EARLE'S CABIN"
         },
         'characters': [
-          'BRIGGS',
-          'EARLE'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -17600,11 +30984,41 @@ var EPISODES = [
           'location': 'HURLEY HOUSE'
         },
         'characters': [
-          'NADINE',
-          'NORMA',
-          'MIKE',
-          'JACOBY',
-          'ED'
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
@@ -17639,8 +31053,20 @@ var EPISODES = [
           'location': "BEN HORNE'S OFFICE"
         },
         'characters': [
-          'BEN',
-          'AUDREY'
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -17653,8 +31079,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN LOBBY'
         },
         'characters': [
-          'AUDREY',
-          'PETE'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -17667,10 +31105,34 @@ var EPISODES = [
           'location': 'BLACK LAKE AIRPORT'
         },
         'characters': [
-          'VOICE',
-          'TIM',
-          'WHEELER',
-          'TOM'
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'VOICE'
+          },
+          {
+            'standard_character_id': 114,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TIM',
+            'character_group': 7,
+            'raw_character_name': 'TIM'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          },
+          {
+            'standard_character_id': 116,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'TOM',
+            'character_group': 7,
+            'raw_character_name': 'TOM'
+          }
         ]
       },
       {
@@ -17683,8 +31145,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION CONFERENCE ROOM"
         },
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -17708,7 +31182,13 @@ var EPISODES = [
           'location': 'TRUCK IN MOTION'
         },
         'characters': [
-          'AUDREY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -17721,8 +31201,20 @@ var EPISODES = [
           'location': 'BLACK LAKE AIRPORT'
         },
         'characters': [
-          'AUDREY',
-          'WHEELER'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 123,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/4/4b/Jack-Portal.jpg',
+            'standard_character_name': 'WHEELER',
+            'character_group': 7,
+            'raw_character_name': 'WHEELER'
+          }
         ]
       },
       {
@@ -17746,9 +31238,27 @@ var EPISODES = [
           'location': 'THE ROADHOUSE'
         },
         'characters': [
-          'ANNIE',
-          'COOPER',
-          'MILFORD'
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MILFORD'
+          }
         ]
       },
       {
@@ -17761,8 +31271,20 @@ var EPISODES = [
           'location': 'BLACK LAKE AIRPORT'
         },
         'characters': [
-          'AUDREY',
-          'PETE'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -17786,7 +31308,13 @@ var EPISODES = [
           'location': "WINDOM EARLE'S CABIN"
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -17823,7 +31351,13 @@ var EPISODES = [
           'location': "WINDOM EARLE'S CABIN"
         },
         'characters': [
-          'LEO'
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
         ]
       },
       {
@@ -17832,7 +31366,13 @@ var EPISODES = [
           'time': 'LATER'
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -17845,10 +31385,34 @@ var EPISODES = [
           'location': 'DINER'
         },
         'characters': [
-          'NORMA',
-          'ANNIE',
-          'SHELLY',
-          'COOPER'
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -17861,8 +31425,20 @@ var EPISODES = [
           'location': 'GREAT NORTHERN'
         },
         'characters': [
-          'AUDREY',
-          'BEN'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
@@ -17874,9 +31450,27 @@ var EPISODES = [
           'standard_location_id': 9
         },
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'ANDY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -17885,7 +31479,13 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'EARLE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -17898,17 +31498,83 @@ var EPISODES = [
           'location': 'ROADHOUSE'
         },
         'characters': [
-          'PINKLE',
-          'AUDREY',
-          'DONNA',
-          'LUCY',
-          'SHELLY',
-          'NADINE',
-          'ANNIE',
-          'LANA',
-          'TREMAYNE',
-          'MILFORD',
-          'NORMA'
+          {
+            'standard_character_id': 100,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/2/24/Pinkle-Portal.jpg',
+            'standard_character_name': 'PINKLE',
+            'character_group': 7,
+            'raw_character_name': 'PINKLE'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 107,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/c/c3/Shelly-Portal.jpg',
+            'standard_character_name': 'SHELLY',
+            'character_group': 2,
+            'raw_character_name': 'SHELLY'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MILFORD'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
@@ -17917,8 +31583,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'TREMAYNE',
-          'LANA'
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 72,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/4/42/Lana-Portal.jpg',
+            'standard_character_name': 'LANA',
+            'character_group': 7,
+            'raw_character_name': 'LANA'
+          }
         ]
       },
       {
@@ -17931,8 +31609,20 @@ var EPISODES = [
           'location': "GREAT NORTHERN/COOPER'S ROOM"
         },
         'characters': [
-          'COOPER',
-          'ANNIE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
@@ -17945,11 +31635,41 @@ var EPISODES = [
           'location': 'HURLEY HOUSE - LIVING ROOM'
         },
         'characters': [
-          'NADINE',
-          'NORMA',
-          'MIKE',
-          'JACOBY',
-          'ED'
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 59,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/4/40/Jacoby-Portal.jpg',
+            'standard_character_name': 'JACOBY',
+            'character_group': 6,
+            'raw_character_name': 'JACOBY'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
@@ -17976,10 +31696,34 @@ var EPISODES = [
           'location': "SHERIFF'S OFFICE"
         },
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'BRIGGS',
-          'ANDY'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -17992,8 +31736,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'COOPER',
-          'ANNIE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
@@ -18006,9 +31762,27 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'ANDREW',
-          'CATHERINE',
-          'PETE'
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          },
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -18021,9 +31795,27 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE'
         },
         'characters': [
-          'DOC',
-          'EILEEN',
-          'DONNA'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          }
         ]
       },
       {
@@ -18035,17 +31827,47 @@ var EPISODES = [
           'standard_location_id': 43
         },
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
         'scene_number': 19,
         'heading': {},
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'BRIGGS',
-          'ANDY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -18058,8 +31880,20 @@ var EPISODES = [
           'location': 'ROADHOUSE/STAGE'
         },
         'characters': [
-          'DOC',
-          'BOBBY'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 14,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/b6/Bobby-Portal.jpg',
+            'standard_character_name': 'BOBBY',
+            'character_group': 2,
+            'raw_character_name': 'BOBBY'
+          }
         ]
       },
       {
@@ -18068,7 +31902,13 @@ var EPISODES = [
           'time': 'LATER'
         },
         'characters': [
-          'DOC'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          }
         ]
       },
       {
@@ -18077,9 +31917,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'ANDY'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -18091,7 +31949,13 @@ var EPISODES = [
         'scene_number': 24,
         'heading': {},
         'characters': [
-          'MILFORD'
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MILFORD'
+          }
         ]
       },
       {
@@ -18107,14 +31971,26 @@ var EPISODES = [
           'time': 'LATER'
         },
         'characters': [
-          'AUDREY'
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
         'scene_number': 27,
         'heading': {},
         'characters': [
-          'ANDY'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -18123,7 +31999,13 @@ var EPISODES = [
           'time': 'LATER'
         },
         'characters': [
-          'ANNIE'
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
@@ -18147,45 +32029,135 @@ var EPISODES = [
         'scene_number': 32,
         'heading': {},
         'characters': [
-          'DOC'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          }
         ]
       },
       {
         'scene_number': 33,
         'heading': {},
         'characters': [
-          'LUCY',
-          'ANDY',
-          'TREMAYNE'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          }
         ]
       },
       {
         'scene_number': 34,
         'heading': {},
         'characters': [
-          'DONNA',
-          'BEN'
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          }
         ]
       },
       {
         'scene_number': 35,
         'heading': {},
         'characters': [
-          'DOC',
-          'MILFORD',
-          'TREMAYNE',
-          'NORMA'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 89,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MILFORD',
+            'character_group': 7,
+            'raw_character_name': 'MILFORD'
+          },
+          {
+            'standard_character_id': 117,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/b4/Dick-Portal.jpg',
+            'standard_character_name': 'TREMAYNE',
+            'character_group': 6,
+            'raw_character_name': 'TREMAYNE'
+          },
+          {
+            'standard_character_id': 97,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/4/4f/Norma-Portal.jpg',
+            'standard_character_name': 'NORMA',
+            'character_group': 8,
+            'raw_character_name': 'NORMA'
+          }
         ]
       },
       {
         'scene_number': 36,
         'heading': {},
         'characters': [
-          'COOPER',
-          'EARLE',
-          'VOICE',
-          'TRUMAN',
-          'ANDY'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'VOICE'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       }
     ],
@@ -18222,8 +32194,20 @@ var EPISODES = [
           'location': "SHERIFF'S STATION"
         },
         'characters': [
-          'LUCY',
-          'ANDY'
+          {
+            'standard_character_id': 82,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/c/cf/Lucy-Portal.jpg',
+            'standard_character_name': 'LUCY',
+            'character_group': 1,
+            'raw_character_name': 'LUCY'
+          },
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          }
         ]
       },
       {
@@ -18236,18 +32220,54 @@ var EPISODES = [
           'location': 'CONFERENCE ROOM'
         },
         'characters': [
-          'TRUMAN',
-          'COOPER',
-          'PETE'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
         'scene_number': 5,
         'heading': {},
         'characters': [
-          'COOPER',
-          'TRUMAN',
-          'PETE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -18260,10 +32280,34 @@ var EPISODES = [
           'location': 'HURLEY HOUSE'
         },
         'characters': [
-          'HAYWARD',
-          'MIKE',
-          'NADINE',
-          'ED'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          },
+          {
+            'standard_character_id': 88,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIKE',
+            'character_group': 2,
+            'raw_character_name': 'MIKE'
+          },
+          {
+            'standard_character_id': 93,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/1/12/Nadine-Portal.jpg',
+            'standard_character_name': 'NADINE',
+            'character_group': 8,
+            'raw_character_name': 'NADINE'
+          },
+          {
+            'standard_character_id': 12,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/6/69/BigEd-Portal.jpg',
+            'standard_character_name': 'ED',
+            'character_group': 8,
+            'raw_character_name': 'ED'
+          }
         ]
       },
       {
@@ -18287,8 +32331,20 @@ var EPISODES = [
           'location': "MARTELL'S PICKUP"
         },
         'characters': [
-          'EARLE',
-          'ANNIE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
@@ -18301,8 +32357,20 @@ var EPISODES = [
           'location': 'ROAD IN THE WOODS'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -18315,8 +32383,20 @@ var EPISODES = [
           'location': 'THE WOODS, GLASTONBURY GROVE'
         },
         'characters': [
-          'ANNIE',
-          'EARLE'
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          }
         ]
       },
       {
@@ -18329,8 +32409,20 @@ var EPISODES = [
           'location': 'WOODS'
         },
         'characters': [
-          'COOPER',
-          'TRUMAN'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -18343,8 +32435,20 @@ var EPISODES = [
           'location': 'GLASTONBURY GROVE'
         },
         'characters': [
-          'EARLE',
-          'ANNIE'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
@@ -18366,7 +32470,13 @@ var EPISODES = [
         'scene_number': 16,
         'heading': {},
         'characters': [
-          'TRUMAN'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -18379,8 +32489,20 @@ var EPISODES = [
           'location': 'GLASTONBURY GROVE'
         },
         'characters': [
-          'ANDY',
-          'TRUMAN'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -18415,8 +32537,20 @@ var EPISODES = [
           'location': 'BLUE PINE LODGE'
         },
         'characters': [
-          'ANDREW',
-          'PETE'
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          },
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          }
         ]
       },
       {
@@ -18429,10 +32563,34 @@ var EPISODES = [
           'location': 'HAYWARD HOUSE'
         },
         'characters': [
-          'EILEEN',
-          'DONNA',
-          'BEN',
-          'HAYWARD'
+          {
+            'standard_character_id': 41,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/1/1e/Eileen-Portal.jpg',
+            'standard_character_name': 'EILEEN',
+            'character_group': 7,
+            'raw_character_name': 'EILEEN'
+          },
+          {
+            'standard_character_id': 36,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/c/cf/Donna-Portal.jpg',
+            'standard_character_name': 'DONNA',
+            'character_group': 2,
+            'raw_character_name': 'DONNA'
+          },
+          {
+            'standard_character_id': 9,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/6/6f/Ben-Portal2.jpg',
+            'standard_character_name': 'BENJAMIN',
+            'character_group': 3,
+            'raw_character_name': 'BEN'
+          },
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'HAYWARD'
+          }
         ]
       },
       {
@@ -18441,7 +32599,13 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -18450,10 +32614,34 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'CLERK',
-          'COOPER',
-          'COOPER AS BOY',
-          'OLD MAN'
+          {
+            'standard_character_id': 25,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'CLERK',
+            'character_group': 7,
+            'raw_character_name': 'CLERK'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER AS BOY'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'OLD MAN'
+          }
         ]
       },
       {
@@ -18466,9 +32654,27 @@ var EPISODES = [
           'location': 'WOODS'
         },
         'characters': [
-          'BRIGGS',
-          'HAWKS',
-          'HAWK'
+          {
+            'standard_character_id': 18,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/2/2e/Garland-Portal.jpg',
+            'standard_character_name': 'MAJOR BRIGGS',
+            'character_group': 6,
+            'raw_character_name': 'BRIGGS'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWKS'
+          },
+          {
+            'standard_character_id': 55,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ac/Hawk-Portal.jpg',
+            'standard_character_name': 'HAWK',
+            'character_group': 1,
+            'raw_character_name': 'HAWK'
+          }
         ]
       },
       {
@@ -18481,7 +32687,13 @@ var EPISODES = [
           'location': "EARLE'S CABIN"
         },
         'characters': [
-          'LEO'
+          {
+            'standard_character_id': 76,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/e/eb/Leo-Portal.jpg',
+            'standard_character_name': 'LEO',
+            'character_group': 3,
+            'raw_character_name': 'LEO'
+          }
         ]
       },
       {
@@ -18516,8 +32728,20 @@ var EPISODES = [
           'location': 'TWIN PEAKS SAVINGS AND LOAN'
         },
         'characters': [
-          'MIBBLER',
-          'AUDREY'
+          {
+            'standard_character_id': 87,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIBBLER',
+            'character_group': 7,
+            'raw_character_name': 'MIBBLER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -18530,18 +32754,54 @@ var EPISODES = [
           'location': 'TWIN PEAKS SAVINGS AND LOAN'
         },
         'characters': [
-          'ANDREW',
-          'MIBBLER',
-          'ANDREW PETE',
-          'AUDREY'
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          },
+          {
+            'standard_character_id': 87,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIBBLER',
+            'character_group': 7,
+            'raw_character_name': 'MIBBLER'
+          },
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW PETE'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
         'scene_number': 30,
         'heading': {},
         'characters': [
-          'PETE',
-          'ANDREW'
+          {
+            'standard_character_id': 99,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/b/be/Pete-Portal.jpg',
+            'standard_character_name': 'PETE',
+            'character_group': 5,
+            'raw_character_name': 'PETE'
+          },
+          {
+            'standard_character_id': 1,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/8/8d/Andrew-Portal.jpg',
+            'standard_character_name': 'ANDREW',
+            'character_group': 5,
+            'raw_character_name': 'ANDREW'
+          }
         ]
       },
       {
@@ -18554,9 +32814,27 @@ var EPISODES = [
           'location': 'TWIN PEAKS SAVINGS AND LOAN'
         },
         'characters': [
-          'CATHERINE',
-          'MIBBLER',
-          'AUDREY'
+          {
+            'standard_character_id': 22,
+            'character_image': 'http://vignette1.wikia.nocookie.net/twinpeaks/images/a/a3/Catherine-Portal.jpg',
+            'standard_character_name': 'CATHERINE',
+            'character_group': 5,
+            'raw_character_name': 'CATHERINE'
+          },
+          {
+            'standard_character_id': 87,
+            'character_image': 'https://upload.wikimedia.org/wikipedia/commons/8/83/David_face.png',
+            'standard_character_name': 'MIBBLER',
+            'character_group': 7,
+            'raw_character_name': 'MIBBLER'
+          },
+          {
+            'standard_character_id': 6,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/7/7e/Audrey-Portal.jpg',
+            'standard_character_name': 'AUDREY',
+            'character_group': 2,
+            'raw_character_name': 'AUDREY'
+          }
         ]
       },
       {
@@ -18580,23 +32858,53 @@ var EPISODES = [
           'location': 'WOODS'
         },
         'characters': [
-          'ANDY',
-          'TRUMAN'
+          {
+            'standard_character_id': 2,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/5/59/Andy-Portal.jpg',
+            'standard_character_name': 'ANDY',
+            'character_group': 1,
+            'raw_character_name': 'ANDY'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
         'scene_number': 34,
         'heading': {},
         'characters': [
-          'TRUMAN'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
         'scene_number': 35,
         'heading': {},
         'characters': [
-          'COOPER',
-          'CUT TO BLACK'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'CUT TO BLACK'
+          }
         ]
       },
       {
@@ -18605,9 +32913,27 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'EARLE',
-          'SHREDDING YOUR INTERNAL ORGANS OUT OF'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': -1,
+            'character_image': '',
+            'standard_character_name': 'NONCHARACTER',
+            'character_group': 0,
+            'raw_character_name': 'SHREDDING YOUR INTERNAL ORGANS OUT OF'
+          }
         ]
       },
       {
@@ -18616,8 +32942,20 @@ var EPISODES = [
           'int_ext': 'INT'
         },
         'characters': [
-          'COOPER',
-          'ANNIE'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          },
+          {
+            'standard_character_id': 3,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/a/ad/Annie-Portal.jpg',
+            'standard_character_name': 'ANNIE',
+            'character_group': 2,
+            'raw_character_name': 'ANNIE'
+          }
         ]
       },
       {
@@ -18629,31 +32967,73 @@ var EPISODES = [
         'scene_number': 39,
         'heading': {},
         'characters': [
-          'COOPER'
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
         'scene_number': 40,
         'heading': {},
         'characters': [
-          'EARLE',
-          'COOPER'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
         'scene_number': 41,
         'heading': {},
         'characters': [
-          'EARLE',
-          'COOPER'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
         'scene_number': 42,
         'heading': {},
         'characters': [
-          'EARLE',
-          'COOPER'
+          {
+            'standard_character_id': 39,
+            'character_image': 'http://vignette2.wikia.nocookie.net/twinpeaks/images/5/5e/Windom-Portal.jpg',
+            'standard_character_name': 'EARLE',
+            'character_group': 4,
+            'raw_character_name': 'EARLE'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -18666,7 +33046,13 @@ var EPISODES = [
           'location': 'WOODS'
         },
         'characters': [
-          'TRUMAN'
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          }
         ]
       },
       {
@@ -18679,9 +33065,27 @@ var EPISODES = [
           'location': "GREAT NORTHERN COOPER'S ROOM"
         },
         'characters': [
-          'DOC',
-          'TRUMAN',
-          'COOPER'
+          {
+            'standard_character_id': 35,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/1b/DocHayward-Portal.jpg',
+            'standard_character_name': 'DOC HAYWARD',
+            'character_group': 6,
+            'raw_character_name': 'DOC'
+          },
+          {
+            'standard_character_id': 119,
+            'character_image': 'http://vignette4.wikia.nocookie.net/twinpeaks/images/1/14/Truman-Portal.jpg',
+            'standard_character_name': 'TRUMAN',
+            'character_group': 1,
+            'raw_character_name': 'TRUMAN'
+          },
+          {
+            'standard_character_id': 29,
+            'character_image': 'http://vignette3.wikia.nocookie.net/twinpeaks/images/b/bb/Cooper-Portal.jpg',
+            'standard_character_name': 'COOPER',
+            'character_group': 1,
+            'raw_character_name': 'COOPER'
+          }
         ]
       },
       {
@@ -18702,48 +33106,8 @@ var EPISODES = [
 
 var LOCATIONS = [
   {
-    'standard_location_name': 'GREAT NORTHERN',
-    'standard_location_id': 5
-  },
-  {
-    'standard_location_name': 'PALMER HOUSE',
-    'standard_location_id': 8
-  },
-  {
-    'standard_location_name': "ONE-EYED JACK'S",
-    'standard_location_id': 7
-  },
-  {
-    'standard_location_name': 'JOHNSON HOUSE',
-    'standard_location_id': 16
-  },
-  {
-    'standard_location_name': 'GLASTONBURY GROVE',
-    'standard_location_id': 30
-  },
-  {
-    'standard_location_name': 'MISC OUTSIDE',
-    'standard_location_id': 44
-  },
-  {
-    'standard_location_name': 'SHERIFF STATION',
-    'standard_location_id': 9
-  },
-  {
-    'standard_location_name': 'WOODS',
-    'standard_location_id': 22
-  },
-  {
-    'standard_location_name': 'ROADHOUSE',
-    'standard_location_id': 19
-  },
-  {
-    'standard_location_name': 'MARSH ESTATE',
-    'standard_location_id': 13
-  },
-  {
-    'standard_location_name': 'STREET',
-    'standard_location_id': 41
+    'standard_location_name': 'BLUE PINE LODGE',
+    'standard_location_id': 1
   },
   {
     'standard_location_name': 'BRIGGS HOUSE',
@@ -18754,92 +33118,172 @@ var LOCATIONS = [
     'standard_location_id': 3
   },
   {
-    'standard_location_name': 'DEAD DOG FARM',
-    'standard_location_id': 21
-  },
-  {
-    'standard_location_name': 'BANK',
-    'standard_location_id': 24
-  },
-  {
-    'standard_location_name': 'HOSPITAL',
-    'standard_location_id': 15
-  },
-  {
-    'standard_location_name': 'HURLEY HOUSE',
-    'standard_location_id': 10
+    'standard_location_name': 'GREAT NORTHERN',
+    'standard_location_id': 5
   },
   {
     'standard_location_name': 'HAROLD SMITH HOUSE',
     'standard_location_id': 6
   },
   {
-    'standard_location_name': 'JACQUES RENAULT APT',
-    'standard_location_id': 37
+    'standard_location_name': "ONE-EYED JACK'S",
+    'standard_location_id': 7
+  },
+  {
+    'standard_location_name': 'PALMER HOUSE',
+    'standard_location_id': 8
+  },
+  {
+    'standard_location_name': 'SHERIFF STATION',
+    'standard_location_id': 9
+  },
+  {
+    'standard_location_name': 'HURLEY HOUSE',
+    'standard_location_id': 10
   },
   {
     'standard_location_name': 'HAYWARD HOUSE',
     'standard_location_id': 11
   },
   {
-    'standard_location_name': 'MISC INSIDE',
-    'standard_location_id': 43
+    'standard_location_name': 'HIGH SCHOOL',
+    'standard_location_id': 12
   },
   {
-    'standard_location_name': "WALLY'S BAR",
-    'standard_location_id': 42
+    'standard_location_name': 'MARSH ESTATE',
+    'standard_location_id': 13
+  },
+  {
+    'standard_location_name': 'BLACK LODGE',
+    'standard_location_id': 14
+  },
+  {
+    'standard_location_name': 'HOSPITAL',
+    'standard_location_id': 15
+  },
+  {
+    'standard_location_name': 'JOHNSON HOUSE',
+    'standard_location_id': 16
   },
   {
     'standard_location_name': 'MOTEL',
     'standard_location_id': 17
   },
   {
-    'standard_location_name': 'HIGH SCHOOL',
-    'standard_location_id': 12
+    'standard_location_name': 'ORPHANAGE',
+    'standard_location_id': 18
   },
   {
-    'standard_location_name': 'LAKE',
-    'standard_location_id': 38
-  },
-  {
-    'standard_location_name': 'BLACK LAKE',
-    'standard_location_id': 29
-  },
-  {
-    'standard_location_name': 'MILL',
-    'standard_location_id': 34
-  },
-  {
-    'standard_location_name': 'BLUE PINE LODGE',
-    'standard_location_id': 1
-  },
-  {
-    'standard_location_name': 'OWL CAVE',
-    'standard_location_id': 33
-  },
-  {
-    'standard_location_name': 'DR JACOBY',
-    'standard_location_id': 39
-  },
-  {
-    'standard_location_name': 'CAR IN TRANSIT',
-    'standard_location_id': 27
+    'standard_location_name': 'ROADHOUSE',
+    'standard_location_id': 19
   },
   {
     'standard_location_name': 'BOOKHOUSE',
     'standard_location_id': 20
   },
   {
-    'standard_location_name': 'JAMES HURLEY HOUSE',
-    'standard_location_id': 36
+    'standard_location_name': 'DEAD DOG FARM',
+    'standard_location_id': 21
+  },
+  {
+    'standard_location_name': 'WOODS',
+    'standard_location_id': 22
+  },
+  {
+    'standard_location_name': 'TREMOND HOUSE',
+    'standard_location_id': 23
+  },
+  {
+    'standard_location_name': 'BANK',
+    'standard_location_id': 24
+  },
+  {
+    'standard_location_name': 'MORGUE',
+    'standard_location_id': 25
+  },
+  {
+    'standard_location_name': 'LIBRARY',
+    'standard_location_id': 26
+  },
+  {
+    'standard_location_name': 'CAR IN TRANSIT',
+    'standard_location_id': 27
+  },
+  {
+    'standard_location_name': 'TRUMAN HOUSE',
+    'standard_location_id': 28
+  },
+  {
+    'standard_location_name': 'BLACK LAKE',
+    'standard_location_id': 29
+  },
+  {
+    'standard_location_name': 'GLASTONBURY GROVE',
+    'standard_location_id': 30
   },
   {
     'standard_location_name': 'HARDWARE STORE',
     'standard_location_id': 31
   },
   {
-    'standard_location_name': 'TRUMAN HOUSE',
-    'standard_location_id': 28
+    'standard_location_name': "HORNE'S DEPARTMENT STORE",
+    'standard_location_id': 32
+  },
+  {
+    'standard_location_name': 'OWL CAVE',
+    'standard_location_id': 33
+  },
+  {
+    'standard_location_name': 'LUCY APARTMENT',
+    'standard_location_id': 33
+  },
+  {
+    'standard_location_name': 'MILL',
+    'standard_location_id': 34
+  },
+  {
+    'standard_location_name': 'EARLE CABIN',
+    'standard_location_id': 35
+  },
+  {
+    'standard_location_name': 'JAMES HURLEY HOUSE',
+    'standard_location_id': 36
+  },
+  {
+    'standard_location_name': 'JACQUES RENAULT APT',
+    'standard_location_id': 37
+  },
+  {
+    'standard_location_name': 'LAKE',
+    'standard_location_id': 38
+  },
+  {
+    'standard_location_name': 'DR JACOBY',
+    'standard_location_id': 39
+  },
+  {
+    'standard_location_name': 'INVITATION TO LOVE',
+    'standard_location_id': 40
+  },
+  {
+    'standard_location_name': 'STREET',
+    'standard_location_id': 41
+  },
+  {
+    'standard_location_name': "WALLY'S BAR",
+    'standard_location_id': 42
+  },
+  {
+    'standard_location_name': 'MISC INSIDE',
+    'standard_location_id': 43
+  },
+  {
+    'standard_location_name': 'MISC OUTSIDE',
+    'standard_location_id': 44
+  },
+  {
+    'standard_location_name': 'PRISON',
+    'standard_location_id': 45
   },
   {
     'standard_location_name': 'CEMETERY',
@@ -18848,46 +33292,6 @@ var LOCATIONS = [
   {
     'standard_location_name': 'LOG LADY CABIN',
     'standard_location_id': 47
-  },
-  {
-    'standard_location_name': 'PRISON',
-    'standard_location_id': 45
-  },
-  {
-    'standard_location_name': 'LUCY APARTMENT',
-    'standard_location_id': 33
-  },
-  {
-    'standard_location_name': 'EARLE CABIN',
-    'standard_location_id': 35
-  },
-  {
-    'standard_location_name': 'MORGUE',
-    'standard_location_id': 25
-  },
-  {
-    'standard_location_name': "HORNE'S DEPARTMENT STORE",
-    'standard_location_id': 32
-  },
-  {
-    'standard_location_name': 'INVITATION TO LOVE',
-    'standard_location_id': 40
-  },
-  {
-    'standard_location_name': 'LIBRARY',
-    'standard_location_id': 26
-  },
-  {
-    'standard_location_name': 'ORPHANAGE',
-    'standard_location_id': 18
-  },
-  {
-    'standard_location_name': 'TREMOND HOUSE',
-    'standard_location_id': 23
-  },
-  {
-    'standard_location_name': 'BLACK LODGE',
-    'standard_location_id': 14
   }
 ]
 

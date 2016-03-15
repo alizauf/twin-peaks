@@ -105,8 +105,8 @@ button {
   display: inline;
   list-style-type: none;
   display: inline;
-  width: 25px;
-  height: 25px;
+  width: 23px;
+  height: 23px;
   border-style: solid;
   border-width: 1px;
   border-color: black;
@@ -145,6 +145,7 @@ button:hover {
 .episodeSceneMetaData {
   float: left;
   width: 375px;
+
 }
 
 
@@ -170,12 +171,13 @@ button:hover {
 }
 
 .backgroundTop {
-  background-image: url("http://img3.wikia.nocookie.net/__cb20141023181108/twinpeaks/images/5/50/Wiki-background");
+  background-image: url("http://vignette2.wikia.nocookie.net/twinpeaks/images/b/b0/64-Red-Room-Empty.jpg");
   height: 120px;
   margin-left: -40px;
   margin-right: -40px;
   margin-top: -40px;
   color: #EEE;
+
   /*background-position: center;
 
     background-repeat: no-repeat;
@@ -184,4 +186,15 @@ button:hover {
 
 .episodeNums {
   font-size: 10px;
+}
+
+.sceneNums {
+  width: 150px;
+  float: left;
+}
+
+.scene {
+  background-color: #d3d3d3;
+  float: right;
+  padding: 10px;
 }

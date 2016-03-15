@@ -212,8 +212,6 @@ var Location = React.createClass({
   render: function () {
     return (
     <p>
-      I take place in
-      {' '}
       {this.props.locationName}
     </p>
     )

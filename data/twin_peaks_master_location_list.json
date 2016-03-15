@@ -1,0 +1,190 @@
+[
+    {
+        "standard_location_name": "BLUE PINE LODGE", 
+        "standard_location_id": 1
+    }, 
+    {
+        "standard_location_name": "BRIGGS HOUSE", 
+        "standard_location_id": 2
+    }, 
+    {
+        "standard_location_name": "DOUBLE R", 
+        "standard_location_id": 3
+    }, 
+    {
+        "standard_location_name": "GREAT NORTHERN", 
+        "standard_location_id": 5
+    }, 
+    {
+        "standard_location_name": "HAROLD SMITH HOUSE", 
+        "standard_location_id": 6
+    }, 
+    {
+        "standard_location_name": "ONE-EYED JACK'S", 
+        "standard_location_id": 7
+    }, 
+    {
+        "standard_location_name": "PALMER HOUSE", 
+        "standard_location_id": 8
+    }, 
+    {
+        "standard_location_name": "SHERIFF STATION", 
+        "standard_location_id": 9
+    }, 
+    {
+        "standard_location_name": "HURLEY HOUSE", 
+        "standard_location_id": 10
+    }, 
+    {
+        "standard_location_name": "HAYWARD HOUSE", 
+        "standard_location_id": 11
+    }, 
+    {
+        "standard_location_name": "HIGH SCHOOL", 
+        "standard_location_id": 12
+    }, 
+    {
+        "standard_location_name": "MARSH ESTATE", 
+        "standard_location_id": 13
+    }, 
+    {
+        "standard_location_name": "BLACK LODGE", 
+        "standard_location_id": 14
+    }, 
+    {
+        "standard_location_name": "HOSPITAL", 
+        "standard_location_id": 15
+    }, 
+    {
+        "standard_location_name": "JOHNSON HOUSE", 
+        "standard_location_id": 16
+    }, 
+    {
+        "standard_location_name": "MOTEL", 
+        "standard_location_id": 17
+    }, 
+    {
+        "standard_location_name": "ORPHANAGE", 
+        "standard_location_id": 18
+    }, 
+    {
+        "standard_location_name": "ROADHOUSE", 
+        "standard_location_id": 19
+    }, 
+    {
+        "standard_location_name": "BOOKHOUSE", 
+        "standard_location_id": 20
+    }, 
+    {
+        "standard_location_name": "DEAD DOG FARM", 
+        "standard_location_id": 21
+    }, 
+    {
+        "standard_location_name": "WOODS", 
+        "standard_location_id": 22
+    }, 
+    {
+        "standard_location_name": "TREMOND HOUSE", 
+        "standard_location_id": 23
+    }, 
+    {
+        "standard_location_name": "BANK", 
+        "standard_location_id": 24
+    }, 
+    {
+        "standard_location_name": "MORGUE", 
+        "standard_location_id": 25
+    }, 
+    {
+        "standard_location_name": "LIBRARY", 
+        "standard_location_id": 26
+    }, 
+    {
+        "standard_location_name": "CAR IN TRANSIT", 
+        "standard_location_id": 27
+    }, 
+    {
+        "standard_location_name": "TRUMAN HOUSE", 
+        "standard_location_id": 28
+    }, 
+    {
+        "standard_location_name": "BLACK LAKE", 
+        "standard_location_id": 29
+    }, 
+    {
+        "standard_location_name": "GLASTONBURY GROVE", 
+        "standard_location_id": 30
+    }, 
+    {
+        "standard_location_name": "HARDWARE STORE", 
+        "standard_location_id": 31
+    }, 
+    {
+        "standard_location_name": "HORNE'S DEPARTMENT STORE", 
+        "standard_location_id": 32
+    }, 
+    {
+        "standard_location_name": "OWL CAVE", 
+        "standard_location_id": 33
+    }, 
+    {
+        "standard_location_name": "LUCY APARTMENT", 
+        "standard_location_id": 33
+    }, 
+    {
+        "standard_location_name": "MILL", 
+        "standard_location_id": 34
+    }, 
+    {
+        "standard_location_name": "EARLE CABIN", 
+        "standard_location_id": 35
+    }, 
+    {
+        "standard_location_name": "JAMES HURLEY HOUSE", 
+        "standard_location_id": 36
+    }, 
+    {
+        "standard_location_name": "JACQUES RENAULT APT", 
+        "standard_location_id": 37
+    }, 
+    {
+        "standard_location_name": "LAKE", 
+        "standard_location_id": 38
+    }, 
+    {
+        "standard_location_name": "DR JACOBY", 
+        "standard_location_id": 39
+    }, 
+    {
+        "standard_location_name": "INVITATION TO LOVE", 
+        "standard_location_id": 40
+    }, 
+    {
+        "standard_location_name": "STREET", 
+        "standard_location_id": 41
+    }, 
+    {
+        "standard_location_name": "WALLY'S BAR", 
+        "standard_location_id": 42
+    }, 
+    {
+        "standard_location_name": "MISC INSIDE", 
+        "standard_location_id": 43
+    }, 
+    {
+        "standard_location_name": "MISC OUTSIDE", 
+        "standard_location_id": 44
+    }, 
+    {
+        "standard_location_name": "PRISON", 
+        "standard_location_id": 45
+    }, 
+    {
+        "standard_location_name": "CEMETERY", 
+        "standard_location_id": 46
+    }, 
+    {
+        "standard_location_name": "LOG LADY CABIN", 
+        "standard_location_id": 47
+    }
+]
