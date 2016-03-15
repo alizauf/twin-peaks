@@ -48,6 +48,10 @@
         "standard_location_id": 2
     }, 
     {
+        "standard_location_name": "MILL", 
+        "standard_location_id": 34
+    }, 
+    {
         "standard_location_name": "DOUBLE R", 
         "standard_location_id": 3
     }, 
@@ -80,10 +84,6 @@
         "standard_location_id": 11
     }, 
     {
-        "standard_location_name": "MISC INSIDE", 
-        "standard_location_id": 43
-    }, 
-    {
         "standard_location_name": "WALLY'S BAR", 
         "standard_location_id": 42
     }, 
@@ -92,8 +92,12 @@
         "standard_location_id": 17
     }, 
     {
-        "standard_location_name": "HIGH SCHOOL", 
-        "standard_location_id": 12
+        "standard_location_name": "MISC INSIDE", 
+        "standard_location_id": 43
+    }, 
+    {
+        "standard_location_name": "CAR IN TRANSIT", 
+        "standard_location_id": 27
     }, 
     {
         "standard_location_name": "LAKE", 
@@ -102,10 +106,6 @@
     {
         "standard_location_name": "BLACK LAKE", 
         "standard_location_id": 29
-    }, 
-    {
-        "standard_location_name": "MILL", 
-        "standard_location_id": 34
     }, 
     {
         "standard_location_name": "BLUE PINE LODGE", 
@@ -120,8 +120,8 @@
         "standard_location_id": 39
     }, 
     {
-        "standard_location_name": "CAR IN TRANSIT", 
-        "standard_location_id": 27
+        "standard_location_name": "HIGH SCHOOL", 
+        "standard_location_id": 12
     }, 
     {
         "standard_location_name": "BOOKHOUSE", 
