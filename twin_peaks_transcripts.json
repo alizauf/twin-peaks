@@ -1,0 +1,2511 @@
+[
+    {
+        "episode_title": "Pilot", 
+        "episode_subtitle": "Northwest Passage", 
+        "episode_number": 0, 
+        "scenes": [
+            {
+                "scene_number": 1, 
+                "heading": {
+                    "int_ext": "INT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 2, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "LAKESHORE BY THE BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 3, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 4, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "PETE"
+                ]
+            }, 
+            {
+                "scene_number": 5, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 6, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "PETE"
+                ]
+            }, 
+            {
+                "scene_number": 7, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "PETE", 
+                    "LUCY", 
+                    "SHERIFF TRUMAN"
+                ]
+            }, 
+            {
+                "scene_number": 8, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "LUCY"
+                ]
+            }, 
+            {
+                "scene_number": 9, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "LAKESHORE BY THE BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "PETE", 
+                    "DR. HAYWARD", 
+                    "SHERIFF TRUMAN", 
+                    "ANDY"
+                ]
+            }, 
+            {
+                "scene_number": 10, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SARAH"
+                ]
+            }, 
+            {
+                "scene_number": 11, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 12, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 13, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BRIGGS HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "BETTY"
+                ]
+            }, 
+            {
+                "scene_number": 14, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 15, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BRIGGS HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 16, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 17, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BRIGGS HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 18, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 19, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BRIGGS HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 20, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 21, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BRIGGS HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 22, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "MAX"
+                ]
+            }, 
+            {
+                "scene_number": 23, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 24, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 25, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 26, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "BENJAMIN", 
+                    "LELAND"
+                ]
+            }, 
+            {
+                "scene_number": 27, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "BENJAMIN", 
+                    "JULIE", 
+                    "LELAND"
+                ]
+            }, 
+            {
+                "scene_number": 28, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "JULIE", 
+                    "LELAND", 
+                    "SARAH"
+                ]
+            }, 
+            {
+                "scene_number": 29, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 30, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 31, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 32, 
+                "heading": {
+                    "int_ext": "INT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 33, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 34, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "JULIE", 
+                    "LELAND"
+                ]
+            }, 
+            {
+                "scene_number": 35, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 36, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SARAH"
+                ]
+            }, 
+            {
+                "scene_number": 37, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 38, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL"
+                }, 
+                "characters": [
+                    "LELAND", 
+                    "SHERIFF TRUMAN", 
+                    "SARAH"
+                ]
+            }, 
+            {
+                "scene_number": 39, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SARAH"
+                ]
+            }, 
+            {
+                "scene_number": 40, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL"
+                }, 
+                "characters": [
+                    "BENJAMIN", 
+                    "LELAND"
+                ]
+            }, 
+            {
+                "scene_number": 41, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 42, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 43, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 44, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SHELLY", 
+                    "HEIDI", 
+                    "BOBBY", 
+                    "NORMA"
+                ]
+            }, 
+            {
+                "scene_number": 45, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "BOBBY", 
+                    "SHELLY"
+                ]
+            }, 
+            {
+                "scene_number": 46, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "DR. HAYWARD", 
+                    "LELAND", 
+                    "SHERIFF TRUMAN"
+                ]
+            }, 
+            {
+                "scene_number": 47, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 48, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "WOODS", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 49, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "JAMES", 
+                    "DONNA"
+                ]
+            }, 
+            {
+                "scene_number": 50, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "HIGH SCHOOL GIRL", 
+                    "BOBBY", 
+                    "MIKE", 
+                    "MRS. JACKSON"
+                ]
+            }, 
+            {
+                "scene_number": 51, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "ALICE", 
+                    "TERRY", 
+                    "MARTHA", 
+                    "DONNA", 
+                    "AUDREY", 
+                    "JAMES", 
+                    "POLICE OFFICER"
+                ]
+            }, 
+            {
+                "scene_number": 52, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "BOBBY", 
+                    "HAWK", 
+                    "ANDY", 
+                    "MRS. JACKSON", 
+                    "SHERIFF TRUMAN", 
+                    "MR. WOLCHEZK"
+                ]
+            }, 
+            {
+                "scene_number": 53, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "MR. WOLCHEZK"
+                ]
+            }, 
+            {
+                "scene_number": 54, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "MR. WOLCHEZK"
+                ]
+            }, 
+            {
+                "scene_number": 55, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "MR. WOLCHEZK"
+                ]
+            }, 
+            {
+                "scene_number": 56, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "MR. WOLCHEZK"
+                ]
+            }, 
+            {
+                "scene_number": 57, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 58, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS HIGH SCHOOL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 59, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 60, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "DR. HAYWARD", 
+                    "SHERIFF TRUMAN", 
+                    "SARAH"
+                ]
+            }, 
+            {
+                "scene_number": 61, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "HAWK", 
+                    "LELAND"
+                ]
+            }, 
+            {
+                "scene_number": 62, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "SARAH", 
+                    "ANDY"
+                ]
+            }, 
+            {
+                "scene_number": 63, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 64, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 65, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "PETE"
+                ]
+            }, 
+            {
+                "scene_number": 66, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "CATHERINE", 
+                    "JOSIE", 
+                    "PETE"
+                ]
+            }, 
+            {
+                "scene_number": 67, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "JOSIE", 
+                    "CATHERINE", 
+                    "MILL WORKER"
+                ]
+            }, 
+            {
+                "scene_number": 68, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "JOSIE"
+                ]
+            }, 
+            {
+                "scene_number": 69, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "JOSIE"
+                ]
+            }, 
+            {
+                "scene_number": 70, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 71, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "TRAIN BRIDGE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "ENGINEER", 
+                    "JAMES", 
+                    "BIG ED", 
+                    "NADINE"
+                ]
+            }, 
+            {
+                "scene_number": 72, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CAR"
+                }, 
+                "characters": [
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 73, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ROAD INTO TWIN PEAKS", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 74, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 75, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "DR. SHELVY", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 76, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "DR. SHELVY", 
+                    "SHERIFF TRUMAN", 
+                    "RONETTE"
+                ]
+            }, 
+            {
+                "scene_number": 77, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "DR. JACOBY"
+                ]
+            }, 
+            {
+                "scene_number": 78, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "DR. JACOBY", 
+                    "SHERIFF TRUMAN", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 79, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "SHERIFF TRUMAN"
+                ]
+            }, 
+            {
+                "scene_number": 80, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 81, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "SHERIFF TRUMAN", 
+                    "DONNA", 
+                    "BIG ED", 
+                    "MIKE"
+                ]
+            }, 
+            {
+                "scene_number": 82, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "HURLEY HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "NADINE", 
+                    "BIG ED"
+                ]
+            }, 
+            {
+                "scene_number": 83, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "HURLEY HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "BIG ED", 
+                    "DONNA", 
+                    "SHERIFF TRUMAN", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 84, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "WOODS", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 85, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ABANDONED TRAIN CAR", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "ANDY", 
+                    "LUCY"
+                ]
+            }, 
+            {
+                "scene_number": 86, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ABANDONED TRAIN CAR"
+                }, 
+                "characters": [
+                    "LUCY"
+                ]
+            }, 
+            {
+                "scene_number": 87, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ABANDONED TRAIN CAR"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "BOBBY", 
+                    "GILMAN"
+                ]
+            }, 
+            {
+                "scene_number": 88, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "BOB", 
+                    "JULIE", 
+                    "AUDREY"
+                ]
+            }, 
+            {
+                "scene_number": 89, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SVEN", 
+                    "AUDREY", 
+                    "MIKE", 
+                    "BOBBY", 
+                    "MAJOR BRIGGS", 
+                    "BETTY", 
+                    "COOPER", 
+                    "DONNA", 
+                    "LUCY", 
+                    "SHERIFF TRUMAN"
+                ]
+            }, 
+            {
+                "scene_number": 90, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 91, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "CONCIERGE"
+                ]
+            }, 
+            {
+                "scene_number": 92, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SVEN", 
+                    "BENJAMIN"
+                ]
+            }, 
+            {
+                "scene_number": 93, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 94, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "WOODS"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 95, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ABANDONED TRAIN CAR", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "TUNE ENDS", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 96, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 97, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 98, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "NURSE", 
+                    "SYLVIA"
+                ]
+            }, 
+            {
+                "scene_number": 99, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS BANK", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "MARGARET", 
+                    "COOPER", 
+                    "SHERIFF TRUMAN"
+                ]
+            }, 
+            {
+                "scene_number": 100, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "JOHNSON HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 101, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "JOHNSON HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "LEO", 
+                    "SHELLY", 
+                    "BIG ED"
+                ]
+            }, 
+            {
+                "scene_number": 102, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "NORMA", 
+                    "BIG ED"
+                ]
+            }, 
+            {
+                "scene_number": 103, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "DOUBLE R DINER"
+                }, 
+                "characters": [
+                    "BIG ED"
+                ]
+            }, 
+            {
+                "scene_number": 104, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TWIN PEAKS TOWN HALL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "SHERIFF TRUMAN", 
+                    "MAYOR"
+                ]
+            }, 
+            {
+                "scene_number": 105, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "STREET LIGHT", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 106, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "DR. HAYWARD", 
+                    "EILEEN"
+                ]
+            }, 
+            {
+                "scene_number": 107, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "DR. HAYWARD", 
+                    "HARRIET", 
+                    "DONNA"
+                ]
+            }, 
+            {
+                "scene_number": 108, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "BOBBY", 
+                    "MIKE"
+                ]
+            }, 
+            {
+                "scene_number": 109, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 110, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MIKE", 
+                    "DR. HAYWARD"
+                ]
+            }, 
+            {
+                "scene_number": 111, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "HARRIET"
+                ]
+            }, 
+            {
+                "scene_number": 112, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "BOBBY"
+                ]
+            }, 
+            {
+                "scene_number": 113, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "DR. HAYWARD", 
+                    "HARRIET"
+                ]
+            }, 
+            {
+                "scene_number": 114, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "DR. HAYWARD", 
+                    "MIKE", 
+                    "LUCY", 
+                    "SHERIFF TRUMAN", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 115, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "BOOKHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 116, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ROADHOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 117, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ROADHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "BIG ED", 
+                    "NORMA"
+                ]
+            }, 
+            {
+                "scene_number": 118, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ROADHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "FEMALE SINGER", 
+                    "COOPER", 
+                    "SHERIFF TRUMAN"
+                ]
+            }, 
+            {
+                "scene_number": 119, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ROADHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 120, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ROADHOUSE"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 121, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ROADHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "JOEY", 
+                    "SCOTTY", 
+                    "COOPER", 
+                    "SHERIFF TRUMAN", 
+                    "LUCY"
+                ]
+            }, 
+            {
+                "scene_number": 122, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ROADHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MIKE.", 
+                    "MIKE", 
+                    "DONNA", 
+                    "BIG ED", 
+                    "BOBBY", 
+                    "JOEY"
+                ]
+            }, 
+            {
+                "scene_number": 123, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ROADHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 124, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ROADHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 125, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ROADHOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 126, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ROAD", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "JOEY", 
+                    "SHERIFF TRUMAN", 
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 127, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ROAD", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "DONNA.", 
+                    "COOPER", 
+                    "SHERIFF TRUMAN"
+                ]
+            }, 
+            {
+                "scene_number": 128, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "WOODS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "JAMES", 
+                    "JOEY", 
+                    "DONNA"
+                ]
+            }, 
+            {
+                "scene_number": 129, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ROAD", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "SHERIFF TRUMAN", 
+                    "DONNA", 
+                    "DR. HAYWARD", 
+                    "JAMES", 
+                    "BOBBY", 
+                    "HAWK", 
+                    "LUCY"
+                ]
+            }, 
+            {
+                "scene_number": 130, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "BLACK LAKE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 131, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "JOSIE", 
+                    "SHERIFF TRUMAN"
+                ]
+            }, 
+            {
+                "scene_number": 132, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "CATHERINE", 
+                    "BENJAMIN"
+                ]
+            }, 
+            {
+                "scene_number": 133, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "BENJAMIN"
+                ]
+            }, 
+            {
+                "scene_number": 134, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "JOSIE"
+                ]
+            }, 
+            {
+                "scene_number": 135, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "STREET LIGHT", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 136, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 137, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 138, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 139, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "WOODS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 140, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 141, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "WOODS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 142, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 143, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "WOODS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }
+        ], 
+        "episode_description": "In the feature-length pilot episode, the small town of Twin Peaks, Washington, is shaken up when the body of high school student Laura Palmer is discovered near a riverbank, wrapped in plastic. FBI Agent Dale Cooper is called by local sheriff Harry Truman when Ronette Pulaski, a schoolmate of Laura, is found wandering on a bridge and then slips into a coma. Cooper sees a connection between Laura's death and the murder of another girl one year earlier. After finding a piece of paper under Laura's fingernail, similar to one he found in the fingernail of the girl who died earlier, Cooper suspects that same killer might have struck again. Meanwhile, Sheriff Truman arrests Laura's boyfriend, Bobby Briggs, who is secretly having an affair with a married woman named Shelly Johnson. Afterwards, Laura's mother has a terrifying nightmare."
+    }, 
+    {
+        "episode_title": "Episode 6", 
+        "episode_subtitle": "Realization Time", 
+        "episode_number": 6, 
+        "scenes": [
+            {
+                "scene_number": 1, 
+                "heading": {
+                    "int_ext": "INT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 2, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "GREAT NORTHERN HOTEL"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "AUDREY", 
+                    "LUCY", 
+                    "ANDY", 
+                    "DR. HAYWARD", 
+                    "SHERIFF TRUMAN", 
+                    "HAWK"
+                ]
+            }, 
+            {
+                "scene_number": 3, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "JOHNSON HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "DISTANT POV", 
+                    "BOBBY", 
+                    "LEO"
+                ]
+            }, 
+            {
+                "scene_number": 4, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "JOHNSON HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "SHELLY", 
+                    "BOBBY"
+                ]
+            }, 
+            {
+                "scene_number": 5, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "JOHNSON HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 6, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "MADELEINE", 
+                    "JAMES", 
+                    "DONNA", 
+                    "LAURA", 
+                    "AUDREY", 
+                    "CUSTOMER", 
+                    "EMORY", 
+                    "JENNY"
+                ]
+            }, 
+            {
+                "scene_number": 7, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 8, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "HANK", 
+                    "SHELLY", 
+                    "SHERIFF TRUMAN", 
+                    "COOPER", 
+                    "JENNY", 
+                    "AUDREY", 
+                    "AUDREY LAUGHS."
+                ]
+            }, 
+            {
+                "scene_number": 9, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HURLEY HOUSE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "CHET", 
+                    "NADINE", 
+                    "BIG ED"
+                ]
+            }, 
+            {
+                "scene_number": 10, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 11, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "PETE", 
+                    "SHERIFF TRUMAN", 
+                    "TRUMAN.", 
+                    "JOSIE", 
+                    "MUSIC"
+                ]
+            }, 
+            {
+                "scene_number": 12, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "TIMBER ROOM", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "COOPER", 
+                    "BIG ED", 
+                    "MUSIC", 
+                    "MUSIC ENDS", 
+                    "AUDREY"
+                ]
+            }, 
+            {
+                "scene_number": 13, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MR. NEV", 
+                    "CATHERINE"
+                ]
+            }, 
+            {
+                "scene_number": 14, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE"
+                }, 
+                "characters": [
+                    "MR. NEV", 
+                    "CATHERINE"
+                ]
+            }, 
+            {
+                "scene_number": 15, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 16, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "GREAT NORTHERN HOTEL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "BIG ED", 
+                    "HAWK", 
+                    "WALDO", 
+                    "SHERIFF TRUMAN", 
+                    "ANDY", 
+                    "LUCY"
+                ]
+            }, 
+            {
+                "scene_number": 17, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ONE-EYED JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 18, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ONE-EYED JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "BIG ED", 
+                    "BLACKIE"
+                ]
+            }, 
+            {
+                "scene_number": 19, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ONE-EYES JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 20, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "POLICE VAN", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 21, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "POLICE VAN", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER"
+                ]
+            }, 
+            {
+                "scene_number": 22, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ONE-EYED JACKS"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 23, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PALMER HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 24, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "JERRY", 
+                    "BENJAMIN", 
+                    "GROUP", 
+                    "JOSIE"
+                ]
+            }, 
+            {
+                "scene_number": 25, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "JOSIE", 
+                    "BENJAMIN"
+                ]
+            }, 
+            {
+                "scene_number": 26, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "JOSIE", 
+                    "BENJAMIN", 
+                    "BLACKIE", 
+                    "AUDREY"
+                ]
+            }, 
+            {
+                "scene_number": 27, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ONE-EYED JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "COOPER.", 
+                    "BIG ED", 
+                    "JACQUES", 
+                    "MONTANA"
+                ]
+            }, 
+            {
+                "scene_number": 28, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MONTANA", 
+                    "DR. JACOBY"
+                ]
+            }, 
+            {
+                "scene_number": 29, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MADELEINE"
+                ]
+            }, 
+            {
+                "scene_number": 30, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK"
+                }, 
+                "characters": [
+                    "DR. JACOBY"
+                ]
+            }, 
+            {
+                "scene_number": 31, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK"
+                }, 
+                "characters": [
+                    "DR. JACOBY", 
+                    "MADELEINE"
+                ]
+            }, 
+            {
+                "scene_number": 32, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK"
+                }, 
+                "characters": [
+                    "MADELEINE"
+                ]
+            }, 
+            {
+                "scene_number": 33, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK"
+                }, 
+                "characters": [
+                    "DR. JACOBY", 
+                    "JAMES", 
+                    "MADELEINE", 
+                    "DONNA"
+                ]
+            }, 
+            {
+                "scene_number": 34, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 35, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MUSIC", 
+                    "DR. JACOBY"
+                ]
+            }, 
+            {
+                "scene_number": 36, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "OFFICE BUILDING", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MUSIC ENDS", 
+                    "BOBBY"
+                ]
+            }, 
+            {
+                "scene_number": 37, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }
+        ], 
+        "episode_description": "Agent Cooper goes undercover at One Eyed Jacks along with 'Big' Ed Hurley to try to find his chief murder suspect, Jacques Renault. Unbeknownst to Cooper however, Audrey Horne too is undercover as a hostess. Meanwhile, Maddy, Donna and James engage in a scheme to fool Dr. Jacoby and steal a tape recorded by Laura prior to her death; and Bobby, still jealous about Laura having an affair, sets out to ruin James."
+    }, 
+    {
+        "episode_title": "Episode 7", 
+        "episode_subtitle": "The Last Evening", 
+        "episode_number": 7, 
+        "scenes": [
+            {
+                "scene_number": 1, 
+                "heading": {
+                    "int_ext": "INT"
+                }, 
+                "characters": [
+                    "MUSIC", 
+                    "DONNA", 
+                    "JAMES", 
+                    "MUSIC ENDS"
+                ]
+            }, 
+            {
+                "scene_number": 2, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "OFFICE BUILDING", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MUSIC ENDS"
+                ]
+            }, 
+            {
+                "scene_number": 3, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK"
+                }, 
+                "characters": [
+                    "DR. JACOBY", 
+                    "CLOSE ON"
+                ]
+            }, 
+            {
+                "scene_number": 4, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ONE-EYED JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "JACQUES", 
+                    "COOPER", 
+                    "INSERT", 
+                    "BLACKIE", 
+                    "AUDREY", 
+                    "MUSIC"
+                ]
+            }, 
+            {
+                "scene_number": 5, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "POLICE VAN", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 6, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ONE-EYED JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "JACQUES", 
+                    "MUSIC", 
+                    "JACQUES LAUGHS.", 
+                    "CLOSE ON", 
+                    "MUSIC ENDS"
+                ]
+            }, 
+            {
+                "scene_number": 7, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ONE-EYED JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 8, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "JOHNSON HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "CLOSE ON", 
+                    "LEO"
+                ]
+            }, 
+            {
+                "scene_number": 9, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "BLACK LAKE WATER PROCESSING PLANT", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "ANDY", 
+                    "INSERT"
+                ]
+            }, 
+            {
+                "scene_number": 10, 
+                "heading": {
+                    "int_ext": "INT"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "FRED", 
+                    "ANDY", 
+                    "HAWK"
+                ]
+            }, 
+            {
+                "scene_number": 11, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 12, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HAYWARD HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "DONNA", 
+                    "DR. HAYWARD", 
+                    "JAMES", 
+                    "MADELEINE"
+                ]
+            }, 
+            {
+                "scene_number": 13, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 14, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 15, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 16, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "LEO"
+                ]
+            }, 
+            {
+                "scene_number": 17, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HURLEY HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MUSIC", 
+                    "NADINE"
+                ]
+            }, 
+            {
+                "scene_number": 18, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 19, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "HANK", 
+                    "JOSIE"
+                ]
+            }, 
+            {
+                "scene_number": 20, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 21, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "CATHERINE", 
+                    "PETE", 
+                    "BIG ED", 
+                    "HAWK", 
+                    "LUCY", 
+                    "ANDY", 
+                    "PHONE"
+                ]
+            }, 
+            {
+                "scene_number": 22, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "EASTER PARK", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "BOBBY"
+                ]
+            }, 
+            {
+                "scene_number": 23, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 24, 
+                "heading": {
+                    "int_ext": "INT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 25, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "COOPER", 
+                    "JACQUES", 
+                    "SHERIFF TRUMAN", 
+                    "JACQUES LAUGHS."
+                ]
+            }, 
+            {
+                "scene_number": 26, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "DR. JOHNSON", 
+                    "DR. HAYWARD"
+                ]
+            }, 
+            {
+                "scene_number": 27, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "SHERIFF TRUMAN", 
+                    "COOPER", 
+                    "DR. HAYWARD"
+                ]
+            }, 
+            {
+                "scene_number": 28, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "CATHERINE", 
+                    "PETE", 
+                    "PETE CHUCKLES."
+                ]
+            }, 
+            {
+                "scene_number": 29, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "HANK", 
+                    "MUSIC"
+                ]
+            }, 
+            {
+                "scene_number": 30, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE"
+                }, 
+                "characters": [
+                    "PETE", 
+                    "CATHERINE"
+                ]
+            }, 
+            {
+                "scene_number": 31, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "DOUBLE R DINER"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 32, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "BLUE PINE LODGE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 33, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 34, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "HANK", 
+                    "NORMA"
+                ]
+            }, 
+            {
+                "scene_number": 35, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "HURLEY HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "BIG ED", 
+                    "COOPER", 
+                    "LUCY", 
+                    "SHERIFF TRUMAN", 
+                    "HAWK", 
+                    "JAMES", 
+                    "LELAND", 
+                    "DR. HAYWARD"
+                ]
+            }, 
+            {
+                "scene_number": 36, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "ONE-EYED JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "MR. THORSON", 
+                    "BENJAMIN", 
+                    "MR. THORSON LAUGHS."
+                ]
+            }, 
+            {
+                "scene_number": 37, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "DOUBLE R DINER", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "HANK"
+                ]
+            }, 
+            {
+                "scene_number": 38, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "ONE-EYED JACKS", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "BENJAMIN"
+                ]
+            }, 
+            {
+                "scene_number": 39, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "JOHNSON HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 40, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "JOHNSON HOUSE", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "BOBBY", 
+                    "LEO"
+                ]
+            }, 
+            {
+                "scene_number": 41, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "DAY"
+                }, 
+                "characters": [
+                    "INSERT", 
+                    "DISTANT VIEW", 
+                    "SHELLY", 
+                    "CATHERINE"
+                ]
+            }, 
+            {
+                "scene_number": 42, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 43, 
+                "heading": {
+                    "int_ext": "INT", 
+                    "location": "CALHOUN MEMORIAL HOSPITAL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": []
+            }, 
+            {
+                "scene_number": 44, 
+                "heading": {
+                    "int_ext": "EXT", 
+                    "location": "PACKARD SAW MILL", 
+                    "time": "NIGHT"
+                }, 
+                "characters": [
+                    "PETE", 
+                    "COWORKER"
+                ]
+            }
+        ], 
+        "episode_description": "Under the orders of Ben Horne, Leo embarks on a plan not only to burn the Packard Saw Mill but to eliminate Shelly, Catherine Martell and Bobby Briggs in one fell swoop. Things take a rather violent turn when Agent Cooper successfully lures Jacques Renault across the Canadian border and his involvement in the death of Laura is revealed. Nadine decides to end her life; and Laura's father Leland takes the law into his own hands. Later Cooper gets a nasty surprise on his return to his hotel room at the Great Northern Hotel."
+    }
+]
