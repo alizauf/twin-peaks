@@ -24,7 +24,7 @@ var App = React.createClass({
         locations={this.props.locations} />)
     }.bind(this))
 
-    console.log(this.state.selectedEpisode)
+
 
     var episodeNums = this.props.episodes.map(function (episode) {
       return (
@@ -86,8 +86,8 @@ var Episode = React.createClass({
   handleChange: function (sceneNumSelect) {
     this.setState({
       selectedScene: parseInt(sceneNumSelect),
-      selectedLocation: this.props.scenes[parseInt(sceneNumSelect)].heading.standard_location_id,
-      selectedCharacters: this.props.scenes[parseInt(sceneNumSelect)].characters
+      selectedLocation: this.props.scenes[parseInt(sceneNumSelect) - 1].heading.standard_location_id,
+      selectedCharacters: this.props.scenes[parseInt(sceneNumSelect) - 1].characters
     }
     )
   },
@@ -108,21 +108,6 @@ var Episode = React.createClass({
           locations={this.props.locations} />)
       }.bind(this))
 
-    console.log(this.state.selectedScene)
-
-    // var sceneNums = this.props.scenes.map(
-    //   function (scene) {
-    //     return (
-    //     <SceneSlider
-    //       key={scene.scene_number}
-    //       numScenes={this.props.scenes.length}
-    //       sceneNumSelect={scene.scene_number}
-    //       sceneLocationSelect={scene.heading.standard_location_id}
-    //       sceneCharactersSelect={scene.characters}
-    //       onClickEvent={this.handleClick}
-    //       selectedEpisode={this.props.selectedEpisode}
-    //       selectedScene={this.state.selectedScene} />)
-    //   }.bind(this))
 
     var mapLocations = this.props.locations.map(
       function (location) {
@@ -137,6 +122,7 @@ var Episode = React.createClass({
       }.bind(this)
     )
 
+
     var showEpisode
     if (this.props.episodeNum === this.props.selectedEpisode) {
       showEpisode = <div>
@@ -150,7 +136,7 @@ var Episode = React.createClass({
                         </p>
                         <div className='sceneNums'>
                           <SceneSlider
-                            numScenes={this.props.scenes.length}
+                            numScenes={this.props.scenes.length - 1}
                             scenes={this.props.scenes}
                             changeScene={this.handleChange}
                             selectedEpisode={this.props.selectedEpisode}
@@ -209,7 +195,6 @@ var SceneSlider = React.createClass({
     this.props.changeScene(
       e.target.value
     )
-
   },
 
   render: function () {

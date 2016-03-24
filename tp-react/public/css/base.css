@@ -197,3 +197,7 @@ button:hover {
   background-color: #d3d3d3;
   padding: 10px;
 }
+
+input {
+  width: 250px;
+}
