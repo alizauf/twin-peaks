@@ -1,9 +1,13 @@
 Some to dos:
- - Clean up scenes with no locations and / or characters. 
+ X Clean up scenes with no locations and / or characters. 
+ - slider
  - Create a RESTful API for the dataset
  - Make the map look cooler and turn the scene selector into a slider
  - Be able to filter the social network graph
  - put it up on TwinPeaksData.website (which I bought for 98 cents) :)
- 
+ - get rid of non-characters in the display 
+ - seems to be missing characters from the pilot stuff
+- show other non-standard location information on the map
+
  Ideas? Thoughts? 
  contact me on twitter @alizauf
